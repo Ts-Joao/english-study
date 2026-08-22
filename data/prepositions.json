@@ -1,0 +1,47 @@
+{
+  "title": "Preposições",
+  "eyebrow": "Grammar · Prepositions",
+  "description": "In, on, at e outras combinações que não têm tradução literal.",
+  "questions": [
+    {
+      "tag": "Time prepositions",
+      "text": "The meeting is <code>______</code> Monday morning.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' é usado para períodos maiores como meses, anos e estações (in June, in 2024), não para dias específicos." },
+        { "text": "on", "correct": true, "feedback": "Correto! Usamos 'on' com dias da semana e datas: on Monday, on July 4th — mesmo quando um período do dia é especificado (on Monday morning)." },
+        { "text": "at", "correct": false, "feedback": "'At' é usado para horários exatos (at 9am, at noon) ou pontos específicos, não para dias inteiros da semana." },
+        { "text": "by", "correct": false, "feedback": "'By' indica prazo ('até tal data'), não o dia em que algo simplesmente acontece." }
+      ]
+    },
+    {
+      "tag": "Place prepositions",
+      "text": "She's waiting for you <code>______</code> the bus stop.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' sugere estar dentro de um espaço fechado (in the car, in the room). Um ponto de ônibus é tratado como um ponto específico, não um espaço fechado." },
+        { "text": "at", "correct": true, "feedback": "Isso! 'At' é usado para pontos específicos de encontro ou referência: at the bus stop, at the corner, at the door." },
+        { "text": "on", "correct": false, "feedback": "'On' seria usado para superfícies (on the bus = dentro do veículo em movimento) ou ruas (on Main Street), não para um ponto de encontro como esse." },
+        { "text": "to", "correct": false, "feedback": "'To' indica direção/destino de movimento (going to the bus stop), não localização estática." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions",
+      "text": "I'm really interested <code>______</code> learning Japanese.",
+      "options": [
+        { "text": "on", "correct": false, "feedback": "'Interested' não combina com 'on' — essa é uma combinação fixa que precisa ser memorizada, e 'on' não é a certa aqui." },
+        { "text": "in", "correct": true, "feedback": "Correto! 'Interested in' é uma combinação fixa (preposição dependente) — assim como 'good at', 'afraid of', 'proud of'." },
+        { "text": "for", "correct": false, "feedback": "'For' seria usado em expressões como 'famous for' ou 'thankful for', mas não com 'interested'." },
+        { "text": "with", "correct": false, "feedback": "'With' combina com verbos como 'agree with' ou 'deal with', não com 'interested'." }
+      ]
+    },
+    {
+      "tag": "Movement prepositions",
+      "text": "He walked <code>______</code> the room without saying a word.",
+      "options": [
+        { "text": "into", "correct": true, "feedback": "Isso! 'Into' mostra movimento de fora para dentro de um espaço — ele entrou na sala. É diferente de 'in', que indica posição, não movimento." },
+        { "text": "in", "correct": false, "feedback": "'In' indica posição estática (estar dentro), não o movimento de entrar. Para movimento de fora para dentro, use 'into'." },
+        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico, não uma trajetória de movimento para dentro de um espaço." },
+        { "text": "on", "correct": false, "feedback": "'On' indica contato com uma superfície, não o movimento de entrar em um cômodo." }
+      ]
+    }
+  ]
+}

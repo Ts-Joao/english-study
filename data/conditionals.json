@@ -1,0 +1,57 @@
+{
+  "title": "Condicionais (if clauses)",
+  "eyebrow": "Grammar · Conditionals",
+  "description": "Zero, first, second, third e mixed conditionals.",
+  "questions": [
+    {
+      "tag": "Zero Conditional",
+      "text": "If you <code>______</code> water to 100°C, it boils.",
+      "options": [
+        { "text": "heat", "correct": true, "feedback": "Isso! Zero Conditional descreve fatos/verdades gerais: if + Present Simple, Present Simple." },
+        { "text": "will heat", "correct": false, "feedback": "'Will' pertence ao First Conditional (situação futura possível), não a uma verdade científica geral." },
+        { "text": "heated", "correct": false, "feedback": "O passado sugeriria Second Conditional (hipotético), mas aqui a frase fala de um fato sempre verdadeiro." },
+        { "text": "would heat", "correct": false, "feedback": "'Would' é típico do Second/Third Conditional (hipóteses), não de uma lei geral como a fervura da água." }
+      ]
+    },
+    {
+      "tag": "First Conditional",
+      "text": "If it <code>______</code> tomorrow, we'll cancel the picnic.",
+      "options": [
+        { "text": "rains", "correct": true, "feedback": "Correto! First Conditional: if + Present Simple, will + verbo. Usado para situações futuras reais/possíveis." },
+        { "text": "will rain", "correct": false, "feedback": "Erro clássico: na oração com 'if' do First Conditional NÃO usamos 'will' — ele fica só na oração principal." },
+        { "text": "rained", "correct": false, "feedback": "O passado indicaria Second Conditional (hipótese distante da realidade), mas 'tomorrow' mostra que é uma possibilidade real e futura." },
+        { "text": "would rain", "correct": false, "feedback": "'Would' pertence à oração principal do Second Conditional, não à oração com 'if' de uma condição futura provável." }
+      ]
+    },
+    {
+      "tag": "Second Conditional",
+      "text": "If I <code>______</code> a millionaire, I would travel the world.",
+      "options": [
+        { "text": "am", "correct": false, "feedback": "Present Simple aqui indicaria Zero/First Conditional. Mas 'would travel' na segunda parte já mostra que é hipotético." },
+        { "text": "were", "correct": true, "feedback": "Isso! No Second Conditional, usa-se 'were' para todas as pessoas com o verbo 'to be' (if I were), mesmo sendo tecnicamente 1ª pessoa — é o chamado 'subjunctive were'." },
+        { "text": "will be", "correct": false, "feedback": "'Will' não aparece na oração com 'if'. Além disso, essa é uma situação hipotética/improvável, o que pede Second Conditional." },
+        { "text": "would be", "correct": false, "feedback": "'Would' geralmente não aparece na oração com 'if' — ele fica na oração principal (would travel)." }
+      ]
+    },
+    {
+      "tag": "Third Conditional",
+      "text": "If she had studied harder, she <code>______</code> the exam.",
+      "options": [
+        { "text": "would pass", "correct": false, "feedback": "Falta o Perfect: no Third Conditional a oração principal usa 'would have + particípio', não 'would + infinitivo'." },
+        { "text": "would have passed", "correct": true, "feedback": "Perfeito! Third Conditional fala de uma situação hipotética no passado que não aconteceu: if + Past Perfect, would have + particípio." },
+        { "text": "will pass", "correct": false, "feedback": "'Will' é usado em situações futuras reais (First Conditional), não em hipóteses sobre um passado que já não pode mudar." },
+        { "text": "passed", "correct": false, "feedback": "Sem 'would have', a frase perde o sentido de consequência hipotética — precisamos do Perfect Conditional completo." }
+      ]
+    },
+    {
+      "tag": "Mixed Conditional",
+      "text": "If I hadn't missed the flight, I <code>______</code> at the conference right now.",
+      "options": [
+        { "text": "would be", "correct": true, "feedback": "Exato! Mixed Conditional: condição no passado (Past Perfect) gerando um resultado no presente (would + infinitivo) — por isso 'right now' aparece na frase." },
+        { "text": "would have been", "correct": false, "feedback": "Isso seria Third Conditional puro (resultado no passado). Mas 'right now' mostra que o resultado é no presente, então usamos 'would be'." },
+        { "text": "will be", "correct": false, "feedback": "'Will' não combina com uma condição que já não pode ser mudada (hadn't missed é hipotético/passado)." },
+        { "text": "am", "correct": false, "feedback": "Present Simple não expressa a ideia hipotética de 'se eu não tivesse perdido o voo' — falta o 'would'." }
+      ]
+    }
+  ]
+}

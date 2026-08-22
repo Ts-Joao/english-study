@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corrigido — Estudo de Inglês</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page">
+  <header class="site-head">
+    <h1>Corrigido<span>.</span></h1>
+    <div class="stamp">estudo de inglês<br>quizzes com correção comentada</div>
+  </header>
+
+  <!-- HOME -->
+  <div id="view-home">
+    <p class="intro">Cada alternativa errada tem <em>uma correção diferente</em> — a ideia não é só marcar certo ou errado, é entender <em>por quê</em>. Escolha um tópico abaixo.</p>
+    <div class="grade-grid" id="category-grid"></div>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="view-quiz">
+    <div class="quiz-top">
+      <button class="back-btn" id="back-btn">← voltar</button>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+      <div class="quiz-score" id="quiz-score">0/0</div>
+    </div>
+
+    <div class="quiz-sheet">
+      <span class="q-tag" id="q-tag">Pergunta 1</span>
+      <p class="q-text" id="q-text"></p>
+      <div class="options" id="options"></div>
+      <div id="correction-slot"></div>
+      <div class="sheet-footer">
+        <button class="next-btn" id="next-btn">Próxima →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div id="view-results">
+    <div class="grade-stamp" id="grade-stamp">A</div>
+    <p class="summary" id="results-summary"></p>
+    <p class="submeta" id="results-submeta"></p>
+    <div class="results-actions">
+      <button class="primary" id="retry-btn">Refazer tudo (nova ordem)</button>
+      <button class="warn" id="retry-wrong-btn">Refazer só as erradas</button>
+      <button id="home-btn">Escolher outro tópico</button>
+    </div>
+    <div class="review-list" id="review-list"></div>
+  </div>
+
+  <footer class="site-foot">feito para estudar — sem servidor de back-end, sem conta, só o navegador</footer>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "title": "Tempos verbais",
+  "eyebrow": "Grammar · Tenses",
+  "description": "Present, past, future e suas formas contínuas e perfeitas.",
+  "questions": [
+    {
+      "tag": "Present Simple vs Continuous",
+      "text": "Every morning, she <code>______</code> coffee before work.",
+      "options": [
+        { "text": "is drinking", "correct": false, "feedback": "“Is drinking” marca uma ação acontecendo agora ou temporária. Mas 'every morning' é um hábito — isso pede Present Simple." },
+        { "text": "drinks", "correct": true, "feedback": "Isso! 'Every morning' é uma pista clássica de hábito/rotina, então usamos Present Simple: she drinks." },
+        { "text": "drink", "correct": false, "feedback": "Quase — mas com 'she' (3ª pessoa do singular) o verbo precisa do 's': drinks, não drink." },
+        { "text": "has drunk", "correct": false, "feedback": "Present Perfect fala de uma ação ligada ao presente sem tempo específico, não de um hábito repetido diariamente." }
+      ]
+    },
+    {
+      "tag": "Past Simple vs Present Perfect",
+      "text": "I <code>______</code> that movie already.",
+      "options": [
+        { "text": "watched", "correct": false, "feedback": "Past Simple pede um tempo específico ('yesterday', 'last week'). Aqui 'already' aponta para Present Perfect." },
+        { "text": "have watched", "correct": true, "feedback": "Exato! 'Already' é uma palavra-sinal de Present Perfect: a ação aconteceu em algum momento até agora, sem hora marcada." },
+        { "text": "am watching", "correct": false, "feedback": "Present Continuous é para ações acontecendo agora mesmo. 'Already' não combina com isso." },
+        { "text": "watch", "correct": false, "feedback": "Present Simple sozinho não expressa a ideia de 'já fiz isso antes de agora' — falta o Present Perfect." }
+      ]
+    },
+    {
+      "tag": "Future forms",
+      "text": "Look at those clouds! It <code>______</code> rain soon.",
+      "options": [
+        { "text": "will", "correct": false, "feedback": "Usamos 'will' para decisões espontâneas ou previsões sem evidência visual. Aqui você TEM uma evidência (as nuvens) — isso pede 'going to'." },
+        { "text": "is going to", "correct": true, "feedback": "Perfeito! Quando há evidência visível no presente que aponta para o futuro, usamos 'going to': it's going to rain." },
+        { "text": "rains", "correct": false, "feedback": "Present Simple para futuro só é usado com horários fixos (ex: trens, agendas), não previsões baseadas em evidência." },
+        { "text": "would", "correct": false, "feedback": "'Would' é usado em condicionais ou para falar do futuro visto do passado, não para previsões imediatas baseadas no que você vê agora." }
+      ]
+    },
+    {
+      "tag": "Past Continuous vs Past Simple",
+      "text": "While I <code>______</code> dinner, the phone rang.",
+      "options": [
+        { "text": "cooked", "correct": false, "feedback": "As duas ações não têm a mesma duração: uma é longa (cozinhar) e é interrompida por uma curta (o telefone tocar). Isso pede Past Continuous na ação longa." },
+        { "text": "was cooking", "correct": true, "feedback": "Isso! Past Continuous (was cooking) mostra a ação em andamento, interrompida pelo Past Simple (rang)." },
+        { "text": "have cooked", "correct": false, "feedback": "Present Perfect não se conecta a um momento específico do passado como 'the phone rang' pede." },
+        { "text": "cook", "correct": false, "feedback": "Present Simple não indica uma ação em progresso no passado sendo interrompida." }
+      ]
+    },
+    {
+      "tag": "Past Perfect",
+      "text": "By the time we arrived, the movie <code>______</code>.",
+      "options": [
+        { "text": "already started", "correct": false, "feedback": "Faltou o auxiliar 'had'. Para mostrar que algo aconteceu ANTES de outro evento passado, usamos Past Perfect: had already started." },
+        { "text": "had already started", "correct": true, "feedback": "Correto! Past Perfect (had + particípio) mostra que o filme começou antes da chegada — uma ação passada antes de outra passada." },
+        { "text": "has already started", "correct": false, "feedback": "Present Perfect conecta o passado ao presente, mas aqui as duas ações estão no passado ('arrived' também é passado), então precisamos de Past Perfect." },
+        { "text": "was already starting", "correct": false, "feedback": "Past Continuous mostraria o filme em andamento no momento da chegada, mas 'already' sugere que ele já tinha terminado essa etapa (começou antes)." }
+      ]
+    }
+  ]
+}

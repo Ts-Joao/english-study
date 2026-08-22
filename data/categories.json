@@ -1,0 +1,8 @@
+{
+  "categories": [
+    { "key": "tenses", "file": "data/tenses.json" },
+    { "key": "conditionals", "file": "data/conditionals.json" },
+    { "key": "prepositions", "file": "data/prepositions.json" },
+    { "key": "phrasal", "file": "data/phrasal.json" }
+  ]
+}

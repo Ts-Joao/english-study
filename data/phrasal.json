@@ -1,0 +1,37 @@
+{
+  "title": "Phrasal verbs",
+  "eyebrow": "Vocabulary · Phrasal verbs",
+  "description": "Combinações verbo + partícula muito comuns no dia a dia.",
+  "questions": [
+    {
+      "tag": "give up / give in / give away",
+      "text": "After years of trying, he finally <code>______</code> smoking.",
+      "options": [
+        { "text": "gave away", "correct": false, "feedback": "'Give away' significa doar algo ou revelar um segredo (give away a secret), não parar com um hábito." },
+        { "text": "gave up", "correct": true, "feedback": "Isso! 'Give up' significa desistir/parar de fazer algo — perfeito para parar de fumar." },
+        { "text": "gave in", "correct": false, "feedback": "'Give in' significa ceder a uma pressão ou pedido de alguém, não abandonar um hábito por conta própria." },
+        { "text": "gave out", "correct": false, "feedback": "'Give out' significa distribuir algo ou parar de funcionar (o motor deu out), não abandonar um vício." }
+      ]
+    },
+    {
+      "tag": "look up / look for / look after",
+      "text": "Can you <code>______</code> my dog while I'm on vacation?",
+      "options": [
+        { "text": "look up", "correct": false, "feedback": "'Look up' significa pesquisar uma informação (look up a word in the dictionary), não cuidar de alguém/algo." },
+        { "text": "look after", "correct": true, "feedback": "Correto! 'Look after' significa cuidar de alguém ou de algo — exatamente o que você pede ao deixar seu cão com alguém." },
+        { "text": "look for", "correct": false, "feedback": "'Look for' significa procurar algo que está perdido ou que você quer encontrar, não cuidar de um animal." },
+        { "text": "look into", "correct": false, "feedback": "'Look into' significa investigar um assunto (look into the problem), não tomar conta de um pet." }
+      ]
+    },
+    {
+      "tag": "run into / run out of / run over",
+      "text": "We <code>______</code> milk, so I need to go to the store.",
+      "options": [
+        { "text": "ran into", "correct": false, "feedback": "'Run into' significa encontrar alguém por acaso (I ran into an old friend), não ficar sem algo." },
+        { "text": "ran out of", "correct": true, "feedback": "Isso! 'Run out of' significa esgotar o estoque de algo — ficamos sem leite." },
+        { "text": "ran over", "correct": false, "feedback": "'Run over' significa atropelar algo/alguém com um veículo — nada a ver com faltar leite!" },
+        { "text": "ran up", "correct": false, "feedback": "'Run up' geralmente é usado com dívidas (run up a bill) ou correr até um lugar, não com faltar um item." }
+      ]
+    }
+  ]
+}
