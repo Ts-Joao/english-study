@@ -1,0 +1,631 @@
+{
+  "title": "Verbos regulares",
+  "eyebrow": "Vocabulary · Regular Verbs",
+  "description": "Pratique os padrões de passado e particípio dos verbos regulares mais comuns e suas principais regras ortográficas.",
+  "questions": [
+    {
+      "tag": "Padrão -ed",
+      "text": "The manager <code>_____</code> the issue with the client yesterday.",
+      "options": [
+        {
+          "text": "address",
+          "correct": false,
+          "feedback": "‘Address’ está na forma base. O marcador ‘yesterday’ exige Simple Past, então o verbo regular precisa receber ‘-ed’."
+        },
+        {
+          "text": "addressed",
+          "correct": true,
+          "feedback": "Perfeito! ‘Address’ é regular e forma o passado com ‘-ed’: address → addressed. O Simple Past combina com ‘yesterday’."
+        },
+        {
+          "text": "addressing",
+          "correct": false,
+          "feedback": "‘Addressing’ é a forma -ing, usada em estruturas contínuas ou como gerúndio. Aqui temos uma ação concluída no passado, portanto usamos ‘addressed’."
+        },
+        {
+          "text": "addresses",
+          "correct": false,
+          "feedback": "‘Addresses’ é a forma do Present Simple para he/she/it. Como a frase fala de ‘yesterday’, precisamos do passado ‘addressed’."
+        }
+      ]
+    },
+    {
+      "tag": "Verbos terminados em -e",
+      "text": "They <code>_____</code> the project two weeks ago.",
+      "options": [
+        {
+          "text": "complete",
+          "correct": false,
+          "feedback": "‘Complete’ é a forma base e não marca o passado. O marcador ‘two weeks ago’ exige Simple Past."
+        },
+        {
+          "text": "completed",
+          "correct": true,
+          "feedback": "Exato! ‘Complete’ é regular e já termina em ‘e’, então acrescentamos apenas ‘-d’: complete → completed."
+        },
+        {
+          "text": "completeed",
+          "correct": false,
+          "feedback": "Verbos que já terminam em ‘e’ não recebem ‘-ed’ completo novamente. Basta acrescentar ‘-d’: complete → completed."
+        },
+        {
+          "text": "completing",
+          "correct": false,
+          "feedback": "‘Completing’ é uma forma contínua ou gerundiva e não expressa sozinha o Simple Past. Como a ação ocorreu ‘two weeks ago’, usamos ‘completed’."
+        }
+      ]
+    },
+    {
+      "tag": "Consoante + Y",
+      "text": "She <code>_____</code> the report before the meeting.",
+      "options": [
+        {
+          "text": "studyed",
+          "correct": false,
+          "feedback": "Quando um verbo termina em consoante + ‘y’, o ‘y’ muda para ‘i’ antes de ‘-ed’. Por isso, study vira studied, e não studyed."
+        },
+        {
+          "text": "studied",
+          "correct": true,
+          "feedback": "Correto! Em verbos terminados em consoante + ‘y’, retiramos o ‘y’ e acrescentamos ‘-ied’: study → studied."
+        },
+        {
+          "text": "study",
+          "correct": false,
+          "feedback": "‘Study’ é a forma base. Para indicar uma ação concluída no passado, é necessário aplicar a regra ortográfica e formar ‘studied’."
+        },
+        {
+          "text": "studying",
+          "correct": false,
+          "feedback": "‘Studying’ é a forma -ing e pode aparecer em tempos contínuos, mas não marca sozinha uma ação concluída no passado."
+        }
+      ]
+    },
+    {
+      "tag": "Vogal + Y",
+      "text": "The company <code>_____</code> a new supplier last month.",
+      "options": [
+        {
+          "text": "tryed",
+          "correct": false,
+          "feedback": "Em verbos terminados em consoante + ‘y’, usamos ‘-ied’, mas ‘enjoy’ termina em vogal + y. Nesse caso, o ‘y’ permanece e acrescentamos ‘-ed’."
+        },
+        {
+          "text": "tried",
+          "correct": true,
+          "feedback": "Correto! ‘Try’ termina em consoante + y, então o ‘y’ muda para ‘i’ antes de ‘-ed’: try → tried."
+        },
+        {
+          "text": "try",
+          "correct": false,
+          "feedback": "‘Try’ é a forma base. O marcador ‘last month’ situa a ação no passado, exigindo a forma ‘tried’."
+        },
+        {
+          "text": "trying",
+          "correct": false,
+          "feedback": "‘Trying’ é a forma -ing. Ela não expressa o Simple Past sozinho; para uma ação concluída no mês passado, usamos ‘tried’."
+        }
+      ]
+    },
+    {
+      "tag": "Vogal + Y",
+      "text": "She <code>_____</code> the movie very much.",
+      "options": [
+        {
+          "text": "enjoied",
+          "correct": false,
+          "feedback": "‘Enjoy’ termina em vogal + y, então o ‘y’ permanece. A forma correta é enjoy → enjoyed, não enjoied."
+        },
+        {
+          "text": "enjoyed",
+          "correct": true,
+          "feedback": "Isso! Quando um verbo termina em vogal + y, mantemos o ‘y’ e acrescentamos ‘-ed’: enjoy → enjoyed."
+        },
+        {
+          "text": "enjoyeded",
+          "correct": false,
+          "feedback": "O sufixo de passado é acrescentado apenas uma vez. A forma correta é ‘enjoyed’, sem um segundo ‘-ed’."
+        },
+        {
+          "text": "enjoy",
+          "correct": false,
+          "feedback": "‘Enjoy’ é a forma base. Como a frase descreve uma experiência já concluída, precisamos do Simple Past ‘enjoyed’."
+        }
+      ]
+    },
+    {
+      "tag": "Consoante final duplicada",
+      "text": "The shop <code>_____</code> at 9 p.m. yesterday.",
+      "options": [
+        {
+          "text": "stoped",
+          "correct": false,
+          "feedback": "Em um verbo curto terminado no padrão consoante-vogal-consoante, a consoante final é duplicada antes de ‘-ed’. Por isso, stop vira stopped."
+        },
+        {
+          "text": "stopped",
+          "correct": true,
+          "feedback": "Perfeito! Em ‘stop’, a consoante final é duplicada antes de ‘-ed’: stop → stopped."
+        },
+        {
+          "text": "stoppied",
+          "correct": false,
+          "feedback": "A regra não envolve trocar a vogal ou adicionar ‘-ied’. Basta duplicar o ‘p’ e acrescentar ‘-ed’: stopped."
+        },
+        {
+          "text": "stop",
+          "correct": false,
+          "feedback": "‘Stop’ é a forma base. Como ‘yesterday’ indica passado, precisamos aplicar a regra de duplicação e usar ‘stopped’."
+        }
+      ]
+    },
+    {
+      "tag": "Consoante final duplicada",
+      "text": "He <code>_____</code> the door when he heard the noise.",
+      "options": [
+        {
+          "text": "planed",
+          "correct": false,
+          "feedback": "‘Planed’ seria a forma de passado de ‘plane’, não de ‘plan’. Em ‘plan’, a consoante final é duplicada antes de ‘-ed’: planned."
+        },
+        {
+          "text": "planned",
+          "correct": true,
+          "feedback": "Exato! ‘Plan’ segue a regra de duplicação da consoante final: plan → planned."
+        },
+        {
+          "text": "planed",
+          "correct": false,
+          "feedback": "‘Planed’ pertence ao verbo ‘plane’. Para o verbo ‘plan’, precisamos duplicar o ‘n’ antes de acrescentar ‘-ed’."
+        },
+        {
+          "text": "planning",
+          "correct": false,
+          "feedback": "‘Planning’ é a forma -ing e não marca uma ação concluída no passado. A frase exige o Simple Past ‘planned’."
+        }
+      ]
+    },
+    {
+      "tag": "Consoante final duplicada",
+      "text": "The athlete <code>_____</code> for the final race all summer.",
+      "options": [
+        {
+          "text": "trained",
+          "correct": true,
+          "feedback": "Correto! ‘Train’ termina em duas consoantes e não segue a regra de duplicação da consoante final. Basta acrescentar ‘-ed’: train → trained."
+        },
+        {
+          "text": "trainned",
+          "correct": false,
+          "feedback": "A consoante final não deve ser duplicada aqui. A regra de duplicação depende da estrutura da última sílaba, e ‘train’ simplesmente recebe ‘-ed’."
+        },
+        {
+          "text": "train",
+          "correct": false,
+          "feedback": "‘Train’ é a forma base. Para expressar a preparação concluída no passado, usamos ‘trained’."
+        },
+        {
+          "text": "training",
+          "correct": false,
+          "feedback": "‘Training’ é a forma -ing. O contexto de uma ação passada concluída exige o Simple Past ‘trained’."
+        }
+      ]
+    },
+    {
+      "tag": "Pronúncia do -ed: /t/",
+      "text": "We <code>_____</code> the new product last week.",
+      "options": [
+        {
+          "text": "launched",
+          "correct": true,
+          "feedback": "Perfeito! ‘Launch’ é regular e forma o passado com ‘-ed’: launch → launched. Como termina com som surdo /tʃ/, o ‘-ed’ é pronunciado /t/."
+        },
+        {
+          "text": "launch",
+          "correct": false,
+          "feedback": "‘Launch’ é a forma base. O marcador ‘last week’ exige o Simple Past ‘launched’."
+        },
+        {
+          "text": "launching",
+          "correct": false,
+          "feedback": "‘Launching’ é a forma -ing. Ela não marca uma ação concluída no passado como ‘last week’ exige."
+        },
+        {
+          "text": "launches",
+          "correct": false,
+          "feedback": "‘Launches’ é Present Simple para he/she/it. A referência a ‘last week’ exige o passado ‘launched’."
+        }
+      ]
+    },
+    {
+      "tag": "Pronúncia do -ed: /d/",
+      "text": "She <code>_____</code> the email carefully before sending it.",
+      "options": [
+        {
+          "text": "checked",
+          "correct": true,
+          "feedback": "Isso! ‘Check’ é regular e forma o passado com ‘-ed’: check → checked. Como a base termina com som surdo /k/, o ‘-ed’ é pronunciado /t/."
+        },
+        {
+          "text": "check",
+          "correct": false,
+          "feedback": "‘Check’ é a forma base. Como a ação aconteceu antes de outra ação concluída, usamos o passado ‘checked’."
+        },
+        {
+          "text": "checking",
+          "correct": false,
+          "feedback": "‘Checking’ é a forma -ing e não funciona como Simple Past. A frase precisa de ‘checked’."
+        },
+        {
+          "text": "checks",
+          "correct": false,
+          "feedback": "‘Checks’ pertence ao Present Simple de he/she/it. Para uma ação passada, usamos ‘checked’."
+        }
+      ]
+    },
+    {
+      "tag": "Pronúncia do -ed: /ɪd/",
+      "text": "The teacher <code>_____</code> the students to wait outside.",
+      "options": [
+        {
+          "text": "wanted",
+          "correct": true,
+          "feedback": "Correto! ‘Want’ é regular e forma wanted. Como o verbo termina com o som /t/, o sufixo ‘-ed’ é pronunciado /ɪd/."
+        },
+        {
+          "text": "want",
+          "correct": false,
+          "feedback": "‘Want’ é a forma base. A frase relata uma ação concluída, então precisamos do Simple Past ‘wanted’."
+        },
+        {
+          "text": "wented",
+          "correct": false,
+          "feedback": "‘Want’ já recebe ‘-ed’ diretamente. A forma correta é ‘wanted’, sem inserir uma consoante adicional."
+        },
+        {
+          "text": "wanting",
+          "correct": false,
+          "feedback": "‘Wanting’ é a forma -ing e não expressa o Simple Past. Para indicar o que o professor quis naquele momento, usamos ‘wanted’."
+        }
+      ]
+    },
+    {
+      "tag": "Simple Past e Past Participle",
+      "text": "The team has <code>_____</code> the problem successfully.",
+      "options": [
+        {
+          "text": "solved",
+          "correct": true,
+          "feedback": "Exato! ‘Solve’ é regular e possui a mesma forma no Simple Past e no Past Participle: solve → solved → solved. Depois de ‘has’, usamos ‘solved’."
+        },
+        {
+          "text": "solve",
+          "correct": false,
+          "feedback": "‘Solve’ é a forma base. Depois de ‘has’, o Present Perfect exige o Past Participle ‘solved’."
+        },
+        {
+          "text": "solving",
+          "correct": false,
+          "feedback": "‘Solving’ é a forma -ing e não funciona como particípio passado depois de ‘has’."
+        },
+        {
+          "text": "solven",
+          "correct": false,
+          "feedback": "‘Solven’ parece uma tentativa de formar um particípio irregular, mas ‘solve’ é regular e simplesmente recebe ‘-ed’: solved."
+        }
+      ]
+    },
+    {
+      "tag": "Simple Past e Past Participle",
+      "text": "The engineers have <code>_____</code> the machine several times this week.",
+      "options": [
+        {
+          "text": "tested",
+          "correct": true,
+          "feedback": "Perfeito! ‘Test’ é regular e mantém ‘tested’ tanto no Simple Past quanto no Past Participle. Depois de ‘have’, usamos essa forma."
+        },
+        {
+          "text": "test",
+          "correct": false,
+          "feedback": "‘Test’ é a forma base. Na estrutura ‘have + verbo’, precisamos do particípio passado ‘tested’."
+        },
+        {
+          "text": "testted",
+          "correct": false,
+          "feedback": "Não há duplicação do ‘t’ nesse verbo. A formação regular é test → tested."
+        },
+        {
+          "text": "testing",
+          "correct": false,
+          "feedback": "‘Testing’ é a forma -ing. Depois de ‘have’, a estrutura exige o Past Participle ‘tested’."
+        }
+      ]
+    },
+    {
+      "tag": "Verbos terminados em -e",
+      "text": "He <code>_____</code> the invitation last night.",
+      "options": [
+        {
+          "text": "accept",
+          "correct": false,
+          "feedback": "‘Accept’ é a forma base. O marcador ‘last night’ exige Simple Past, então precisamos de ‘accepted’."
+        },
+        {
+          "text": "accepted",
+          "correct": true,
+          "feedback": "Correto! ‘Accept’ é regular e termina em uma consoante, então acrescentamos ‘-ed’: accept → accepted."
+        },
+        {
+          "text": "acceptted",
+          "correct": false,
+          "feedback": "A consoante final não precisa ser duplicada em ‘accept’. A forma correta é simplesmente ‘accepted’."
+        },
+        {
+          "text": "accepting",
+          "correct": false,
+          "feedback": "‘Accepting’ é a forma -ing e não indica uma ação concluída no passado. O Simple Past é ‘accepted’."
+        }
+      ]
+    },
+    {
+      "tag": "Verbo terminado em -e",
+      "text": "The company <code>_____</code> its prices last month.",
+      "options": [
+        {
+          "text": "raised",
+          "correct": true,
+          "feedback": "Isso! ‘Raise’ já termina em ‘e’, então basta acrescentar ‘-d’: raise → raised."
+        },
+        {
+          "text": "raiseed",
+          "correct": false,
+          "feedback": "Como ‘raise’ já termina em ‘e’, não acrescentamos ‘-ed’ inteiro. A regra é acrescentar apenas ‘-d’: raised."
+        },
+        {
+          "text": "rised",
+          "correct": false,
+          "feedback": "‘Rised’ mistura a conjugação de outro verbo com ‘raise’. O verbo regular ‘raise’ forma o passado como ‘raised’."
+        },
+        {
+          "text": "raise",
+          "correct": false,
+          "feedback": "‘Raise’ é a forma base. Como ‘last month’ indica passado, precisamos de ‘raised’."
+        }
+      ]
+    },
+    {
+      "tag": "Verbo terminado em -y",
+      "text": "The researchers <code>_____</code> the results carefully.",
+      "options": [
+        {
+          "text": "analyzed",
+          "correct": true,
+          "feedback": "Perfeito! ‘Analyze’ é regular e recebe ‘-d’ porque já termina em ‘e’: analyze → analyzed."
+        },
+        {
+          "text": "analyzeed",
+          "correct": false,
+          "feedback": "Verbos terminados em ‘e’ recebem apenas ‘-d’. Portanto, analyze vira analyzed, e não analyzeed."
+        },
+        {
+          "text": "analyized",
+          "correct": false,
+          "feedback": "Não há mudança de ‘y’ para ‘i’ porque ‘analyze’ termina em ‘e’, não em consoante + y. A forma correta é ‘analyzed’."
+        },
+        {
+          "text": "analyzing",
+          "correct": false,
+          "feedback": "‘Analyzing’ é a forma -ing. Para uma ação concluída no passado, usamos o Simple Past ‘analyzed’."
+        }
+      ]
+    },
+    {
+      "tag": "Negativa com Did",
+      "text": "She didn't <code>_____</code> the message yesterday.",
+      "options": [
+        {
+          "text": "answered",
+          "correct": false,
+          "feedback": "Depois de ‘didn’t’, o verbo principal volta para a forma base. Por isso, não usamos ‘answered’, mas ‘answer’."
+        },
+        {
+          "text": "answer",
+          "correct": true,
+          "feedback": "Correto! Com ‘didn’t’, o auxiliar ‘did’ já carrega o passado, então o verbo principal permanece na forma base: didn’t answer."
+        },
+        {
+          "text": "answering",
+          "correct": false,
+          "feedback": "‘Answering’ é a forma -ing e não pode seguir ‘didn’t’. Após o auxiliar ‘did’, usamos a forma base."
+        },
+        {
+          "text": "answers",
+          "correct": false,
+          "feedback": "‘Answers’ é Present Simple para he/she/it. Depois de ‘didn’t’, a regra exige a forma base ‘answer’."
+        }
+      ]
+    },
+    {
+      "tag": "Pergunta com Did",
+      "text": "Did you <code>_____</code> the report yesterday?",
+      "options": [
+        {
+          "text": "finish",
+          "correct": true,
+          "feedback": "Exato! Em perguntas no Simple Past com ‘did’, o auxiliar já marca o passado e o verbo principal permanece na forma base: Did you finish?"
+        },
+        {
+          "text": "finished",
+          "correct": false,
+          "feedback": "Depois de ‘did’, não usamos o passado novamente. O auxiliar já marca o tempo verbal, então o verbo deve ficar na forma base ‘finish’."
+        },
+        {
+          "text": "finishing",
+          "correct": false,
+          "feedback": "‘Finishing’ é a forma -ing e não é usada após ‘did’ em perguntas do Simple Past."
+        },
+        {
+          "text": "finishes",
+          "correct": false,
+          "feedback": "‘Finishes’ é Present Simple para he/she/it. Com ‘did’, usamos a forma base ‘finish’, independentemente do sujeito."
+        }
+      ]
+    },
+    {
+      "tag": "Present Perfect com Regular",
+      "text": "They have <code>_____</code> the new software twice.",
+      "options": [
+        {
+          "text": "installed",
+          "correct": true,
+          "feedback": "Correto! ‘Install’ é regular e forma o passado e o particípio com ‘-ed’: installed. Depois de ‘have’, usamos o Past Participle."
+        },
+        {
+          "text": "install",
+          "correct": false,
+          "feedback": "‘Install’ é a forma base. Depois de ‘have’, o Present Perfect exige ‘installed’."
+        },
+        {
+          "text": "installing",
+          "correct": false,
+          "feedback": "‘Installing’ é a forma -ing e não pode ocupar a posição do particípio depois de ‘have’."
+        },
+        {
+          "text": "instold",
+          "correct": false,
+          "feedback": "‘Instold’ tenta criar uma conjugação irregular que não existe. ‘Install’ é regular e simplesmente vira ‘installed’."
+        }
+      ]
+    },
+    {
+      "tag": "Present Perfect com -y",
+      "text": "The company has <code>_____</code> a lot in recent years.",
+      "options": [
+        {
+          "text": "invested",
+          "correct": true,
+          "feedback": "Isso! ‘Invest’ é regular e forma o particípio com ‘-ed’: invest → invested. Depois de ‘has’, usamos ‘invested’."
+        },
+        {
+          "text": "invest",
+          "correct": false,
+          "feedback": "‘Invest’ é a forma base. A estrutura ‘has + verbo’ exige o Past Participle ‘invested’."
+        },
+        {
+          "text": "investing",
+          "correct": false,
+          "feedback": "‘Investing’ é a forma -ing e não funciona como particípio passado. Depois de ‘has’, usamos ‘invested’."
+        },
+        {
+          "text": "investeded",
+          "correct": false,
+          "feedback": "O sufixo ‘-ed’ não é repetido. Como ‘invest’ é regular, seu particípio é simplesmente ‘invested’."
+        }
+      ]
+    },
+    {
+      "tag": "Verbo terminado em -ch",
+      "text": "He <code>_____</code> the documentary last night.",
+      "options": [
+        {
+          "text": "watched",
+          "correct": true,
+          "feedback": "Perfeito! ‘Watch’ é regular e forma o passado acrescentando ‘-ed’: watch → watched."
+        },
+        {
+          "text": "watch",
+          "correct": false,
+          "feedback": "‘Watch’ é a forma base. O marcador ‘last night’ exige o Simple Past ‘watched’."
+        },
+        {
+          "text": "watcht",
+          "correct": false,
+          "feedback": "A formação regular não elimina o ‘e’ nem cria ‘-t’. A grafia correta é watched, com ‘-ed’."
+        },
+        {
+          "text": "watching",
+          "correct": false,
+          "feedback": "‘Watching’ é a forma -ing. Como o documentário foi assistido no passado, usamos ‘watched’."
+        }
+      ]
+    },
+    {
+      "tag": "Verbo terminado em -x",
+      "text": "We <code>_____</code> the boxes carefully before moving them.",
+      "options": [
+        {
+          "text": "packed",
+          "correct": true,
+          "feedback": "Correto! ‘Pack’ é regular e forma o passado com ‘-ed’: pack → packed."
+        },
+        {
+          "text": "pack",
+          "correct": false,
+          "feedback": "‘Pack’ é a forma base. Para indicar uma ação concluída no passado, precisamos de ‘packed’."
+        },
+        {
+          "text": "packked",
+          "correct": false,
+          "feedback": "A consoante final não é duplicada nesse verbo. A forma correta é ‘packed’, com apenas ‘-ed’."
+        },
+        {
+          "text": "packing",
+          "correct": false,
+          "feedback": "‘Packing’ é a forma -ing. O contexto pede o Simple Past ‘packed’."
+        }
+      ]
+    },
+    {
+      "tag": "Past Participle na voz passiva",
+      "text": "The documents were <code>_____</code> yesterday afternoon.",
+      "options": [
+        {
+          "text": "signed",
+          "correct": true,
+          "feedback": "Exato! A voz passiva usa be + Past Participle. Como ‘sign’ é regular, seu particípio é ‘signed’: were signed."
+        },
+        {
+          "text": "sign",
+          "correct": false,
+          "feedback": "Depois de ‘were’ na voz passiva, precisamos do Past Participle. Como ‘sign’ é regular, usamos ‘signed’."
+        },
+        {
+          "text": "signing",
+          "correct": false,
+          "feedback": "‘Signing’ é a forma -ing e não completa a estrutura passiva. A construção correta é ‘were signed’."
+        },
+        {
+          "text": "sang",
+          "correct": false,
+          "feedback": "‘Sang’ é o Simple Past de ‘sing’, não uma forma de ‘sign’. O particípio de ‘sign’ é ‘signed’."
+        }
+      ]
+    },
+    {
+      "tag": "Past Participle com Been",
+      "text": "The room has been <code>_____</code> twice today.",
+      "options": [
+        {
+          "text": "cleaned",
+          "correct": true,
+          "feedback": "Perfeito! A estrutura ‘has been + Past Participle’ forma uma voz passiva no Present Perfect. Como ‘clean’ é regular, usamos ‘cleaned’."
+        },
+        {
+          "text": "clean",
+          "correct": false,
+          "feedback": "‘Clean’ é a forma base. Depois de ‘has been’, a voz passiva exige o Past Participle ‘cleaned’."
+        },
+        {
+          "text": "cleaning",
+          "correct": false,
+          "feedback": "‘Cleaning’ não funciona como particípio nessa estrutura. Para dizer que o quarto recebeu a ação, usamos ‘has been cleaned’."
+        },
+        {
+          "text": "cleant",
+          "correct": false,
+          "feedback": "‘Cleant’ não é uma forma padrão moderna de ‘clean’. O verbo é regular e forma o particípio com ‘-ed’: cleaned."
+        }
+      ]
+    }
+  ]
+}

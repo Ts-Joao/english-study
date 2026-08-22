@@ -3,6 +3,8 @@
     { "key": "tenses", "file": "data/tenses.json" },
     { "key": "conditionals", "file": "data/conditionals.json" },
     { "key": "prepositions", "file": "data/prepositions.json" },
-    { "key": "phrasal", "file": "data/phrasal.json" }
+    { "key": "phrasal", "file": "data/phrasal.json" },
+    { "key": "regular_verbs", "file": "data/regular-verbs.json" },
+    { "key": "irregular_verbs", "file": "data/irregular-verbs.json" }
   ]
 }
