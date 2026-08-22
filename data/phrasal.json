@@ -7,30 +7,546 @@
       "tag": "give up / give in / give away",
       "text": "After years of trying, he finally <code>______</code> smoking.",
       "options": [
-        { "text": "gave away", "correct": false, "feedback": "'Give away' significa doar algo ou revelar um segredo (give away a secret), não parar com um hábito." },
-        { "text": "gave up", "correct": true, "feedback": "Isso! 'Give up' significa desistir/parar de fazer algo — perfeito para parar de fumar." },
-        { "text": "gave in", "correct": false, "feedback": "'Give in' significa ceder a uma pressão ou pedido de alguém, não abandonar um hábito por conta própria." },
-        { "text": "gave out", "correct": false, "feedback": "'Give out' significa distribuir algo ou parar de funcionar (o motor deu out), não abandonar um vício." }
+        {
+          "text": "gave away",
+          "correct": false,
+          "feedback": "'Give away' significa doar algo ou revelar um segredo (give away a secret), não parar com um hábito."
+        },
+        {
+          "text": "gave up",
+          "correct": true,
+          "feedback": "Isso! 'Give up' significa desistir/parar de fazer algo — perfeito para parar de fumar."
+        },
+        {
+          "text": "gave in",
+          "correct": false,
+          "feedback": "'Give in' significa ceder a uma pressão ou pedido de alguém, não abandonar um hábito por conta própria."
+        },
+        {
+          "text": "gave out",
+          "correct": false,
+          "feedback": "'Give out' significa distribuir algo ou parar de funcionar (the engine gave out), não abandonar um hábito."
+        }
       ]
     },
     {
       "tag": "look up / look for / look after",
       "text": "Can you <code>______</code> my dog while I'm on vacation?",
       "options": [
-        { "text": "look up", "correct": false, "feedback": "'Look up' significa pesquisar uma informação (look up a word in the dictionary), não cuidar de alguém/algo." },
-        { "text": "look after", "correct": true, "feedback": "Correto! 'Look after' significa cuidar de alguém ou de algo — exatamente o que você pede ao deixar seu cão com alguém." },
-        { "text": "look for", "correct": false, "feedback": "'Look for' significa procurar algo que está perdido ou que você quer encontrar, não cuidar de um animal." },
-        { "text": "look into", "correct": false, "feedback": "'Look into' significa investigar um assunto (look into the problem), não tomar conta de um pet." }
+        {
+          "text": "look up",
+          "correct": false,
+          "feedback": "'Look up' significa pesquisar uma informação (look up a word in the dictionary), não cuidar de alguém ou de algo."
+        },
+        {
+          "text": "look after",
+          "correct": true,
+          "feedback": "Correto! 'Look after' significa cuidar de alguém ou de algo — exatamente o que você faz ao tomar conta de um pet."
+        },
+        {
+          "text": "look for",
+          "correct": false,
+          "feedback": "'Look for' significa procurar algo que você quer encontrar, não cuidar de um animal."
+        },
+        {
+          "text": "look into",
+          "correct": false,
+          "feedback": "'Look into' significa investigar ou analisar um assunto (look into the problem), não tomar conta de um pet."
+        }
       ]
     },
     {
       "tag": "run into / run out of / run over",
       "text": "We <code>______</code> milk, so I need to go to the store.",
       "options": [
-        { "text": "ran into", "correct": false, "feedback": "'Run into' significa encontrar alguém por acaso (I ran into an old friend), não ficar sem algo." },
-        { "text": "ran out of", "correct": true, "feedback": "Isso! 'Run out of' significa esgotar o estoque de algo — ficamos sem leite." },
-        { "text": "ran over", "correct": false, "feedback": "'Run over' significa atropelar algo/alguém com um veículo — nada a ver com faltar leite!" },
-        { "text": "ran up", "correct": false, "feedback": "'Run up' geralmente é usado com dívidas (run up a bill) ou correr até um lugar, não com faltar um item." }
+        {
+          "text": "ran into",
+          "correct": false,
+          "feedback": "'Run into' significa encontrar alguém por acaso (I ran into an old friend), não ficar sem um produto."
+        },
+        {
+          "text": "ran out of",
+          "correct": true,
+          "feedback": "Isso! 'Run out of' significa ficar sem algo porque o estoque acabou — exatamente o que aconteceu com o leite."
+        },
+        {
+          "text": "ran over",
+          "correct": false,
+          "feedback": "'Run over' pode significar atropelar alguém/algo ou passar rapidamente por algo, não ficar sem um produto."
+        },
+        {
+          "text": "ran up",
+          "correct": false,
+          "feedback": "'Run up' pode indicar acumular uma conta ou aumentar um valor (run up a bill), não esgotar o estoque de algo."
+        }
+      ]
+    },
+    {
+      "tag": "put off / put on / put away",
+      "text": "I was tired, so I <code>______</code> the meeting until next Monday.",
+      "options": [
+        {
+          "text": "put on",
+          "correct": false,
+          "feedback": "'Put on' significa vestir algo, colocar algo ou organizar/apresentar uma atividade. Não indica adiar um compromisso."
+        },
+        {
+          "text": "put off",
+          "correct": true,
+          "feedback": "Perfeito! 'Put off' significa adiar algo. Como a reunião foi transferida para a próxima segunda-feira, essa é a opção adequada."
+        },
+        {
+          "text": "put away",
+          "correct": false,
+          "feedback": "'Put away' significa guardar ou colocar algo em seu devido lugar, não transferir uma reunião para uma data posterior."
+        },
+        {
+          "text": "put out",
+          "correct": false,
+          "feedback": "'Put out' pode significar apagar algo, publicar algo ou causar trabalho a alguém. Não significa adiar uma reunião."
+        }
+      ]
+    },
+    {
+      "tag": "take off / take up / take over",
+      "text": "The plane <code>______</code> at 7:30 this morning.",
+      "options": [
+        {
+          "text": "took up",
+          "correct": false,
+          "feedback": "'Take up' significa começar uma atividade, ocupar espaço ou consumir tempo. Não descreve a decolagem de um avião."
+        },
+        {
+          "text": "took over",
+          "correct": false,
+          "feedback": "'Take over' significa assumir controle ou responsabilidade por algo. Para um avião deixar o solo, usamos 'take off'."
+        },
+        {
+          "text": "took off",
+          "correct": true,
+          "feedback": "Correto! 'Take off' significa decolar quando falamos de aviões. Como 'this morning' indica um evento passado, usamos 'took off'."
+        },
+        {
+          "text": "took out",
+          "correct": false,
+          "feedback": "'Take out' significa retirar algo, levar alguém para sair ou remover alguma coisa. Não significa decolar."
+        }
+      ]
+    },
+    {
+      "tag": "bring up / bring back / bring in",
+      "text": "She <code>______</code> an interesting point during the meeting yesterday.",
+      "options": [
+        {
+          "text": "brought up",
+          "correct": true,
+          "feedback": "Isso! 'Bring up' significa mencionar ou introduzir um assunto em uma conversa. Como aconteceu 'yesterday', usamos 'brought up'."
+        },
+        {
+          "text": "brought back",
+          "correct": false,
+          "feedback": "'Bring back' significa trazer algo de volta ou fazer alguém se lembrar de algo. Não significa introduzir um novo ponto na discussão."
+        },
+        {
+          "text": "brought in",
+          "correct": false,
+          "feedback": "'Bring in' pode significar introduzir algo, trazer alguém ou gerar receita, mas não é o phrasal verb usado para simplesmente mencionar um ponto em uma reunião."
+        },
+        {
+          "text": "brought out",
+          "correct": false,
+          "feedback": "'Bring out' significa revelar, destacar ou lançar algo. Para mencionar um assunto durante uma conversa, usamos 'bring up'."
+        }
+      ]
+    },
+    {
+      "tag": "find out / figure out / point out",
+      "text": "I'll <code>______</code> what happened and call you later.",
+      "options": [
+        {
+          "text": "find out",
+          "correct": true,
+          "feedback": "Perfeito! 'Find out' significa descobrir ou obter uma informação. A frase fala em descobrir o que aconteceu e depois ligar para alguém."
+        },
+        {
+          "text": "figure out",
+          "correct": false,
+          "feedback": "'Figure out' também pode significar descobrir, mas normalmente enfatiza encontrar a solução ou entender algo por meio de raciocínio. Aqui o sentido é obter a informação sobre o que aconteceu."
+        },
+        {
+          "text": "point out",
+          "correct": false,
+          "feedback": "'Point out' significa chamar a atenção para algo ou destacar uma informação, não descobrir o que aconteceu."
+        },
+        {
+          "text": "find up",
+          "correct": false,
+          "feedback": "'Find up' não é um phrasal verb padrão. O verbo usado para descobrir uma informação é 'find out'."
+        }
+      ]
+    },
+    {
+      "tag": "break down / break up / break into",
+      "text": "My car <code>______</code> on the way to work yesterday.",
+      "options": [
+        {
+          "text": "broke up",
+          "correct": false,
+          "feedback": "'Break up' significa terminar um relacionamento, separar algo em partes ou interromper uma conexão. Para um carro parar de funcionar, usamos 'break down'."
+        },
+        {
+          "text": "broke into",
+          "correct": false,
+          "feedback": "'Break into' significa entrar em um lugar à força ou começar uma atividade repentinamente. Não descreve uma falha mecânica."
+        },
+        {
+          "text": "broke down",
+          "correct": true,
+          "feedback": "Correto! 'Break down' significa parar de funcionar quando falamos de máquinas ou veículos. O Simple Past é 'broke down' porque aconteceu ontem."
+        },
+        {
+          "text": "broke out",
+          "correct": false,
+          "feedback": "'Break out' significa começar repentinamente, como uma guerra, incêndio ou doença, ou escapar de um lugar. Não significa que um carro apresentou defeito."
+        }
+      ]
+    },
+    {
+      "tag": "call off / call back / call up",
+      "text": "The organizers <code>______</code> the concert because of the storm.",
+      "options": [
+        {
+          "text": "called back",
+          "correct": false,
+          "feedback": "'Call back' significa retornar uma ligação ou chamar alguém de volta. Não indica o cancelamento de um evento."
+        },
+        {
+          "text": "called up",
+          "correct": false,
+          "feedback": "'Call up' pode significar telefonar para alguém ou convocar alguém. Para cancelar um evento planejado, usamos 'call off'."
+        },
+        {
+          "text": "called off",
+          "correct": true,
+          "feedback": "Isso! 'Call off' significa cancelar algo planejado. Como o concerto não aconteceu por causa da tempestade, 'called off' é a escolha correta."
+        },
+        {
+          "text": "called out",
+          "correct": false,
+          "feedback": "'Call out' pode significar chamar alguém, convocar alguém ou criticar publicamente. Não significa cancelar um evento."
+        }
+      ]
+    },
+    {
+      "tag": "turn down / turn up / turn on",
+      "text": "She <code>______</code> the job offer because the salary was too low.",
+      "options": [
+        {
+          "text": "turned up",
+          "correct": false,
+          "feedback": "'Turn up' significa aumentar algo, aparecer ou chegar a algum lugar. Não significa rejeitar uma proposta de emprego."
+        },
+        {
+          "text": "turned on",
+          "correct": false,
+          "feedback": "'Turn on' significa ligar algo ou, em certos contextos, demonstrar interesse. Para rejeitar uma oferta, usamos 'turn down'."
+        },
+        {
+          "text": "turned down",
+          "correct": true,
+          "feedback": "Perfeito! 'Turn down' significa rejeitar uma oferta, convite ou pedido. O Simple Past 'turned down' combina com a ação já concluída."
+        },
+        {
+          "text": "turned off",
+          "correct": false,
+          "feedback": "'Turn off' significa desligar algo ou causar desinteresse. Embora possa ter sentido figurado, não é o phrasal verb usado para rejeitar uma oferta."
+        }
+      ]
+    },
+    {
+      "tag": "get up / get over / get along",
+      "text": "I usually <code>______</code> at 6:30 on weekdays.",
+      "options": [
+        {
+          "text": "get over",
+          "correct": false,
+          "feedback": "'Get over' significa superar uma dificuldade, doença ou término. Não descreve o ato de sair da cama."
+        },
+        {
+          "text": "get along",
+          "correct": false,
+          "feedback": "'Get along' significa ter uma boa relação com alguém ou conseguir se dar bem em uma situação. Para sair da cama, usamos 'get up'."
+        },
+        {
+          "text": "get up",
+          "correct": true,
+          "feedback": "Correto! 'Get up' significa levantar-se, especialmente sair da cama. 'Usually' indica um hábito, por isso usamos Present Simple."
+        },
+        {
+          "text": "get away",
+          "correct": false,
+          "feedback": "'Get away' significa escapar ou sair de um lugar, geralmente para se afastar. Não é o phrasal verb específico para levantar da cama."
+        }
+      ]
+    },
+    {
+      "tag": "get over / get through / get by",
+      "text": "It took her months to <code>______</code> the breakup.",
+      "options": [
+        {
+          "text": "get through",
+          "correct": false,
+          "feedback": "'Get through' significa passar por uma situação difícil ou conseguir completar algo. Embora possa se relacionar a dificuldades, aqui o foco é superar emocionalmente o término."
+        },
+        {
+          "text": "get by",
+          "correct": false,
+          "feedback": "'Get by' significa conseguir sobreviver ou lidar com recursos limitados. Não expressa a ideia de superar emocionalmente um término."
+        },
+        {
+          "text": "get over",
+          "correct": true,
+          "feedback": "Isso! 'Get over' significa superar emocionalmente uma experiência difícil, como um término. 'It took months' reforça a ideia de recuperação gradual."
+        },
+        {
+          "text": "get up",
+          "correct": false,
+          "feedback": "'Get up' significa levantar-se. Não tem relação com superar emocionalmente uma situação difícil."
+        }
+      ]
+    },
+    {
+      "tag": "work out / work on / work through",
+      "text": "We've been <code>______</code> this problem for three hours.",
+      "options": [
+        {
+          "text": "working out",
+          "correct": false,
+          "feedback": "'Work out' significa resolver uma equação/problema ou praticar exercícios físicos. Para indicar o processo contínuo de estar dedicado a uma tarefa ou projeto no momento, usa-se 'work on'."
+        },
+        {
+          "text": "working on",
+          "correct": true,
+          "feedback": "Perfeito! 'Work on' significa trabalhar em algo ou dedicar esforço a uma tarefa. Com 'have been', usamos a forma -ing para mostrar uma atividade contínua que vem acontecendo há três horas."
+        },
+        {
+          "text": "working through",
+          "correct": false,
+          "feedback": "'Work through' significa processar ou superar um problema complexo etapa por etapa (ex: 'work through grief' ou 'work through a list'). O foco em apenas se debruçar sobre a tarefa exige 'work on'."
+        },
+        {
+          "text": "working up",
+          "correct": false,
+          "feedback": "'Work up' é usado em expressões como 'work up an appetite' (abrir o apetite) ou 'work up the courage' (reunir coragem), não para dedicar tempo à resolução de um problema."
+        }
+      ]
+    },
+    {
+      "tag": "pick up / drop off / pick out",
+      "text": "Can you <code>______</code> me up at the airport tomorrow morning?",
+      "options": [
+        {
+          "text": "pick",
+          "correct": true,
+          "feedback": "Correto! 'Pick someone up' significa buscar alguém em um lugar. Como a frase já contém a partícula 'up', usamos 'pick' na lacuna: pick me up."
+        },
+        {
+          "text": "drop",
+          "correct": false,
+          "feedback": "'Drop someone off' significa deixar alguém em um lugar, enquanto 'pick someone up' significa buscar. Como a pessoa está esperando no aeroporto, a ação é buscá-la."
+        },
+        {
+          "text": "pick out",
+          "correct": false,
+          "feedback": "'Pick out' significa escolher ou selecionar algo. Para buscar alguém em um local, usamos 'pick up'."
+        },
+        {
+          "text": "pick on",
+          "correct": false,
+          "feedback": "'Pick on' significa implicar ou perseguir alguém repetidamente. Não tem relação com buscar uma pessoa em um aeroporto."
+        }
+      ]
+    },
+    {
+      "tag": "drop off / drop by / drop out",
+      "text": "I <code>______</code> my kids off at school every morning.",
+      "options": [
+        {
+          "text": "drop",
+          "correct": true,
+          "feedback": "Isso! 'Drop someone off' significa deixar alguém em determinado lugar. Como a partícula 'off' já aparece depois de ‘kids’, a lacuna recebe apenas ‘drop’."
+        },
+        {
+          "text": "drop by",
+          "correct": false,
+          "feedback": "'Drop by' significa fazer uma visita rápida ou passar por algum lugar. Não significa deixar alguém em um local."
+        },
+        {
+          "text": "drop out",
+          "correct": false,
+          "feedback": "'Drop out' significa abandonar um curso, escola ou programa. Não descreve levar os filhos à escola."
+        },
+        {
+          "text": "dropped",
+          "correct": false,
+          "feedback": "‘Dropped’ está no Simple Past, mas ‘every morning’ indica uma rotina. Como a frase usa Present Simple, precisamos de ‘drop’."
+        }
+      ]
+    },
+    {
+      "tag": "set up / set off / set out",
+      "text": "We <code>______</code> early tomorrow morning to avoid traffic.",
+      "options": [
+        {
+          "text": "set up",
+          "correct": false,
+          "feedback": "'Set up' significa montar, organizar ou configurar algo. Não descreve iniciar uma viagem."
+        },
+        {
+          "text": "set off",
+          "correct": true,
+          "feedback": "Perfeito! 'Set off' significa partir ou iniciar uma viagem. Como o verbo ‘set’ é irregular com a mesma forma no presente e no passado, a frase usa ‘set off’."
+        },
+        {
+          "text": "set out",
+          "correct": false,
+          "feedback": "'Set out' também pode significar partir, então é possível em alguns contextos. Aqui, porém, 'set off' é a combinação mais natural para indicar o início da viagem."
+        },
+        {
+          "text": "set down",
+          "correct": false,
+          "feedback": "'Set down' significa colocar algo em uma superfície ou registrar algo por escrito. Não significa sair para uma viagem."
+        }
+      ]
+    },
+    {
+      "tag": "carry on / carry out / carry over",
+      "text": "Please <code>______</code> with your work while I talk to the manager.",
+      "options": [
+        {
+          "text": "carry out",
+          "correct": false,
+          "feedback": "'Carry out' significa executar ou realizar uma tarefa, plano ou instrução. Aqui a pessoa já está trabalhando e deve continuar."
+        },
+        {
+          "text": "carry on",
+          "correct": true,
+          "feedback": "Correto! 'Carry on' significa continuar fazendo algo. O contexto pede que a pessoa continue trabalhando enquanto outra conversa com o gerente."
+        },
+        {
+          "text": "carry over",
+          "correct": false,
+          "feedback": "'Carry over' significa transferir algo para outro período ou situação. Não expressa simplesmente a ideia de continuar uma atividade."
+        },
+        {
+          "text": "carry away",
+          "correct": false,
+          "feedback": "'Carry away' significa levar algo para outro lugar e aparece também em 'get carried away', quando alguém se empolga excessivamente. Não significa continuar trabalhando."
+        }
+      ]
+    },
+    {
+      "tag": "look forward to / look back on / look into",
+      "text": "I'm really <code>______</code> meeting you next week.",
+      "options": [
+        {
+          "text": "looking forward to",
+          "correct": true,
+          "feedback": "Isso! 'Look forward to' significa esperar algo com entusiasmo. Depois de 'to' nessa expressão usamos substantivo ou verbo com -ing: looking forward to meeting."
+        },
+        {
+          "text": "looking into",
+          "correct": false,
+          "feedback": "'Look into' significa investigar ou examinar algo. Não transmite expectativa positiva em relação a um encontro futuro."
+        },
+        {
+          "text": "looking back on",
+          "correct": false,
+          "feedback": "'Look back on' significa recordar ou refletir sobre algo passado. A frase fala de um encontro que ainda acontecerá."
+        },
+        {
+          "text": "looking for",
+          "correct": false,
+          "feedback": "'Look for' significa procurar alguém ou algo. Aqui a pessoa não está tentando encontrar o interlocutor, mas aguardando o encontro com expectativa."
+        }
+      ]
+    },
+    {
+      "tag": "make up / make out / make for",
+      "text": "They argued yesterday, but they <code>______</code> this morning.",
+      "options": [
+        {
+          "text": "made up",
+          "correct": true,
+          "feedback": "Perfeito! 'Make up' pode significar fazer as pazes depois de uma discussão. Como a reconciliação aconteceu nesta manhã, usamos o passado 'made up'."
+        },
+        {
+          "text": "made out",
+          "correct": false,
+          "feedback": "'Make out' pode significar entender algo com dificuldade ou beijar alguém. Não significa reconciliar-se depois de uma discussão."
+        },
+        {
+          "text": "made for",
+          "correct": false,
+          "feedback": "'Make for' significa dirigir-se a um lugar ou contribuir para determinado resultado. Não expressa a ideia de fazer as pazes."
+        },
+        {
+          "text": "made off",
+          "correct": false,
+          "feedback": "'Make off' significa fugir ou partir rapidamente, geralmente para escapar de uma situação. Não tem o sentido de reconciliação."
+        }
+      ]
+    },
+    {
+      "tag": "take care of / take after / take apart",
+      "text": "Who will <code>______</code> the children while you're away?",
+      "options": [
+        {
+          "text": "take after",
+          "correct": false,
+          "feedback": "'Take after' significa parecer-se com um membro da família em aparência ou personalidade. Não significa cuidar de crianças."
+        },
+        {
+          "text": "take apart",
+          "correct": false,
+          "feedback": "'Take apart' significa desmontar algo em partes. Não descreve cuidar de pessoas."
+        },
+        {
+          "text": "take care of",
+          "correct": true,
+          "feedback": "Correto! 'Take care of' significa cuidar de alguém ou de algo. A pergunta quer saber quem ficará responsável pelas crianças."
+        },
+        {
+          "text": "take over",
+          "correct": false,
+          "feedback": "'Take over' significa assumir controle ou responsabilidade por algo, mas não é a expressão específica para cuidar de crianças no sentido apresentado."
+        }
+      ]
+    },
+    {
+      "tag": "turn back / turn around / turn into",
+      "text": "We had to <code>______</code> because the road was completely flooded.",
+      "options": [
+        {
+          "text": "turn into",
+          "correct": false,
+          "feedback": "'Turn into' significa transformar-se em algo ou alguém. Não descreve retornar pelo caminho por causa de um obstáculo."
+        },
+        {
+          "text": "turn around",
+          "correct": true,
+          "feedback": "Isso! 'Turn around' pode significar mudar de direção e voltar pelo caminho de onde veio. A estrada estava bloqueada, então essa é a ação adequada."
+        },
+        {
+          "text": "turn on",
+          "correct": false,
+          "feedback": "'Turn on' significa ligar algo ou, em alguns contextos, despertar interesse. Não significa retornar devido a uma estrada bloqueada."
+        },
+        {
+          "text": "turn down",
+          "correct": false,
+          "feedback": "'Turn down' significa rejeitar algo ou diminuir volume/intensidade. Não descreve mudar de direção para voltar."
+        }
       ]
     }
   ]
