@@ -1,10 +1,10 @@
 {
   "title": "Preposições",
   "eyebrow": "Grammar · Prepositions",
-  "description": "In, on, at e outras combinações que não têm tradução literal.",
+  "description": "In, on, at e outras combinações que não têm tradução literal — preencher lacuna e identificar a regra por trás de cada escolha.",
   "questions": [
     {
-      "tag": "Time prepositions",
+      "tag": "Time prepositions — fill in the blank",
       "text": "The meeting is <code>______</code> Monday morning.",
       "options": [
         { "text": "in", "correct": false, "feedback": "'In' é usado para períodos maiores como meses, anos e estações (in June, in 2024), não para dias específicos." },
@@ -14,7 +14,37 @@
       ]
     },
     {
-      "tag": "Place prepositions",
+      "tag": "Time prepositions — fill in the blank",
+      "text": "I usually go for a run <code>______</code> the morning.",
+      "options": [
+        { "text": "on", "correct": false, "feedback": "'On' é usado com dias e datas (on Monday), não com períodos genéricos do dia como 'the morning'." },
+        { "text": "in", "correct": true, "feedback": "Isso! Usamos 'in' com períodos do dia de forma geral: in the morning, in the afternoon, in the evening (mas 'at night', que é exceção)." },
+        { "text": "at", "correct": false, "feedback": "'At' é a preposição usada com 'night' (at night), mas não com 'morning', 'afternoon' ou 'evening', que pedem 'in'." },
+        { "text": "for", "correct": false, "feedback": "'For' indica duração ou finalidade (for two hours, for you), não o período do dia em que algo acontece." }
+      ]
+    },
+    {
+      "tag": "Time prepositions — fill in the blank",
+      "text": "She always calls her mother <code>______</code> night before going to bed.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' é usado com outros períodos do dia (in the morning/afternoon/evening), mas 'night' é uma exceção que pede 'at'." },
+        { "text": "at", "correct": true, "feedback": "Correto! 'Night' foge do padrão dos outros períodos do dia e usa 'at': at night, mesmo sem artigo." },
+        { "text": "on", "correct": false, "feedback": "'On' seria usado se houvesse um dia específico (on Monday night), mas sozinho, 'night' como período geral pede 'at'." },
+        { "text": "by", "correct": false, "feedback": "'By' indicaria um prazo-limite ('by night' = até a noite), não o momento habitual em que algo acontece todos os dias." }
+      ]
+    },
+    {
+      "tag": "Time prepositions — fill in the blank",
+      "text": "The report needs to be finished <code>______</code> Friday.",
+      "options": [
+        { "text": "until", "correct": false, "feedback": "'Until' indica que uma ação continua até um ponto e então para (I'll wait until Friday), não um prazo-limite para completar uma tarefa." },
+        { "text": "by", "correct": true, "feedback": "Isso! 'By' indica um prazo-limite: a ação deve estar concluída até aquele momento, no máximo até sexta-feira." },
+        { "text": "on", "correct": false, "feedback": "'On' indicaria apenas o dia em que algo acontece (on Friday), não a ideia de prazo-limite para uma entrega." },
+        { "text": "since", "correct": false, "feedback": "'Since' marca o início de um período contínuo até agora (since Monday), não um prazo futuro para terminar algo." }
+      ]
+    },
+    {
+      "tag": "Place prepositions — fill in the blank",
       "text": "She's waiting for you <code>______</code> the bus stop.",
       "options": [
         { "text": "in", "correct": false, "feedback": "'In' sugere estar dentro de um espaço fechado (in the car, in the room). Um ponto de ônibus é tratado como um ponto específico, não um espaço fechado." },
@@ -24,7 +54,77 @@
       ]
     },
     {
-      "tag": "Dependent prepositions",
+      "tag": "Place prepositions — fill in the blank",
+      "text": "My keys are <code>______</code> the table, right next to my wallet.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' indicaria que as chaves estão dentro de algo fechado (in the drawer), não sobre uma superfície aberta como a mesa." },
+        { "text": "on", "correct": true, "feedback": "Correto! 'On' é usado para indicar contato com uma superfície: on the table, on the wall, on the floor." },
+        { "text": "at", "correct": false, "feedback": "'At' indicaria um ponto específico ou local de referência (at the table, no sentido de 'sentado à mesa'), não a posição física sobre a superfície." },
+        { "text": "under", "correct": false, "feedback": "'Under' significa embaixo de algo — o oposto de onde as chaves estão, que é em cima da mesa." }
+      ]
+    },
+    {
+      "tag": "Place prepositions — fill in the blank",
+      "text": "There's a small café <code>______</code> the corner of Elm Street.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' seria usado para uma cidade ou região maior (in the city), não para um ponto específico como uma esquina." },
+        { "text": "at", "correct": true, "feedback": "Isso! Usamos 'at' com 'the corner' para indicar um ponto específico de referência: at the corner of the street." },
+        { "text": "on", "correct": false, "feedback": "'On' é usado com o nome da rua em si (on Elm Street), mas para a ideia de 'na esquina' como ponto específico, usamos 'at'." },
+        { "text": "by", "correct": false, "feedback": "'By' indicaria proximidade geral (by the street), mas não é a preposição fixa usada com 'corner'." }
+      ]
+    },
+    {
+      "tag": "Place prepositions — fill in the blank",
+      "text": "I live <code>______</code> Elm Street, just two blocks from the park.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' é usado para cidades e países (in New York), não para nomes específicos de rua." },
+        { "text": "on", "correct": true, "feedback": "Correto! Usamos 'on' com o nome de uma rua específica: on Elm Street, on Fifth Avenue." },
+        { "text": "at", "correct": false, "feedback": "'At' seria usado com um endereço completo, incluindo o número (at 24 Elm Street), não apenas com o nome da rua." },
+        { "text": "to", "correct": false, "feedback": "'To' indica direção de movimento (I'm going to Elm Street), não o local de moradia." }
+      ]
+    },
+    {
+      "tag": "Movement prepositions — fill in the blank",
+      "text": "He walked <code>______</code> the room without saying a word.",
+      "options": [
+        { "text": "into", "correct": true, "feedback": "Isso! 'Into' mostra movimento de fora para dentro de um espaço — ele entrou na sala. É diferente de 'in', que indica posição, não movimento." },
+        { "text": "in", "correct": false, "feedback": "'In' indica posição estática (estar dentro), não o movimento de entrar. Para movimento de fora para dentro, use 'into'." },
+        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico, não uma trajetória de movimento para dentro de um espaço." },
+        { "text": "on", "correct": false, "feedback": "'On' indica contato com uma superfície, não o movimento de entrar em um cômodo." }
+      ]
+    },
+    {
+      "tag": "Movement prepositions — fill in the blank",
+      "text": "The cat jumped <code>______</code> the fence and disappeared.",
+      "options": [
+        { "text": "over", "correct": true, "feedback": "Correto! 'Over' indica movimento por cima de um obstáculo, de um lado para o outro — exatamente o que o gato fez ao pular a cerca." },
+        { "text": "in", "correct": false, "feedback": "'In' indicaria movimento para dentro de um espaço fechado, não a trajetória de pular por cima de um obstáculo." },
+        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico, sem noção de trajetória por cima de algo." },
+        { "text": "under", "correct": false, "feedback": "'Under' significa por baixo de algo, o oposto de pular por cima da cerca." }
+      ]
+    },
+    {
+      "tag": "Movement prepositions — fill in the blank",
+      "text": "We drove <code>______</code> the tunnel and came out on the other side of the mountain.",
+      "options": [
+        { "text": "through", "correct": true, "feedback": "Isso! 'Through' indica movimento de um lado ao outro de um espaço fechado, atravessando-o por dentro — como dirigir por um túnel." },
+        { "text": "across", "correct": false, "feedback": "'Across' indica movimento de um lado a outro de uma superfície aberta (across the street, across the river), não através de um espaço fechado como um túnel." },
+        { "text": "along", "correct": false, "feedback": "'Along' indica movimento paralelo a algo comprido (along the beach, along the river), não atravessando-o por dentro." },
+        { "text": "onto", "correct": false, "feedback": "'Onto' indica movimento para cima de uma superfície, não atravessar um espaço fechado como um túnel." }
+      ]
+    },
+    {
+      "tag": "Movement prepositions — fill in the blank",
+      "text": "She climbed <code>______</code> the ladder to fix the roof.",
+      "options": [
+        { "text": "up", "correct": true, "feedback": "Correto! 'Up' indica movimento ascendente, como subir uma escada — climb up the ladder." },
+        { "text": "on", "correct": false, "feedback": "'On' indicaria apenas contato com uma superfície, sem expressar a ideia de movimento ascendente ao longo da escada." },
+        { "text": "into", "correct": false, "feedback": "'Into' indica movimento para dentro de um espaço fechado, não o movimento de subir algo como uma escada." },
+        { "text": "over", "correct": false, "feedback": "'Over' indicaria passar por cima de algo, não subir ao longo de uma escada." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions — fill in the blank",
       "text": "I'm really interested <code>______</code> learning Japanese.",
       "options": [
         { "text": "on", "correct": false, "feedback": "'Interested' não combina com 'on' — essa é uma combinação fixa que precisa ser memorizada, e 'on' não é a certa aqui." },
@@ -34,13 +134,104 @@
       ]
     },
     {
-      "tag": "Movement prepositions",
-      "text": "He walked <code>______</code> the room without saying a word.",
+      "tag": "Dependent prepositions — fill in the blank",
+      "text": "She's really good <code>______</code> playing the piano.",
       "options": [
-        { "text": "into", "correct": true, "feedback": "Isso! 'Into' mostra movimento de fora para dentro de um espaço — ele entrou na sala. É diferente de 'in', que indica posição, não movimento." },
-        { "text": "in", "correct": false, "feedback": "'In' indica posição estática (estar dentro), não o movimento de entrar. Para movimento de fora para dentro, use 'into'." },
-        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico, não uma trajetória de movimento para dentro de um espaço." },
-        { "text": "on", "correct": false, "feedback": "'On' indica contato com uma superfície, não o movimento de entrar em um cômodo." }
+        { "text": "in", "correct": false, "feedback": "'Good' não combina com 'in' — essa não é a preposição fixa dessa expressão." },
+        { "text": "at", "correct": true, "feedback": "Isso! 'Good at' é uma combinação fixa usada para habilidades: good at math, good at cooking, good at playing the piano." },
+        { "text": "for", "correct": false, "feedback": "'For' seria usado em 'good for you' (bom para sua saúde), mas não para expressar habilidade em algo." },
+        { "text": "with", "correct": false, "feedback": "'With' não é a preposição fixa de 'good' para expressar habilidade — a combinação correta é 'good at'." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions — fill in the blank",
+      "text": "He's always been afraid <code>______</code> spiders.",
+      "options": [
+        { "text": "from", "correct": false, "feedback": "'Afraid' não combina com 'from' — essa não é a preposição fixa dessa expressão." },
+        { "text": "of", "correct": true, "feedback": "Correto! 'Afraid of' é a combinação fixa padrão para medo de algo: afraid of spiders, afraid of the dark." },
+        { "text": "with", "correct": false, "feedback": "'With' não é usado com 'afraid' — a preposição dependente correta é 'of'." },
+        { "text": "for", "correct": false, "feedback": "'For' apareceria em expressões como 'afraid for someone' (preocupado pela segurança de alguém), um sentido diferente de simplesmente ter medo de algo." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions — fill in the blank",
+      "text": "I'm not sure I agree <code>______</code> you on this one.",
+      "options": [
+        { "text": "with", "correct": true, "feedback": "Isso! 'Agree with someone' é a combinação fixa usada para concordar com uma pessoa." },
+        { "text": "to", "correct": false, "feedback": "'Agree to' é usado antes de um plano, proposta ou sugestão (agree to a plan), não antes de uma pessoa." },
+        { "text": "on", "correct": false, "feedback": "'Agree on' é usado antes de um assunto específico sobre o qual as pessoas concordam (agree on a date), não antes da pessoa." },
+        { "text": "for", "correct": false, "feedback": "'For' não é a preposição dependente de 'agree' para concordar com alguém." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions — fill in the blank",
+      "text": "She apologized <code>______</code> being late to the meeting.",
+      "options": [
+        { "text": "for", "correct": true, "feedback": "Correto! 'Apologize for something' é a combinação fixa usada para se desculpar por uma ação específica." },
+        { "text": "of", "correct": false, "feedback": "'Of' não é a preposição dependente de 'apologize' — a combinação correta é 'apologize for'." },
+        { "text": "about", "correct": false, "feedback": "Embora 'about' apareça em outras expressões relacionadas a assuntos, a combinação fixa e padrão com 'apologize' é 'for'." },
+        { "text": "with", "correct": false, "feedback": "'With' não combina com 'apologize' nessa estrutura — o correto é 'apologize for + gerúndio/substantivo'." }
+      ]
+    },
+
+    {
+      "tag": "Rule — time prepositions",
+      "text": "Which preposition is used with months, years, and seasons (in general)?",
+      "options": [
+        { "text": "in", "correct": true, "feedback": "Correto! 'In' é usado com períodos de tempo mais longos: in June, in 2024, in (the) summer." },
+        { "text": "on", "correct": false, "feedback": "'On' é reservado para dias específicos e datas (on Monday, on July 4th), não para meses, anos ou estações inteiras." },
+        { "text": "at", "correct": false, "feedback": "'At' é usado para horários exatos e pontos específicos (at 9am, at the door), não para períodos longos como meses ou anos." },
+        { "text": "since", "correct": false, "feedback": "'Since' marca o início de um período contínuo até agora, não simplesmente a localização de um evento em um mês/ano/estação." }
+      ]
+    },
+    {
+      "tag": "Rule — time prepositions",
+      "text": "Which preposition is used with exact clock times and short specific points in time?",
+      "options": [
+        { "text": "at", "correct": true, "feedback": "Isso! 'At' é usado com horários exatos e pontos específicos no tempo: at 9am, at noon, at midnight, at the moment." },
+        { "text": "in", "correct": false, "feedback": "'In' é usado para períodos mais longos (in the morning, in June), não para um horário exato como '9am'." },
+        { "text": "on", "correct": false, "feedback": "'On' é usado com dias e datas (on Monday), não com um horário exato específico como 'at 9am'." },
+        { "text": "by", "correct": false, "feedback": "'By' indica um prazo-limite ('by 9am' = até as 9h no máximo), não simplesmente a localização de um evento naquele horário." }
+      ]
+    },
+    {
+      "tag": "Rule — place prepositions",
+      "text": "Which preposition indicates being inside an enclosed space?",
+      "options": [
+        { "text": "in", "correct": true, "feedback": "Correto! 'In' indica estar dentro de um espaço fechado ou delimitado: in the room, in the car, in the box." },
+        { "text": "on", "correct": false, "feedback": "'On' indica contato com uma superfície (on the table), não estar dentro de um espaço fechado." },
+        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico de referência (at the door), não necessariamente estar dentro de um espaço fechado." },
+        { "text": "into", "correct": false, "feedback": "'Into' indica o movimento de entrar em um espaço, não o estado de já estar dentro dele — esse é o papel de 'in'." }
+      ]
+    },
+    {
+      "tag": "Rule — place prepositions",
+      "text": "Which preposition indicates contact with a surface?",
+      "options": [
+        { "text": "on", "correct": true, "feedback": "Isso! 'On' indica contato direto com uma superfície: on the table, on the wall, on the floor." },
+        { "text": "in", "correct": false, "feedback": "'In' indica estar dentro de um espaço fechado, não em contato com uma superfície aberta." },
+        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico de referência ou localização geral, não necessariamente contato físico com uma superfície." },
+        { "text": "over", "correct": false, "feedback": "'Over' indica estar acima de algo, sem necessariamente tocar a superfície — diferente de 'on', que implica contato direto." }
+      ]
+    },
+    {
+      "tag": "Rule — movement vs position",
+      "text": "What's the key difference between 'in' and 'into'?",
+      "options": [
+        { "text": "'In' shows position (static); 'into' shows movement toward the inside of something", "correct": true, "feedback": "Correto! 'In' descreve onde algo está (the keys are in the box), enquanto 'into' descreve o movimento de entrar em um espaço (she put the keys into the box)." },
+        { "text": "'In' is used for movement; 'into' is used for position", "correct": false, "feedback": "Essa é a lógica invertida — 'in' indica posição estática, e 'into' é que indica movimento, não o contrário." },
+        { "text": "There is no difference; they are always interchangeable", "correct": false, "feedback": "Existe uma diferença clara: usar 'in' quando a frase pede movimento (ex: 'he walked in the room' em vez de 'into the room') é um erro comum de quem está aprendendo inglês." },
+        { "text": "'In' is for time; 'into' is for place", "correct": false, "feedback": "Ambas podem se referir a lugar; a diferença real entre elas é posição estática (in) versus movimento de entrada (into), não uma separação entre tempo e lugar." }
+      ]
+    },
+    {
+      "tag": "Rule — dependent prepositions",
+      "text": "What is a 'dependent preposition'?",
+      "options": [
+        { "text": "A fixed preposition that always follows a specific verb, adjective, or noun, and must be memorized", "correct": true, "feedback": "Isso! Preposições dependentes formam combinações fixas com certas palavras (interested in, good at, afraid of, agree with) e não seguem uma lógica de tradução — precisam ser memorizadas como um bloco." },
+        { "text": "A preposition that changes meaning depending on the tense of the sentence", "correct": false, "feedback": "Preposições dependentes não mudam com o tempo verbal da frase — elas ficam fixas ao lado de uma palavra específica, independente do tempo verbal usado." },
+        { "text": "A preposition used only in questions", "correct": false, "feedback": "Preposições dependentes aparecem em frases afirmativas, negativas e interrogativas — elas não são exclusivas de perguntas." },
+        { "text": "A preposition that can be freely translated word-by-word from Portuguese", "correct": false, "feedback": "Na verdade, é o oposto: preposições dependentes frequentemente NÃO correspondem à tradução literal do português, por isso costumam confundir tanto (ex: 'interested in' não é 'interessado em' palavra por palavra usando 'em')." }
       ]
     }
   ]
