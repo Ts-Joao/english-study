@@ -1,20 +1,30 @@
 {
   "title": "Tempos verbais",
   "eyebrow": "Grammar · Tenses",
-  "description": "Present, past, future e suas formas contínuas e perfeitas.",
+  "description": "Present, past, future e suas formas contínuas e perfeitas — preencher lacuna, identificar o tempo verbal e reconhecer a estrutura.",
   "questions": [
     {
-      "tag": "Present Simple vs Continuous",
+      "tag": "Present Simple vs Continuous — fill in the blank",
       "text": "Every morning, she <code>______</code> coffee before work.",
       "options": [
-        { "text": "is drinking", "correct": false, "feedback": "“Is drinking” marca uma ação acontecendo agora ou temporária. Mas 'every morning' é um hábito — isso pede Present Simple." },
+        { "text": "is drinking", "correct": false, "feedback": "'Is drinking' marca uma ação acontecendo agora ou temporária. Mas 'every morning' é um hábito — isso pede Present Simple." },
         { "text": "drinks", "correct": true, "feedback": "Isso! 'Every morning' é uma pista clássica de hábito/rotina, então usamos Present Simple: she drinks." },
         { "text": "drink", "correct": false, "feedback": "Quase — mas com 'she' (3ª pessoa do singular) o verbo precisa do 's': drinks, não drink." },
         { "text": "has drunk", "correct": false, "feedback": "Present Perfect fala de uma ação ligada ao presente sem tempo específico, não de um hábito repetido diariamente." }
       ]
     },
     {
-      "tag": "Past Simple vs Present Perfect",
+      "tag": "Present Continuous — fill in the blank",
+      "text": "Be quiet, please — the baby <code>______</code> right now.",
+      "options": [
+        { "text": "sleeps", "correct": false, "feedback": "Present Simple descreveria um hábito ('the baby sleeps a lot'), mas 'right now' indica uma ação acontecendo neste exato momento." },
+        { "text": "is sleeping", "correct": true, "feedback": "Correto! 'Right now' é uma pista clássica de Present Continuous: algo acontecendo neste exato momento." },
+        { "text": "sleep", "correct": false, "feedback": "Falta o auxiliar 'is' e a terminação '-ing' para formar o Present Continuous, além de faltar concordância com 'the baby' (3ª pessoa)." },
+        { "text": "has slept", "correct": false, "feedback": "Present Perfect não expressa uma ação em andamento agora — ele conecta o passado ao presente sem indicar continuidade neste instante." }
+      ]
+    },
+    {
+      "tag": "Past Simple vs Present Perfect — fill in the blank",
       "text": "I <code>______</code> that movie already.",
       "options": [
         { "text": "watched", "correct": false, "feedback": "Past Simple pede um tempo específico ('yesterday', 'last week'). Aqui 'already' aponta para Present Perfect." },
@@ -24,7 +34,17 @@
       ]
     },
     {
-      "tag": "Future forms",
+      "tag": "Present Perfect — fill in the blank",
+      "text": "We <code>______</code> in this city since 2015.",
+      "options": [
+        { "text": "live", "correct": false, "feedback": "Present Simple não conecta uma ação começada no passado até o presente. 'Since 2015' exige Present Perfect." },
+        { "text": "have lived", "correct": true, "feedback": "Isso! 'Since' + um ponto no tempo é uma marca registrada de Present Perfect: a ação começou no passado e continua até agora." },
+        { "text": "lived", "correct": false, "feedback": "Past Simple sozinho indicaria que a ação terminou, mas 'since 2015' mostra que ela continua até o presente." },
+        { "text": "are living", "correct": false, "feedback": "Present Continuous não é usado com 'since + ano' para expressar duração contínua desde um marco no passado." }
+      ]
+    },
+    {
+      "tag": "Future forms — fill in the blank",
       "text": "Look at those clouds! It <code>______</code> rain soon.",
       "options": [
         { "text": "will", "correct": false, "feedback": "Usamos 'will' para decisões espontâneas ou previsões sem evidência visual. Aqui você TEM uma evidência (as nuvens) — isso pede 'going to'." },
@@ -34,7 +54,17 @@
       ]
     },
     {
-      "tag": "Past Continuous vs Past Simple",
+      "tag": "Future forms — fill in the blank",
+      "text": "A: 'The phone is ringing.' B: 'I <code>______</code> it!'",
+      "options": [
+        { "text": "am going to answer", "correct": false, "feedback": "'Going to' é usado para planos já decididos antes do momento da fala. Mas essa decisão de atender está sendo tomada agora, na hora." },
+        { "text": "will answer", "correct": true, "feedback": "Isso! Decisões espontâneas, tomadas no exato momento da fala, usam 'will' — a marca clássica de reação imediata ('I'll get it!')." },
+        { "text": "answer", "correct": false, "feedback": "Present Simple não expressa uma decisão espontânea sobre o futuro imediato." },
+        { "text": "am answering", "correct": false, "feedback": "Present Continuous para futuro é usado para planos já combinados com antecedência, não para uma reação espontânea no momento." }
+      ]
+    },
+    {
+      "tag": "Past Continuous vs Past Simple — fill in the blank",
       "text": "While I <code>______</code> dinner, the phone rang.",
       "options": [
         { "text": "cooked", "correct": false, "feedback": "As duas ações não têm a mesma duração: uma é longa (cozinhar) e é interrompida por uma curta (o telefone tocar). Isso pede Past Continuous na ação longa." },
@@ -44,13 +74,185 @@
       ]
     },
     {
-      "tag": "Past Perfect",
+      "tag": "Past Continuous — fill in the blank",
+      "text": "At 9 p.m. last night, they <code>______</code> a movie together.",
+      "options": [
+        { "text": "watch", "correct": false, "feedback": "Present Simple não localiza uma ação em progresso em um momento específico do passado como '9 p.m. last night'." },
+        { "text": "were watching", "correct": true, "feedback": "Correto! Past Continuous descreve uma ação em andamento em um momento específico do passado — exatamente o que '9 p.m. last night' indica." },
+        { "text": "watched", "correct": false, "feedback": "Past Simple sugere uma ação completa, mas a frase foca no momento exato em que a ação estava acontecendo, não na conclusão dela." },
+        { "text": "have watched", "correct": false, "feedback": "Present Perfect não se conecta a um horário específico do passado como '9 p.m. last night'." }
+      ]
+    },
+    {
+      "tag": "Past Perfect — fill in the blank",
       "text": "By the time we arrived, the movie <code>______</code>.",
       "options": [
         { "text": "already started", "correct": false, "feedback": "Faltou o auxiliar 'had'. Para mostrar que algo aconteceu ANTES de outro evento passado, usamos Past Perfect: had already started." },
         { "text": "had already started", "correct": true, "feedback": "Correto! Past Perfect (had + particípio) mostra que o filme começou antes da chegada — uma ação passada antes de outra passada." },
         { "text": "has already started", "correct": false, "feedback": "Present Perfect conecta o passado ao presente, mas aqui as duas ações estão no passado ('arrived' também é passado), então precisamos de Past Perfect." },
         { "text": "was already starting", "correct": false, "feedback": "Past Continuous mostraria o filme em andamento no momento da chegada, mas 'already' sugere que ele já tinha terminado essa etapa (começou antes)." }
+      ]
+    },
+    {
+      "tag": "Present Perfect Continuous — fill in the blank",
+      "text": "I'm exhausted — I <code>______</code> all day.",
+      "options": [
+        { "text": "have studied", "correct": false, "feedback": "Present Perfect simples foca no resultado/quantidade de uma ação concluída, mas o cansaço aqui vem da duração contínua da atividade, não de contar quantas vezes ela ocorreu." },
+        { "text": "have been studying", "correct": true, "feedback": "Isso! Present Perfect Continuous enfatiza a duração de uma atividade contínua até agora — perfeito para explicar por que você está cansado." },
+        { "text": "was studying", "correct": false, "feedback": "Past Continuous fixaria a ação em um momento específico do passado, mas aqui o efeito (cansaço) é sentido agora, no presente." },
+        { "text": "study", "correct": false, "feedback": "Present Simple não expressa uma atividade contínua e recente que explica um estado atual como o cansaço." }
+      ]
+    },
+    {
+      "tag": "Future Continuous — fill in the blank",
+      "text": "Don't call me at 8 p.m. — I <code>______</code> dinner then.",
+      "options": [
+        { "text": "will have", "correct": false, "feedback": "Future Simple ('will have') não expressa uma ação em andamento em um momento específico do futuro, apenas o fato de que ela vai acontecer." },
+        { "text": "will be having", "correct": true, "feedback": "Correto! Future Continuous descreve uma ação que estará em andamento em um momento específico do futuro — exatamente 'at 8 p.m.'." },
+        { "text": "have", "correct": false, "feedback": "Present Simple não serve para descrever uma ação futura em progresso em um horário específico." },
+        { "text": "am having", "correct": false, "feedback": "Present Continuous para futuro indicaria um plano já combinado, não uma ação que estará em andamento naquele momento específico — a forma correta usa 'will be'." }
+      ]
+    },
+    {
+      "tag": "Future Perfect — fill in the blank",
+      "text": "By next year, she <code>______</code> her degree.",
+      "options": [
+        { "text": "will finish", "correct": false, "feedback": "Future Simple não mostra que a ação estará concluída ANTES de um ponto específico no futuro ('by next year') — só descreve uma ação futura simples." },
+        { "text": "will have finished", "correct": true, "feedback": "Isso! Future Perfect (will have + particípio) mostra que a ação estará completa antes de um momento específico do futuro — 'by next year' é a pista clássica." },
+        { "text": "finishes", "correct": false, "feedback": "Present Simple não indica conclusão futura antecipada de uma ação até um marco específico no futuro." },
+        { "text": "is finishing", "correct": false, "feedback": "Present Continuous para futuro indicaria um plano em andamento, não a conclusão de algo antes de um prazo específico." }
+      ]
+    },
+
+    {
+      "tag": "Identify the tense",
+      "text": "\"She has lived in Paris for ten years.\"",
+      "options": [
+        { "text": "Present Perfect", "correct": true, "feedback": "Correto! 'Has lived' + 'for ten years' mostra uma ação que começou no passado e continua até agora — a estrutura clássica do Present Perfect." },
+        { "text": "Past Simple", "correct": false, "feedback": "Past Simple ('lived') indicaria uma ação encerrada no passado, mas 'for ten years' até agora mostra que a ação continua no presente." },
+        { "text": "Present Continuous", "correct": false, "feedback": "Não há 'is/are + -ing' na frase — o auxiliar 'has' e o particípio 'lived' são marcas do Present Perfect, não do Continuous." },
+        { "text": "Past Perfect", "correct": false, "feedback": "Past Perfect usaria 'had lived', referindo-se a uma ação anterior a outra no passado — mas aqui não há nenhum outro evento passado de referência." }
+      ]
+    },
+    {
+      "tag": "Identify the tense",
+      "text": "\"They were watching TV when the power went out.\"",
+      "options": [
+        { "text": "Past Continuous", "correct": true, "feedback": "Isso! 'Were watching' mostra uma ação em andamento no passado, interrompida por outra ação pontual (went out) no Past Simple — a combinação clássica do Past Continuous." },
+        { "text": "Present Continuous", "correct": false, "feedback": "'Were' é passado, não presente — descarta Present Continuous, que usaria 'are/is watching'." },
+        { "text": "Present Perfect Continuous", "correct": false, "feedback": "Não há o auxiliar 'have/has been' — a frase está inteiramente no passado com 'were watching' e 'went out'." },
+        { "text": "Future Continuous", "correct": false, "feedback": "Não há 'will be' na frase — os dois verbos estão no passado, não no futuro." }
+      ]
+    },
+    {
+      "tag": "Identify the tense",
+      "text": "\"By the time you get here, I will have finished cooking.\"",
+      "options": [
+        { "text": "Future Perfect", "correct": true, "feedback": "Correto! 'Will have finished' mostra uma ação que estará completa antes de outro evento futuro ('by the time you get here') — a marca do Future Perfect." },
+        { "text": "Future Simple", "correct": false, "feedback": "Future Simple seria apenas 'will finish', sem indicar que a ação estará concluída antes de outro ponto no futuro." },
+        { "text": "Present Perfect", "correct": false, "feedback": "Não há 'has/have' — o auxiliar aqui é 'will have', que projeta a conclusão para um momento no futuro, não no presente." },
+        { "text": "Future Continuous", "correct": false, "feedback": "Future Continuous usaria 'will be cooking' (ação em andamento no futuro), não 'will have finished' (ação concluída antes de um ponto futuro)." }
+      ]
+    },
+    {
+      "tag": "Identify the tense",
+      "text": "\"I've been working on this project since 9 a.m.\"",
+      "options": [
+        { "text": "Present Perfect Continuous", "correct": true, "feedback": "Isso! 'Have been working' + 'since' enfatiza a duração contínua de uma atividade que começou no passado e continua agora — a estrutura do Present Perfect Continuous." },
+        { "text": "Present Perfect", "correct": false, "feedback": "Present Perfect simples seria 'I've worked', focando no resultado, não na duração contínua marcada por 'been + -ing'." },
+        { "text": "Past Continuous", "correct": false, "feedback": "Past Continuous usaria 'was working', fixando a ação em um ponto específico do passado, mas aqui a ação continua até o presente." },
+        { "text": "Present Continuous", "correct": false, "feedback": "Present Continuous seria só 'I am working', sem conexão com o momento em que a ação começou ('since 9 a.m.')." }
+      ]
+    },
+    {
+      "tag": "Identify the tense",
+      "text": "\"The train leaves at 6 p.m. every day.\"",
+      "options": [
+        { "text": "Present Simple", "correct": true, "feedback": "Correto! Present Simple é usado tanto para hábitos/rotinas ('every day') quanto para horários fixos de agendas, como trens e voos — 'leaves' aqui cobre os dois casos." },
+        { "text": "Present Continuous", "correct": false, "feedback": "Present Continuous ('is leaving') indicaria uma ação temporária ou em andamento agora, não uma rotina fixa que se repete 'every day'." },
+        { "text": "Future Simple", "correct": false, "feedback": "Não há 'will' na frase — horários fixos e programados usam Present Simple, mesmo se referindo a um evento futuro." },
+        { "text": "Past Simple", "correct": false, "feedback": "'Leaves' está no presente, não no passado — Past Simple seria 'left'." }
+      ]
+    },
+    {
+      "tag": "Identify the tense",
+      "text": "\"He had already left when I called him.\"",
+      "options": [
+        { "text": "Past Perfect", "correct": true, "feedback": "Isso! 'Had already left' mostra uma ação concluída ANTES de outra ação passada ('called'), o uso clássico do Past Perfect para ordenar eventos no passado." },
+        { "text": "Past Simple", "correct": false, "feedback": "Past Simple sozinho ('left') não deixaria claro que essa ação aconteceu antes da outra ('called') — é justamente esse o papel do 'had'." },
+        { "text": "Present Perfect", "correct": false, "feedback": "Present Perfect ('has left') conectaria a ação ao presente, mas aqui as duas ações estão firmemente no passado, uma antes da outra." },
+        { "text": "Past Continuous", "correct": false, "feedback": "Não há '-ing' na frase — 'had left' é Past Perfect, não uma ação em progresso." }
+      ]
+    },
+
+    {
+      "tag": "Structure — Present Simple",
+      "text": "What's the correct structure of the Present Simple for he/she/it?",
+      "options": [
+        { "text": "Subject + verb + -s/-es", "correct": true, "feedback": "Correto! Na 3ª pessoa do singular (he/she/it), o Present Simple acrescenta '-s' ou '-es' ao verbo: she drinks, he watches." },
+        { "text": "Subject + am/is/are + verb-ing", "correct": false, "feedback": "Essa é a estrutura do Present Continuous, usada para ações em progresso, não para hábitos e rotinas do Present Simple." },
+        { "text": "Subject + has/have + past participle", "correct": false, "feedback": "Essa é a estrutura do Present Perfect, que conecta uma ação passada ao presente, diferente do Present Simple." },
+        { "text": "Subject + will + base verb", "correct": false, "feedback": "Essa é a estrutura do Future Simple, usada para previsões e decisões futuras, não para hábitos no presente." }
+      ]
+    },
+    {
+      "tag": "Structure — Present Perfect",
+      "text": "What's the correct structure of the Present Perfect?",
+      "options": [
+        { "text": "Subject + have/has + past participle", "correct": true, "feedback": "Isso! Present Perfect usa 'have' ou 'has' (para he/she/it) seguido do particípio passado do verbo principal: she has finished." },
+        { "text": "Subject + had + past participle", "correct": false, "feedback": "Essa é a estrutura do Past Perfect, usada para uma ação anterior a outra no passado, não para conectar o passado ao presente." },
+        { "text": "Subject + am/is/are + verb-ing", "correct": false, "feedback": "Essa é a estrutura do Present Continuous, para ações acontecendo agora, sem relação com a estrutura de particípio do Present Perfect." },
+        { "text": "Subject + verb + -ed", "correct": false, "feedback": "Isso descreve apenas o Past Simple de verbos regulares, sem o auxiliar 'have/has' que caracteriza o Present Perfect." }
+      ]
+    },
+    {
+      "tag": "Structure — Past Continuous",
+      "text": "What's the correct structure of the Past Continuous?",
+      "options": [
+        { "text": "Subject + was/were + verb-ing", "correct": true, "feedback": "Correto! Past Continuous usa 'was' (I/he/she/it) ou 'were' (you/we/they) seguido do verbo em '-ing': they were talking." },
+        { "text": "Subject + am/is/are + verb-ing", "correct": false, "feedback": "Essa é a estrutura do Present Continuous, no presente, não do Past Continuous." },
+        { "text": "Subject + had + verb-ing", "correct": false, "feedback": "Essa combinação não existe nos tempos verbais padrão do inglês — o Past Continuous usa was/were, não 'had'." },
+        { "text": "Subject + would + verb-ing", "correct": false, "feedback": "'Would' não é usado com '-ing' para formar um tempo verbal de passado — ele aparece em condicionais ou hábitos passados com 'would + infinitivo'." }
+      ]
+    },
+    {
+      "tag": "Structure — Past Perfect",
+      "text": "What's the correct structure of the Past Perfect?",
+      "options": [
+        { "text": "Subject + had + past participle", "correct": true, "feedback": "Isso! Past Perfect usa 'had' (igual para todos os sujeitos) seguido do particípio passado: I had finished, she had left." },
+        { "text": "Subject + have/has + past participle", "correct": false, "feedback": "Essa é a estrutura do Present Perfect, que conecta o passado ao presente, não uma ação anterior a outra no passado." },
+        { "text": "Subject + was/were + past participle", "correct": false, "feedback": "Essa estrutura corresponde à voz passiva no passado (ex: 'the door was closed'), não ao Past Perfect ativo." },
+        { "text": "Subject + did + past participle", "correct": false, "feedback": "'Did' é seguido pela forma base do verbo (did + verb), não pelo particípio — essa mistura não existe no inglês padrão." }
+      ]
+    },
+    {
+      "tag": "Structure — Future Simple (will)",
+      "text": "What's the correct structure of the Future Simple with 'will'?",
+      "options": [
+        { "text": "Subject + will + base verb", "correct": true, "feedback": "Correto! Future Simple com 'will' usa a forma base do verbo, sem 'to' e sem conjugação para nenhum sujeito: she will call, they will call." },
+        { "text": "Subject + will + verb-ing", "correct": false, "feedback": "'Will' nunca é seguido pela forma '-ing' no Future Simple — apenas pela forma base do verbo." },
+        { "text": "Subject + will + past participle", "correct": false, "feedback": "'Will have + particípio' forma o Future Perfect, mas 'will' sozinho no Future Simple pede a forma base, não o particípio." },
+        { "text": "Subject + is/are going + verb-ing", "correct": false, "feedback": "Essa mistura não é uma estrutura válida — 'going to' usa o infinitivo (going to call), não '-ing' direto depois de 'going'." }
+      ]
+    },
+    {
+      "tag": "Structure — Present Perfect Continuous",
+      "text": "What's the correct structure of the Present Perfect Continuous?",
+      "options": [
+        { "text": "Subject + have/has been + verb-ing", "correct": true, "feedback": "Isso! Present Perfect Continuous combina 'have/has been' com o verbo em '-ing', enfatizando a duração de uma atividade até agora: I have been studying." },
+        { "text": "Subject + have/has + verb-ing", "correct": false, "feedback": "Falta o 'been' — sem ele, a estrutura fica incompleta e não forma nenhum tempo verbal padrão do inglês." },
+        { "text": "Subject + was/were being + verb-ing", "correct": false, "feedback": "Essa estrutura não existe no inglês padrão — 'being' não é combinado dessa forma com outro verbo em '-ing'." },
+        { "text": "Subject + had been + past participle", "correct": false, "feedback": "Isso descreveria o Past Perfect Continuous se usasse '-ing' (had been studying), mas com particípio essa combinação não é válida." }
+      ]
+    },
+    {
+      "tag": "Structure — general rule",
+      "text": "Which auxiliary verb is used to form questions and negatives in the Present Simple and Past Simple (with main verbs other than 'to be')?",
+      "options": [
+        { "text": "do/does (present) and did (past)", "correct": true, "feedback": "Correto! Usamos 'do/does' para perguntas e negativas no Present Simple (Does she work? She doesn't work) e 'did' para o Past Simple (Did you go? I didn't go)." },
+        { "text": "have/has (present) and had (past)", "correct": false, "feedback": "'Have/has' e 'had' são os auxiliares do Present Perfect e Past Perfect, não do Present Simple e Past Simple com verbos comuns." },
+        { "text": "will (present) and would (past)", "correct": false, "feedback": "'Will' e 'would' são usados para expressar futuro e condicionais, não para formar perguntas/negativas no Simple Present/Past." },
+        { "text": "am/is/are (present) and was/were (past)", "correct": false, "feedback": "Essas são as formas do verbo 'to be', usadas para o Continuous ou como verbo principal — não são os auxiliares padrão para perguntas/negativas com outros verbos no Simple." }
       ]
     }
   ]
