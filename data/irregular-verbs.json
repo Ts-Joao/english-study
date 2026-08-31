@@ -4,413 +4,1069 @@
   "description": "Pratique as principais formas irregulares de passado e particípio para fixar as conjugações mais difíceis.",
   "questions": [
     {
-      "tag": "Be — Was/Were — Been",
+      "tag": "Be",
       "text": "She has <code>_____</code> very busy lately.",
       "options": [
-        { "text": "been", "correct": true, "feedback": "Correto! 'Be' é um verbo irregular: be → was/were → been. Depois de 'has', precisamos do Past Participle 'been'." },
-        { "text": "was", "correct": false, "feedback": "'Was' é uma forma do Simple Past usada com I, he, she e it. Depois de 'has', a estrutura exige o particípio 'been'." },
-        { "text": "were", "correct": false, "feedback": "'Were' também pertence ao Simple Past de 'be', mas não pode seguir diretamente 'has'. O Present Perfect exige 'been'." },
-        { "text": "beed", "correct": false, "feedback": "'Be' é completamente irregular e não forma o passado ou particípio adicionando '-ed'. A forma correta é 'been'." }
+        {
+          "text": "been",
+          "correct": true,
+          "feedback": "Correto! 'Be' é um verbo irregular: be → was/were → been. Depois de 'has', precisamos do Past Participle 'been'."
+        },
+        {
+          "text": "was",
+          "correct": false,
+          "feedback": "'Was' é uma forma do Simple Past usada com I, he, she e it. Depois de 'has', a estrutura exige o particípio 'been'."
+        },
+        {
+          "text": "were",
+          "correct": false,
+          "feedback": "'Were' também pertence ao Simple Past de 'be', mas não pode seguir diretamente 'has'. O Present Perfect exige 'been'."
+        },
+        {
+          "text": "beed",
+          "correct": false,
+          "feedback": "'Be' é completamente irregular e não forma o passado ou particípio adicionando '-ed'. A forma correta é 'been'."
+        }
       ]
     },
     {
-      "tag": "Become — Became — Become",
+      "tag": "Become",
       "text": "The company has <code>_____</code> much more successful this year.",
       "options": [
-        { "text": "become", "correct": true, "feedback": "Isso! 'Become' segue become → became → become. O passado e o particípio são diferentes, e depois de 'has' usamos o particípio 'become'." },
-        { "text": "became", "correct": false, "feedback": "'Became' é o Simple Past de 'become'. Como a frase usa 'has', precisamos do Past Participle 'become'." },
-        { "text": "becomed", "correct": false, "feedback": "'Become' não é regular. Não adicionamos '-ed'; a conjugação correta é become → became → become." },
-        { "text": "becomeing", "correct": false, "feedback": "'Becomeing' aplica incorretamente a formação de -ing. O contexto exige particípio passado, não Present Participle." }
+        {
+          "text": "become",
+          "correct": true,
+          "feedback": "Isso! 'Become' segue become → became → become. O passado e o particípio são diferentes, e depois de 'has' usamos o particípio 'become'."
+        },
+        {
+          "text": "became",
+          "correct": false,
+          "feedback": "'Became' é o Simple Past de 'become'. Como a frase usa 'has', precisamos do Past Participle 'become'."
+        },
+        {
+          "text": "becomed",
+          "correct": false,
+          "feedback": "'Become' não é regular. Não adicionamos '-ed'; a conjugação correta é become → became → become."
+        },
+        {
+          "text": "becomeing",
+          "correct": false,
+          "feedback": "'Becomeing' aplica incorretamente a formação de -ing. O contexto exige particípio passado, não Present Participle."
+        }
       ]
     },
     {
-      "tag": "Begin — Began — Begun",
+      "tag": "Begin",
       "text": "The meeting has already <code>_____</code>.",
       "options": [
-        { "text": "begun", "correct": true, "feedback": "Perfeito! 'Begin' segue begin → began → begun. Depois de 'has', usamos o particípio passado 'begun'." },
-        { "text": "began", "correct": false, "feedback": "'Began' é o Simple Past. Como 'has' introduz o Present Perfect, precisamos de 'begun'." },
-        { "text": "beginned", "correct": false, "feedback": "'Begin' é irregular e não recebe '-ed'. A mudança de vogal produz began no passado e begun no particípio." },
-        { "text": "begin", "correct": false, "feedback": "'Begin' é a forma base. Depois de 'has', o verbo precisa estar no particípio: 'has begun'." }
+        {
+          "text": "begun",
+          "correct": true,
+          "feedback": "Perfeito! 'Begin' segue begin → began → begun. Depois de 'has', usamos o particípio passado 'begun'."
+        },
+        {
+          "text": "began",
+          "correct": false,
+          "feedback": "'Began' é o Simple Past. Como 'has' introduz o Present Perfect, precisamos de 'begun'."
+        },
+        {
+          "text": "beginned",
+          "correct": false,
+          "feedback": "'Begin' é irregular e não recebe '-ed'. A mudança de vogal produz began no passado e begun no particípio."
+        },
+        {
+          "text": "begin",
+          "correct": false,
+          "feedback": "'Begin' é a forma base. Depois de 'has', o verbo precisa estar no particípio: 'has begun'."
+        }
       ]
     },
     {
-      "tag": "Break — Broke — Broken",
+      "tag": "Break",
       "text": "Someone has <code>_____</code> the window.",
       "options": [
-        { "text": "broken", "correct": true, "feedback": "Correto! 'Break' segue break → broke → broken. O auxiliar 'has' exige o Past Participle 'broken'." },
-        { "text": "broke", "correct": false, "feedback": "'Broke' é o Simple Past. Após 'has', precisamos do particípio irregular 'broken'." },
-        { "text": "breaked", "correct": false, "feedback": "'Break' não forma o passado com '-ed'. A conjugação correta é break → broke → broken." },
-        { "text": "breaken", "correct": false, "feedback": "A terminação '-en' aparece em alguns particípios, mas não pode ser adicionada diretamente à forma base. A forma correta é 'broken'." }
+        {
+          "text": "broken",
+          "correct": true,
+          "feedback": "Correto! 'Break' segue break → broke → broken. O auxiliar 'has' exige o Past Participle 'broken'."
+        },
+        {
+          "text": "broke",
+          "correct": false,
+          "feedback": "'Broke' é o Simple Past. Após 'has', precisamos do particípio irregular 'broken'."
+        },
+        {
+          "text": "breaked",
+          "correct": false,
+          "feedback": "'Break' não forma o passado com '-ed'. A conjugação correta é break → broke → broken."
+        },
+        {
+          "text": "breaken",
+          "correct": false,
+          "feedback": "A terminação '-en' aparece em alguns particípios, mas não pode ser adicionada diretamente à forma base. A forma correta é 'broken'."
+        }
       ]
     },
     {
-      "tag": "Bring — Brought — Brought",
+      "tag": "Bring",
       "text": "She <code>_____</code> some snacks to the party last night.",
       "options": [
-        { "text": "brought", "correct": true, "feedback": "Exato! 'Bring' é irregular e segue bring → brought → brought. O Simple Past e o Past Participle têm a mesma forma." },
-        { "text": "bringed", "correct": false, "feedback": "'Bring' não recebe simplesmente '-ed'. Sua forma irregular de passado é 'brought'." },
-        { "text": "brang", "correct": false, "feedback": "'Brang' é uma regularização incorreta. Diferentemente de 'sing → sang', 'bring' muda para 'brought'." },
-        { "text": "brung", "correct": false, "feedback": "'Brung' pode aparecer em alguns dialetos, mas não é a forma padrão esperada no inglês formal. A forma padrão é 'brought'." }
+        {
+          "text": "brought",
+          "correct": true,
+          "feedback": "Exato! 'Bring' é irregular e segue bring → brought → brought. O Simple Past e o Past Participle têm a mesma forma."
+        },
+        {
+          "text": "bringed",
+          "correct": false,
+          "feedback": "'Bring' não recebe simplesmente '-ed'. Sua forma irregular de passado é 'brought'."
+        },
+        {
+          "text": "brang",
+          "correct": false,
+          "feedback": "'Brang' é uma regularização incorreta. Diferentemente de 'sing → sang', 'bring' muda para 'brought'."
+        },
+        {
+          "text": "brung",
+          "correct": false,
+          "feedback": "'Brung' pode aparecer em alguns dialetos, mas não é a forma padrão esperada no inglês formal. A forma padrão é 'brought'."
+        }
       ]
     },
     {
-      "tag": "Buy — Bought — Bought",
+      "tag": "Buy",
       "text": "I <code>_____</code> a new laptop yesterday.",
       "options": [
-        { "text": "bought", "correct": true, "feedback": "Correto! 'Buy' segue buy → bought → bought. Como 'yesterday' indica passado concluído, usamos 'bought'." },
-        { "text": "buyed", "correct": false, "feedback": "'Buy' é irregular e não forma o passado com '-ed'. A forma correta é 'bought'." },
-        { "text": "boughten", "correct": false, "feedback": "'Boughten' não é uma forma padrão moderna de 'buy'. O passado e o particípio são ambos 'bought'." },
-        { "text": "buy", "correct": false, "feedback": "'Buy' é a forma base. O marcador 'yesterday' exige o Simple Past 'bought'." }
+        {
+          "text": "bought",
+          "correct": true,
+          "feedback": "Correto! 'Buy' segue buy → bought → bought. Como 'yesterday' indica passado concluído, usamos 'bought'."
+        },
+        {
+          "text": "buyed",
+          "correct": false,
+          "feedback": "'Buy' é irregular e não forma o passado com '-ed'. A forma correta é 'bought'."
+        },
+        {
+          "text": "boughten",
+          "correct": false,
+          "feedback": "'Boughten' não é uma forma padrão moderna de 'buy'. O passado e o particípio são ambos 'bought'."
+        },
+        {
+          "text": "buy",
+          "correct": false,
+          "feedback": "'Buy' é a forma base. O marcador 'yesterday' exige o Simple Past 'bought'."
+        }
       ]
     },
     {
-      "tag": "Catch — Caught — Caught",
+      "tag": "Catch",
       "text": "He has <code>_____</code> the ball perfectly.",
       "options": [
-        { "text": "caught", "correct": true, "feedback": "Isso! 'Catch' segue catch → caught → caught. O particípio usado depois de 'has' é 'caught'." },
-        { "text": "catched", "correct": false, "feedback": "'Catch' é irregular e não recebe '-ed'. Tanto o passado quanto o particípio são 'caught'." },
-        { "text": "catch", "correct": false, "feedback": "'Catch' é a forma base e não pode seguir diretamente 'has' em um Present Perfect." },
-        { "text": "cought", "correct": false, "feedback": "'Cought' é uma grafia incorreta. A forma irregular correta é 'caught', com 'au'." }
+        {
+          "text": "caught",
+          "correct": true,
+          "feedback": "Isso! 'Catch' segue catch → caught → caught. O particípio usado depois de 'has' é 'caught'."
+        },
+        {
+          "text": "catched",
+          "correct": false,
+          "feedback": "'Catch' é irregular e não recebe '-ed'. Tanto o passado quanto o particípio são 'caught'."
+        },
+        {
+          "text": "catch",
+          "correct": false,
+          "feedback": "'Catch' é a forma base e não pode seguir diretamente 'has' em um Present Perfect."
+        },
+        {
+          "text": "cought",
+          "correct": false,
+          "feedback": "'Cought' é uma grafia incorreta. A forma irregular correta é 'caught', com 'au'."
+        }
       ]
     },
     {
-      "tag": "Choose — Chose — Chosen",
+      "tag": "Choose",
       "text": "They have <code>_____</code> a new team leader.",
       "options": [
-        { "text": "chosen", "correct": true, "feedback": "Perfeito! 'Choose' segue choose → chose → chosen. Depois de 'have', usamos o particípio 'chosen'." },
-        { "text": "chose", "correct": false, "feedback": "'Chose' é o Simple Past. Como a frase usa 'have', precisamos do particípio 'chosen'." },
-        { "text": "choosed", "correct": false, "feedback": "'Choose' é irregular e não recebe '-ed'. A conjugação correta é choose → chose → chosen." },
-        { "text": "choose", "correct": false, "feedback": "'Choose' é a forma base. O Present Perfect exige o Past Participle 'chosen'." }
+        {
+          "text": "chosen",
+          "correct": true,
+          "feedback": "Perfeito! 'Choose' segue choose → chose → chosen. Depois de 'have', usamos o particípio 'chosen'."
+        },
+        {
+          "text": "chose",
+          "correct": false,
+          "feedback": "'Chose' é o Simple Past. Como a frase usa 'have', precisamos do particípio 'chosen'."
+        },
+        {
+          "text": "choosed",
+          "correct": false,
+          "feedback": "'Choose' é irregular e não recebe '-ed'. A conjugação correta é choose → chose → chosen."
+        },
+        {
+          "text": "choose",
+          "correct": false,
+          "feedback": "'Choose' é a forma base. O Present Perfect exige o Past Participle 'chosen'."
+        }
       ]
     },
     {
-      "tag": "Come — Came — Come",
+      "tag": "Come",
       "text": "She has <code>_____</code> home early today.",
       "options": [
-        { "text": "come", "correct": true, "feedback": "Correto! 'Come' segue come → came → come. O particípio é igual à forma base e aparece depois de 'has'." },
-        { "text": "came", "correct": false, "feedback": "'Came' é o Simple Past de 'come'. Depois de 'has', usamos 'come' como Past Participle." },
-        { "text": "comed", "correct": false, "feedback": "'Come' é irregular e não recebe '-ed'. A conjugação correta é come → came → come." },
-        { "text": "coming", "correct": false, "feedback": "'Coming' é a forma -ing e não funciona como particípio passado nessa estrutura. O Present Perfect pede 'come'." }
+        {
+          "text": "come",
+          "correct": true,
+          "feedback": "Correto! 'Come' segue come → came → come. O particípio é igual à forma base e aparece depois de 'has'."
+        },
+        {
+          "text": "came",
+          "correct": false,
+          "feedback": "'Came' é o Simple Past de 'come'. Depois de 'has', usamos 'come' como Past Participle."
+        },
+        {
+          "text": "comed",
+          "correct": false,
+          "feedback": "'Come' é irregular e não recebe '-ed'. A conjugação correta é come → came → come."
+        },
+        {
+          "text": "coming",
+          "correct": false,
+          "feedback": "'Coming' é a forma -ing e não funciona como particípio passado nessa estrutura. O Present Perfect pede 'come'."
+        }
       ]
     },
     {
-      "tag": "Do — Did — Done",
+      "tag": "Do",
       "text": "Have you <code>_____</code> your homework yet?",
       "options": [
-        { "text": "done", "correct": true, "feedback": "Exato! 'Do' segue do → did → done. Depois de 'have', o particípio passado obrigatório é 'done'." },
-        { "text": "did", "correct": false, "feedback": "'Did' é o Simple Past. Depois de 'have', precisamos do Past Participle 'done'." },
-        { "text": "doed", "correct": false, "feedback": "'Do' é irregular e não forma seu passado adicionando '-ed'. A forma correta do particípio é 'done'." },
-        { "text": "do", "correct": false, "feedback": "'Do' é a forma base. Na estrutura 'have + particípio', o verbo precisa estar como 'done'." }
+        {
+          "text": "done",
+          "correct": true,
+          "feedback": "Exato! 'Do' segue do → did → done. Depois de 'have', o particípio passado obrigatório é 'done'."
+        },
+        {
+          "text": "did",
+          "correct": false,
+          "feedback": "'Did' é o Simple Past. Depois de 'have', precisamos do Past Participle 'done'."
+        },
+        {
+          "text": "doed",
+          "correct": false,
+          "feedback": "'Do' é irregular e não forma seu passado adicionando '-ed'. A forma correta do particípio é 'done'."
+        },
+        {
+          "text": "do",
+          "correct": false,
+          "feedback": "'Do' é a forma base. Na estrutura 'have + particípio', o verbo precisa estar como 'done'."
+        }
       ]
     },
     {
-      "tag": "Drink — Drank — Drunk",
+      "tag": "Drink",
       "text": "He <code>_____</code> too much coffee this morning.",
       "options": [
-        { "text": "drank", "correct": true, "feedback": "Correto! 'Drink' segue drink → drank → drunk. Como a frase usa Simple Past sem auxiliar, usamos 'drank'." },
-        { "text": "drunk", "correct": false, "feedback": "'Drunk' é o Past Participle. Sem um auxiliar como 'has' ou 'had', o Simple Past correto é 'drank'." },
-        { "text": "drinked", "correct": false, "feedback": "'Drink' é irregular e muda a vogal: drink → drank no passado. Não usamos 'drinked'." },
-        { "text": "drunken", "correct": false, "feedback": "'Drunken' existe principalmente como adjetivo, como em 'a drunken man'. O particípio verbal moderno é 'drunk'." }
+        {
+          "text": "drank",
+          "correct": true,
+          "feedback": "Correto! 'Drink' segue drink → drank → drunk. Como a frase usa Simple Past sem auxiliar, usamos 'drank'."
+        },
+        {
+          "text": "drunk",
+          "correct": false,
+          "feedback": "'Drunk' é o Past Participle. Sem um auxiliar como 'has' ou 'had', o Simple Past correto é 'drank'."
+        },
+        {
+          "text": "drinked",
+          "correct": false,
+          "feedback": "'Drink' é irregular e muda a vogal: drink → drank no passado. Não usamos 'drinked'."
+        },
+        {
+          "text": "drunken",
+          "correct": false,
+          "feedback": "'Drunken' existe principalmente como adjetivo, como em 'a drunken man'. O particípio verbal moderno é 'drunk'."
+        }
       ]
     },
     {
-      "tag": "Drive — Drove — Driven",
+      "tag": "Drive",
       "text": "She has <code>_____</code> this car for years.",
       "options": [
-        { "text": "driven", "correct": true, "feedback": "Perfeito! 'Drive' segue drive → drove → driven. Depois de 'has', usamos o Past Participle 'driven'." },
-        { "text": "drove", "correct": false, "feedback": "'Drove' é o Simple Past. O Present Perfect exige 'driven' depois de 'has'." },
-        { "text": "drived", "correct": false, "feedback": "'Drive' é irregular e não recebe '-ed'. A conjugação correta é drive → drove → driven." },
-        { "text": "drivened", "correct": false, "feedback": "'Driven' já é o particípio irregular completo. Não se adiciona '-ed' a uma forma que já exerce essa função." }
+        {
+          "text": "driven",
+          "correct": true,
+          "feedback": "Perfeito! 'Drive' segue drive → drove → driven. Depois de 'has', usamos o Past Participle 'driven'."
+        },
+        {
+          "text": "drove",
+          "correct": false,
+          "feedback": "'Drove' é o Simple Past. O Present Perfect exige 'driven' depois de 'has'."
+        },
+        {
+          "text": "drived",
+          "correct": false,
+          "feedback": "'Drive' é irregular e não recebe '-ed'. A conjugação correta é drive → drove → driven."
+        },
+        {
+          "text": "drivened",
+          "correct": false,
+          "feedback": "'Driven' já é o particípio irregular completo. Não se adiciona '-ed' a uma forma que já exerce essa função."
+        }
       ]
     },
     {
-      "tag": "Eat — Ate — Eaten",
+      "tag": "Eat",
       "text": "We have already <code>_____</code> dinner.",
       "options": [
-        { "text": "eaten", "correct": true, "feedback": "Isso! 'Eat' segue eat → ate → eaten. O auxiliar 'have' exige o particípio 'eaten'." },
-        { "text": "ate", "correct": false, "feedback": "'Ate' é o Simple Past. Depois de 'have', usamos o Past Participle 'eaten'." },
-        { "text": "eated", "correct": false, "feedback": "'Eat' é irregular. A forma 'eated' tenta aplicar a regra dos verbos regulares, mas a conjugação correta é eat → ate → eaten." },
-        { "text": "eat", "correct": false, "feedback": "'Eat' é a forma base e não pode seguir 'have' nessa estrutura. O Present Perfect requer 'eaten'." }
+        {
+          "text": "eaten",
+          "correct": true,
+          "feedback": "Isso! 'Eat' segue eat → ate → eaten. O auxiliar 'have' exige o particípio 'eaten'."
+        },
+        {
+          "text": "ate",
+          "correct": false,
+          "feedback": "'Ate' é o Simple Past. Depois de 'have', usamos o Past Participle 'eaten'."
+        },
+        {
+          "text": "eated",
+          "correct": false,
+          "feedback": "'Eat' é irregular. A forma 'eated' tenta aplicar a regra dos verbos regulares, mas a conjugação correta é eat → ate → eaten."
+        },
+        {
+          "text": "eat",
+          "correct": false,
+          "feedback": "'Eat' é a forma base e não pode seguir 'have' nessa estrutura. O Present Perfect requer 'eaten'."
+        }
       ]
     },
     {
-      "tag": "Fall — Fell — Fallen",
+      "tag": "Fall",
       "text": "The leaves have <code>_____</code> from the trees.",
       "options": [
-        { "text": "fallen", "correct": true, "feedback": "Correto! 'Fall' segue fall → fell → fallen. Depois de 'have', o particípio passado é 'fallen'." },
-        { "text": "fell", "correct": false, "feedback": "'Fell' é o Simple Past. Como a frase está no Present Perfect, precisamos do particípio 'fallen'." },
-        { "text": "falled", "correct": false, "feedback": "'Fall' é irregular e não recebe '-ed'. A alteração correta é fall → fell → fallen." },
-        { "text": "fall", "correct": false, "feedback": "'Fall' é a forma base. Depois de 'have', precisamos do Past Participle 'fallen'." }
+        {
+          "text": "fallen",
+          "correct": true,
+          "feedback": "Correto! 'Fall' segue fall → fell → fallen. Depois de 'have', o particípio passado é 'fallen'."
+        },
+        {
+          "text": "fell",
+          "correct": false,
+          "feedback": "'Fell' é o Simple Past. Como a frase está no Present Perfect, precisamos do particípio 'fallen'."
+        },
+        {
+          "text": "falled",
+          "correct": false,
+          "feedback": "'Fall' é irregular e não recebe '-ed'. A alteração correta é fall → fell → fallen."
+        },
+        {
+          "text": "fall",
+          "correct": false,
+          "feedback": "'Fall' é a forma base. Depois de 'have', precisamos do Past Participle 'fallen'."
+        }
       ]
     },
     {
-      "tag": "Feel — Felt — Felt",
+      "tag": "Feel",
       "text": "I <code>_____</code> much better after taking a break.",
       "options": [
-        { "text": "felt", "correct": true, "feedback": "Exato! 'Feel' segue feel → felt → felt. O passado e o particípio têm a mesma forma." },
-        { "text": "feeled", "correct": false, "feedback": "'Feel' é irregular e não forma o passado com '-ed'. Sua forma passada é 'felt'." },
-        { "text": "feel", "correct": false, "feedback": "'Feel' é a forma base. O contexto de uma ação passada exige 'felt'." },
-        { "text": "fought", "correct": false, "feedback": "'Fought' pertence ao verbo 'fight', não a 'feel'. Embora ambos sejam irregulares, possuem conjugações diferentes." }
+        {
+          "text": "felt",
+          "correct": true,
+          "feedback": "Exato! 'Feel' segue feel → felt → felt. O passado e o particípio têm a mesma forma."
+        },
+        {
+          "text": "feeled",
+          "correct": false,
+          "feedback": "'Feel' é irregular e não forma o passado com '-ed'. Sua forma passada é 'felt'."
+        },
+        {
+          "text": "feel",
+          "correct": false,
+          "feedback": "'Feel' é a forma base. O contexto de uma ação passada exige 'felt'."
+        },
+        {
+          "text": "fought",
+          "correct": false,
+          "feedback": "'Fought' pertence ao verbo 'fight', não a 'feel'. Embora ambos sejam irregulares, possuem conjugações diferentes."
+        }
       ]
     },
     {
-      "tag": "Find — Found — Found",
+      "tag": "Find",
       "text": "She <code>_____</code> her keys under the sofa.",
       "options": [
-        { "text": "found", "correct": true, "feedback": "Correto! 'Find' segue find → found → found. O Simple Past e o Past Participle são iguais." },
-        { "text": "finded", "correct": false, "feedback": "'Find' é irregular e não recebe '-ed'. A forma passada correta é 'found'." },
-        { "text": "find", "correct": false, "feedback": "'Find' é a forma base. Como a descoberta aconteceu no passado, usamos 'found'." },
-        { "text": "founded", "correct": false, "feedback": "'Founded' pertence ao verbo 'found', que significa fundar. Não é o passado de 'find', cujo passado é 'found'." }
+        {
+          "text": "found",
+          "correct": true,
+          "feedback": "Correto! 'Find' segue find → found → found. O Simple Past e o Past Participle são iguais."
+        },
+        {
+          "text": "finded",
+          "correct": false,
+          "feedback": "'Find' é irregular e não recebe '-ed'. A forma passada correta é 'found'."
+        },
+        {
+          "text": "find",
+          "correct": false,
+          "feedback": "'Find' é a forma base. Como a descoberta aconteceu no passado, usamos 'found'."
+        },
+        {
+          "text": "founded",
+          "correct": false,
+          "feedback": "'Founded' pertence ao verbo 'found', que significa fundar. Não é o passado de 'find', cujo passado é 'found'."
+        }
       ]
     },
     {
-      "tag": "Fly — Flew — Flown",
+      "tag": "Fly",
       "text": "They have <code>_____</code> to several countries this year.",
       "options": [
-        { "text": "flown", "correct": true, "feedback": "Perfeito! 'Fly' segue fly → flew → flown. Depois de 'have', usamos o particípio 'flown'." },
-        { "text": "flew", "correct": false, "feedback": "'Flew' é o Simple Past. Como temos 'have', a forma necessária é 'flown'." },
-        { "text": "flyed", "correct": false, "feedback": "'Fly' é irregular. Quando termina em consoante + y, não basta aplicar a regra de verbos regulares; sua conjugação é fly → flew → flown." },
-        { "text": "flied", "correct": false, "feedback": "'Flied' pode aparecer em contextos muito específicos do beisebol, mas não é o particípio padrão de 'fly' no sentido de voar. Aqui usamos 'flown'." }
+        {
+          "text": "flown",
+          "correct": true,
+          "feedback": "Perfeito! 'Fly' segue fly → flew → flown. Depois de 'have', usamos o particípio 'flown'."
+        },
+        {
+          "text": "flew",
+          "correct": false,
+          "feedback": "'Flew' é o Simple Past. Como temos 'have', a forma necessária é 'flown'."
+        },
+        {
+          "text": "flyed",
+          "correct": false,
+          "feedback": "'Fly' é irregular. Quando termina em consoante + y, não basta aplicar a regra de verbos regulares; sua conjugação é fly → flew → flown."
+        },
+        {
+          "text": "flied",
+          "correct": false,
+          "feedback": "'Flied' pode aparecer em contextos muito específicos do beisebol, mas não é o particípio padrão de 'fly' no sentido de voar. Aqui usamos 'flown'."
+        }
       ]
     },
     {
-      "tag": "Forget — Forgot — Forgotten",
+      "tag": "Forget",
       "text": "I have <code>_____</code> his name again.",
       "options": [
-        { "text": "forgotten", "correct": true, "feedback": "Isso! 'Forget' segue forget → forgot → forgotten. O Present Perfect exige o particípio 'forgotten'." },
-        { "text": "forgot", "correct": false, "feedback": "'Forgot' é o Simple Past. Depois de 'have', usamos o Past Participle 'forgotten'." },
-        { "text": "forgetted", "correct": false, "feedback": "'Forget' é irregular e não recebe '-ed'. A forma correta do particípio é 'forgotten'." },
-        { "text": "forget", "correct": false, "feedback": "'Forget' é a forma base. Depois de 'have', a estrutura exige o particípio passado." }
+        {
+          "text": "forgotten",
+          "correct": true,
+          "feedback": "Isso! 'Forget' segue forget → forgot → forgotten. O Present Perfect exige o particípio 'forgotten'."
+        },
+        {
+          "text": "forgot",
+          "correct": false,
+          "feedback": "'Forgot' é o Simple Past. Depois de 'have', usamos o Past Participle 'forgotten'."
+        },
+        {
+          "text": "forgetted",
+          "correct": false,
+          "feedback": "'Forget' é irregular e não recebe '-ed'. A forma correta do particípio é 'forgotten'."
+        },
+        {
+          "text": "forget",
+          "correct": false,
+          "feedback": "'Forget' é a forma base. Depois de 'have', a estrutura exige o particípio passado."
+        }
       ]
     },
     {
-      "tag": "Get — Got — Got/Gotten",
+      "tag": "Get",
       "text": "She has <code>_____</code> much better at speaking English.",
       "options": [
-        { "text": "gotten", "correct": true, "feedback": "Correto! 'Get' segue get → got → got/gotten. 'Gotten' é especialmente comum no inglês americano como particípio para indicar mudança de estado." },
-        { "text": "got", "correct": false, "feedback": "'Got' pode funcionar como particípio em muitas variedades do inglês, especialmente britânico. Porém, nesta frase de mudança de estado, 'gotten' é a forma tradicional do inglês americano." },
-        { "text": "getted", "correct": false, "feedback": "'Get' é irregular e não forma o passado com '-ed'. Suas formas são get → got → got/gotten." },
-        { "text": "get", "correct": false, "feedback": "'Get' é a forma base. Depois de 'has', precisamos de um Past Participle: 'got' ou 'gotten', conforme a variedade e o sentido." }
+        {
+          "text": "gotten",
+          "correct": true,
+          "feedback": "Correto! 'Get' segue get → got → got/gotten. 'Gotten' é especialmente comum no inglês americano como particípio para indicar mudança de estado."
+        },
+        {
+          "text": "got",
+          "correct": false,
+          "feedback": "'Got' pode funcionar como particípio em muitas variedades do inglês, especialmente britânico. Porém, nesta frase de mudança de estado, 'gotten' é a forma tradicional do inglês americano."
+        },
+        {
+          "text": "getted",
+          "correct": false,
+          "feedback": "'Get' é irregular e não forma o passado com '-ed'. Suas formas são get → got → got/gotten."
+        },
+        {
+          "text": "get",
+          "correct": false,
+          "feedback": "'Get' é a forma base. Depois de 'has', precisamos de um Past Participle: 'got' ou 'gotten', conforme a variedade e o sentido."
+        }
       ]
     },
     {
-      "tag": "Give — Gave — Given",
+      "tag": "Give",
       "text": "He has <code>_____</code> me some useful advice.",
       "options": [
-        { "text": "given", "correct": true, "feedback": "Exato! 'Give' segue give → gave → given. Depois de 'has', o particípio correto é 'given'." },
-        { "text": "gave", "correct": false, "feedback": "'Gave' é o Simple Past. Como temos 'has', precisamos do Past Participle 'given'." },
-        { "text": "gived", "correct": false, "feedback": "'Give' é irregular e não recebe '-ed'. A forma de particípio é 'given'." },
-        { "text": "give", "correct": false, "feedback": "'Give' é a forma base. A estrutura 'has + verbo' exige o particípio passado." }
+        {
+          "text": "given",
+          "correct": true,
+          "feedback": "Exato! 'Give' segue give → gave → given. Depois de 'has', o particípio correto é 'given'."
+        },
+        {
+          "text": "gave",
+          "correct": false,
+          "feedback": "'Gave' é o Simple Past. Como temos 'has', precisamos do Past Participle 'given'."
+        },
+        {
+          "text": "gived",
+          "correct": false,
+          "feedback": "'Give' é irregular e não recebe '-ed'. A forma de particípio é 'given'."
+        },
+        {
+          "text": "give",
+          "correct": false,
+          "feedback": "'Give' é a forma base. A estrutura 'has + verbo' exige o particípio passado."
+        }
       ]
     },
     {
-      "tag": "Go — Went — Gone",
+      "tag": "Go",
       "text": "She has <code>_____</code> to the supermarket.",
       "options": [
-        { "text": "gone", "correct": true, "feedback": "Perfeito! 'Go' segue go → went → gone. Depois de 'has', usamos o particípio 'gone'." },
-        { "text": "went", "correct": false, "feedback": "'Went' é o Simple Past. O Present Perfect exige 'gone' depois de 'has'." },
-        { "text": "goed", "correct": false, "feedback": "'Go' é um dos verbos mais irregulares do inglês. Sua forma passada não recebe '-ed': go → went → gone." },
-        { "text": "go", "correct": false, "feedback": "'Go' é a forma base e não pode seguir 'has' nessa estrutura. O particípio é 'gone'." }
+        {
+          "text": "gone",
+          "correct": true,
+          "feedback": "Perfeito! 'Go' segue go → went → gone. Depois de 'has', usamos o particípio 'gone'."
+        },
+        {
+          "text": "went",
+          "correct": false,
+          "feedback": "'Went' é o Simple Past. O Present Perfect exige 'gone' depois de 'has'."
+        },
+        {
+          "text": "goed",
+          "correct": false,
+          "feedback": "'Go' é um dos verbos mais irregulares do inglês. Sua forma passada não recebe '-ed': go → went → gone."
+        },
+        {
+          "text": "go",
+          "correct": false,
+          "feedback": "'Go' é a forma base e não pode seguir 'has' nessa estrutura. O particípio é 'gone'."
+        }
       ]
     },
     {
-      "tag": "Have — Had — Had",
+      "tag": "Have",
       "text": "We <code>_____</code> a great time at the concert.",
       "options": [
-        { "text": "had", "correct": true, "feedback": "Correto! 'Have' segue have → had → had. O Simple Past e o Past Participle são iguais." },
-        { "text": "haved", "correct": false, "feedback": "'Have' é irregular e não recebe '-ed'. Tanto o passado quanto o particípio são 'had'." },
-        { "text": "have", "correct": false, "feedback": "'Have' é a forma base. Como o evento já aconteceu, a frase exige o Simple Past 'had'." },
-        { "text": "has", "correct": false, "feedback": "'Has' é a forma do Present Simple usada com he, she e it. Para o passado de 'have', usamos 'had' com todos os sujeitos." }
+        {
+          "text": "had",
+          "correct": true,
+          "feedback": "Correto! 'Have' segue have → had → had. O Simple Past e o Past Participle são iguais."
+        },
+        {
+          "text": "haved",
+          "correct": false,
+          "feedback": "'Have' é irregular e não recebe '-ed'. Tanto o passado quanto o particípio são 'had'."
+        },
+        {
+          "text": "have",
+          "correct": false,
+          "feedback": "'Have' é a forma base. Como o evento já aconteceu, a frase exige o Simple Past 'had'."
+        },
+        {
+          "text": "has",
+          "correct": false,
+          "feedback": "'Has' é a forma do Present Simple usada com he, she e it. Para o passado de 'have', usamos 'had' com todos os sujeitos."
+        }
       ]
     },
     {
-      "tag": "Know — Knew — Known",
+      "tag": "Know",
       "text": "I have <code>_____</code> her since college.",
       "options": [
-        { "text": "known", "correct": true, "feedback": "Isso! 'Know' segue know → knew → known. O Present Perfect exige o particípio 'known'." },
-        { "text": "knew", "correct": false, "feedback": "'Knew' é o Simple Past. Depois de 'have', precisamos do Past Participle 'known'." },
-        { "text": "knowed", "correct": false, "feedback": "'Know' é irregular e não recebe '-ed'. A conjugação correta é know → knew → known." },
-        { "text": "know", "correct": false, "feedback": "'Know' é a forma base. Na estrutura 'have + particípio', precisamos usar 'known'." }
+        {
+          "text": "known",
+          "correct": true,
+          "feedback": "Isso! 'Know' segue know → knew → known. O Present Perfect exige o particípio 'known'."
+        },
+        {
+          "text": "knew",
+          "correct": false,
+          "feedback": "'Knew' é o Simple Past. Depois de 'have', precisamos do Past Participle 'known'."
+        },
+        {
+          "text": "knowed",
+          "correct": false,
+          "feedback": "'Know' é irregular e não recebe '-ed'. A conjugação correta é know → knew → known."
+        },
+        {
+          "text": "know",
+          "correct": false,
+          "feedback": "'Know' é a forma base. Na estrutura 'have + particípio', precisamos usar 'known'."
+        }
       ]
     },
     {
-      "tag": "Leave — Left — Left",
+      "tag": "Leave",
       "text": "They have already <code>_____</code> the office.",
       "options": [
-        { "text": "left", "correct": true, "feedback": "Perfeito! 'Leave' segue leave → left → left. O passado e o particípio têm a mesma forma." },
-        { "text": "leaved", "correct": false, "feedback": "'Leave' é irregular e não recebe '-ed'. Tanto o passado quanto o particípio são 'left'." },
-        { "text": "leave", "correct": false, "feedback": "'Leave' é a forma base. Depois de 'have', precisamos do particípio 'left'." },
-        { "text": "leaveded", "correct": false, "feedback": "Essa forma aplica incorretamente a regularização com '-ed'. A conjugação correta é leave → left → left." }
+        {
+          "text": "left",
+          "correct": true,
+          "feedback": "Perfeito! 'Leave' segue leave → left → left. O passado e o particípio têm a mesma forma."
+        },
+        {
+          "text": "leaved",
+          "correct": false,
+          "feedback": "'Leave' é irregular e não recebe '-ed'. Tanto o passado quanto o particípio são 'left'."
+        },
+        {
+          "text": "leave",
+          "correct": false,
+          "feedback": "'Leave' é a forma base. Depois de 'have', precisamos do particípio 'left'."
+        },
+        {
+          "text": "leaveded",
+          "correct": false,
+          "feedback": "Essa forma aplica incorretamente a regularização com '-ed'. A conjugação correta é leave → left → left."
+        }
       ]
     },
     {
-      "tag": "Make — Made — Made",
+      "tag": "Make",
       "text": "She has <code>_____</code> an important decision.",
       "options": [
-        { "text": "made", "correct": true, "feedback": "Correto! 'Make' segue make → made → made. Depois de 'has', usamos 'made' como Past Participle." },
-        { "text": "maked", "correct": false, "feedback": "'Make' é irregular e não recebe '-ed'. Sua forma de passado e particípio é 'made'." },
-        { "text": "make", "correct": false, "feedback": "'Make' é a forma base. O Present Perfect exige o particípio 'made'." },
-        { "text": "maden", "correct": false, "feedback": "'Maden' não é a forma moderna do verbo. A conjugação correta é make → made → made." }
+        {
+          "text": "made",
+          "correct": true,
+          "feedback": "Correto! 'Make' segue make → made → made. Depois de 'has', usamos 'made' como Past Participle."
+        },
+        {
+          "text": "maked",
+          "correct": false,
+          "feedback": "'Make' é irregular e não recebe '-ed'. Sua forma de passado e particípio é 'made'."
+        },
+        {
+          "text": "make",
+          "correct": false,
+          "feedback": "'Make' é a forma base. O Present Perfect exige o particípio 'made'."
+        },
+        {
+          "text": "maden",
+          "correct": false,
+          "feedback": "'Maden' não é a forma moderna do verbo. A conjugação correta é make → made → made."
+        }
       ]
     },
     {
-      "tag": "Read — Read — Read",
+      "tag": "Read",
       "text": "I have <code>_____</code> that article three times.",
       "options": [
-        { "text": "read", "correct": true, "feedback": "Exato! 'Read' mantém a mesma grafia nas três formas: read → read → read. A pronúncia muda no passado e no particípio, mas a escrita permanece igual." },
-        { "text": "red", "correct": false, "feedback": "'Red' representa a pronúncia do passado de 'read', mas não é a grafia correta. A palavra continua escrita 'read'." },
-        { "text": "readed", "correct": false, "feedback": "'Read' não é regular e não recebe '-ed'. A mesma grafia 'read' funciona como base, passado e particípio." },
-        { "text": "rode", "correct": false, "feedback": "'Rode' é o Simple Past de 'ride', outro verbo irregular. Não deve ser confundido com 'read', cujo passado mantém a mesma grafia." }
+        {
+          "text": "read",
+          "correct": true,
+          "feedback": "Exato! 'Read' mantém a mesma grafia nas três formas: read → read → read. A pronúncia muda no passado e no particípio, mas a escrita permanece igual."
+        },
+        {
+          "text": "red",
+          "correct": false,
+          "feedback": "'Red' representa a pronúncia do passado de 'read', mas não é a grafia correta. A palavra continua escrita 'read'."
+        },
+        {
+          "text": "readed",
+          "correct": false,
+          "feedback": "'Read' não é regular e não recebe '-ed'. A mesma grafia 'read' funciona como base, passado e particípio."
+        },
+        {
+          "text": "rode",
+          "correct": false,
+          "feedback": "'Rode' é o Simple Past de 'ride', outro verbo irregular. Não deve ser confundido com 'read', cujo passado mantém a mesma grafia."
+        }
       ]
     },
     {
-      "tag": "Ride — Rode — Ridden",
+      "tag": "Ride",
       "text": "She has <code>_____</code> a horse only once.",
       "options": [
-        { "text": "ridden", "correct": true, "feedback": "Perfeito! 'Ride' segue ride → rode → ridden. Depois de 'has', usamos o particípio 'ridden'." },
-        { "text": "rode", "correct": false, "feedback": "'Rode' é o Simple Past. O Present Perfect exige o particípio 'ridden'." },
-        { "text": "rided", "correct": false, "feedback": "'Ride' é irregular e não recebe '-ed'. Sua conjugação é ride → rode → ridden." },
-        { "text": "ride", "correct": false, "feedback": "'Ride' é a forma base. Depois de 'has', precisamos do Past Participle 'ridden'." }
+        {
+          "text": "ridden",
+          "correct": true,
+          "feedback": "Perfeito! 'Ride' segue ride → rode → ridden. Depois de 'has', usamos o particípio 'ridden'."
+        },
+        {
+          "text": "rode",
+          "correct": false,
+          "feedback": "'Rode' é o Simple Past. O Present Perfect exige o particípio 'ridden'."
+        },
+        {
+          "text": "rided",
+          "correct": false,
+          "feedback": "'Ride' é irregular e não recebe '-ed'. Sua conjugação é ride → rode → ridden."
+        },
+        {
+          "text": "ride",
+          "correct": false,
+          "feedback": "'Ride' é a forma base. Depois de 'has', precisamos do Past Participle 'ridden'."
+        }
       ]
     },
     {
-      "tag": "Run — Ran — Run",
+      "tag": "Run",
       "text": "He <code>_____</code> five kilometers yesterday.",
       "options": [
-        { "text": "ran", "correct": true, "feedback": "Correto! 'Run' segue run → ran → run. Como temos Simple Past, usamos 'ran'." },
-        { "text": "run", "correct": false, "feedback": "'Run' é a forma base e também o particípio, mas o Simple Past exige 'ran'." },
-        { "text": "runned", "correct": false, "feedback": "'Run' é irregular e não recebe '-ed'. A mudança correta no passado é run → ran." },
-        { "text": "runneded", "correct": false, "feedback": "Essa forma aplica duas vezes uma terminação que nem sequer pertence à conjugação de 'run'. A forma correta é 'ran'." }
+        {
+          "text": "ran",
+          "correct": true,
+          "feedback": "Correto! 'Run' segue run → ran → run. Como temos Simple Past, usamos 'ran'."
+        },
+        {
+          "text": "run",
+          "correct": false,
+          "feedback": "'Run' é a forma base e também o particípio, mas o Simple Past exige 'ran'."
+        },
+        {
+          "text": "runned",
+          "correct": false,
+          "feedback": "'Run' é irregular e não recebe '-ed'. A mudança correta no passado é run → ran."
+        },
+        {
+          "text": "runneded",
+          "correct": false,
+          "feedback": "Essa forma aplica duas vezes uma terminação que nem sequer pertence à conjugação de 'run'. A forma correta é 'ran'."
+        }
       ]
     },
     {
-      "tag": "Say — Said — Said",
+      "tag": "Say",
       "text": "She <code>_____</code> she was tired.",
       "options": [
-        { "text": "said", "correct": true, "feedback": "Isso! 'Say' segue say → said → said. O passado e o particípio são iguais." },
-        { "text": "sayd", "correct": false, "feedback": "'Say' não forma o passado simplesmente trocando a grafia dessa maneira. A forma irregular correta é 'said'." },
-        { "text": "sayed", "correct": false, "feedback": "'Say' é irregular e não recebe '-ed'. O Simple Past é 'said'." },
-        { "text": "sayeded", "correct": false, "feedback": "A forma não segue nenhuma regra válida de conjugação. O passado e o particípio de 'say' são ambos 'said'." }
+        {
+          "text": "said",
+          "correct": true,
+          "feedback": "Isso! 'Say' segue say → said → said. O passado e o particípio são iguais."
+        },
+        {
+          "text": "sayd",
+          "correct": false,
+          "feedback": "'Say' não forma o passado simplesmente trocando a grafia dessa maneira. A forma irregular correta é 'said'."
+        },
+        {
+          "text": "sayed",
+          "correct": false,
+          "feedback": "'Say' é irregular e não recebe '-ed'. O Simple Past é 'said'."
+        },
+        {
+          "text": "sayeded",
+          "correct": false,
+          "feedback": "A forma não segue nenhuma regra válida de conjugação. O passado e o particípio de 'say' são ambos 'said'."
+        }
       ]
     },
     {
-      "tag": "See — Saw — Seen",
+      "tag": "See",
       "text": "Have you <code>_____</code> this movie before?",
       "options": [
-        { "text": "seen", "correct": true, "feedback": "Perfeito! 'See' segue see → saw → seen. Depois de 'have', usamos o Past Participle 'seen'." },
-        { "text": "saw", "correct": false, "feedback": "'Saw' é o Simple Past. Como temos 'have', precisamos do particípio 'seen'." },
-        { "text": "seed", "correct": false, "feedback": "'Seed' é outra palavra e não é o particípio de 'see'. A forma correta é 'seen'." },
-        { "text": "see", "correct": false, "feedback": "'See' é a forma base. Depois de 'have', o verbo precisa estar no particípio passado." }
+        {
+          "text": "seen",
+          "correct": true,
+          "feedback": "Perfeito! 'See' segue see → saw → seen. Depois de 'have', usamos o Past Participle 'seen'."
+        },
+        {
+          "text": "saw",
+          "correct": false,
+          "feedback": "'Saw' é o Simple Past. Como temos 'have', precisamos do particípio 'seen'."
+        },
+        {
+          "text": "seed",
+          "correct": false,
+          "feedback": "'Seed' é outra palavra e não é o particípio de 'see'. A forma correta é 'seen'."
+        },
+        {
+          "text": "see",
+          "correct": false,
+          "feedback": "'See' é a forma base. Depois de 'have', o verbo precisa estar no particípio passado."
+        }
       ]
     },
     {
-      "tag": "Sing — Sang — Sung",
+      "tag": "Sing",
       "text": "She <code>_____</code> beautifully at the concert last night.",
       "options": [
-        { "text": "sang", "correct": true, "feedback": "Correto! 'Sing' segue sing → sang → sung. O marcador 'last night' pede Simple Past, então usamos 'sang'." },
-        { "text": "sung", "correct": false, "feedback": "'Sung' é o Past Participle e normalmente precisa de um auxiliar, como em 'has sung'. No Simple Past isolado, usamos 'sang'." },
-        { "text": "singed", "correct": false, "feedback": "'Singed' pertence ao verbo 'singe', que significa queimar levemente. O passado de 'sing' é 'sang'." },
-        { "text": "sings", "correct": false, "feedback": "A terminação '-s' marca o Present Simple, não o passado. O marcador 'last night' exige o Simple Past 'sang'." }
+        {
+          "text": "sang",
+          "correct": true,
+          "feedback": "Correto! 'Sing' segue sing → sang → sung. O marcador 'last night' pede Simple Past, então usamos 'sang'."
+        },
+        {
+          "text": "sung",
+          "correct": false,
+          "feedback": "'Sung' é o Past Participle e normalmente precisa de um auxiliar, como em 'has sung'. No Simple Past isolado, usamos 'sang'."
+        },
+        {
+          "text": "singed",
+          "correct": false,
+          "feedback": "'Singed' pertence ao verbo 'singe', que significa queimar levemente. O passado de 'sing' é 'sang'."
+        },
+        {
+          "text": "sings",
+          "correct": false,
+          "feedback": "A terminação '-s' marca o Present Simple, não o passado. O marcador 'last night' exige o Simple Past 'sang'."
+        }
       ]
     },
     {
-      "tag": "Speak — Spoke — Spoken",
+      "tag": "Speak",
       "text": "He has <code>_____</code> to the manager already.",
       "options": [
-        { "text": "spoken", "correct": true, "feedback": "Exato! 'Speak' segue speak → spoke → spoken. Depois de 'has', o particípio correto é 'spoken'." },
-        { "text": "spoke", "correct": false, "feedback": "'Spoke' é o Simple Past. O Present Perfect exige 'spoken' depois de 'has'." },
-        { "text": "speaked", "correct": false, "feedback": "'Speak' é irregular e não recebe '-ed'. A conjugação correta é speak → spoke → spoken." },
-        { "text": "speak", "correct": false, "feedback": "'Speak' é a forma base. Depois de 'has', precisamos do Past Participle 'spoken'." }
+        {
+          "text": "spoken",
+          "correct": true,
+          "feedback": "Exato! 'Speak' segue speak → spoke → spoken. Depois de 'has', o particípio correto é 'spoken'."
+        },
+        {
+          "text": "spoke",
+          "correct": false,
+          "feedback": "'Spoke' é o Simple Past. O Present Perfect exige 'spoken' depois de 'has'."
+        },
+        {
+          "text": "speaked",
+          "correct": false,
+          "feedback": "'Speak' é irregular e não recebe '-ed'. A conjugação correta é speak → spoke → spoken."
+        },
+        {
+          "text": "speak",
+          "correct": false,
+          "feedback": "'Speak' é a forma base. Depois de 'has', precisamos do Past Participle 'spoken'."
+        }
       ]
     },
     {
-      "tag": "Take — Took — Taken",
+      "tag": "Take",
       "text": "She has <code>_____</code> several photos today.",
       "options": [
-        { "text": "taken", "correct": true, "feedback": "Perfeito! 'Take' segue take → took → taken. Depois de 'has', usamos o particípio 'taken'." },
-        { "text": "took", "correct": false, "feedback": "'Took' é o Simple Past. Como temos 'has', a forma necessária é 'taken'." },
-        { "text": "taked", "correct": false, "feedback": "'Take' é irregular e não recebe '-ed'. Sua conjugação é take → took → taken." },
-        { "text": "tooken", "correct": false, "feedback": "'Tooken' mistura incorretamente o passado 'took' com a terminação típica de alguns particípios. A forma correta é 'taken'." }
+        {
+          "text": "taken",
+          "correct": true,
+          "feedback": "Perfeito! 'Take' segue take → took → taken. Depois de 'has', usamos o particípio 'taken'."
+        },
+        {
+          "text": "took",
+          "correct": false,
+          "feedback": "'Took' é o Simple Past. Como temos 'has', a forma necessária é 'taken'."
+        },
+        {
+          "text": "taked",
+          "correct": false,
+          "feedback": "'Take' é irregular e não recebe '-ed'. Sua conjugação é take → took → taken."
+        },
+        {
+          "text": "tooken",
+          "correct": false,
+          "feedback": "'Tooken' mistura incorretamente o passado 'took' com a terminação típica de alguns particípios. A forma correta é 'taken'."
+        }
       ]
     },
     {
-      "tag": "Teach — Taught — Taught",
+      "tag": "Teach",
       "text": "My father <code>_____</code> me how to swim when I was six.",
       "options": [
-        { "text": "taught", "correct": true, "feedback": "Correto! 'Teach' segue teach → taught → taught. O Simple Past é 'taught'." },
-        { "text": "teached", "correct": false, "feedback": "'Teach' é irregular e não recebe '-ed'. A forma passada correta é 'taught'." },
-        { "text": "teach", "correct": false, "feedback": "'Teach' é a forma base. Como o evento aconteceu quando eu tinha seis anos, precisamos do passado 'taught'." },
-        { "text": "tought", "correct": false, "feedback": "'Tought' é uma grafia incorreta. A forma correta é 'taught', com 'au'." }
+        {
+          "text": "taught",
+          "correct": true,
+          "feedback": "Correto! 'Teach' segue teach → taught → taught. O Simple Past é 'taught'."
+        },
+        {
+          "text": "teached",
+          "correct": false,
+          "feedback": "'Teach' é irregular e não recebe '-ed'. A forma passada correta é 'taught'."
+        },
+        {
+          "text": "teach",
+          "correct": false,
+          "feedback": "'Teach' é a forma base. Como o evento aconteceu quando eu tinha seis anos, precisamos do passado 'taught'."
+        },
+        {
+          "text": "tought",
+          "correct": false,
+          "feedback": "'Tought' é uma grafia incorreta. A forma correta é 'taught', com 'au'."
+        }
       ]
     },
     {
-      "tag": "Think — Thought — Thought",
+      "tag": "Think",
       "text": "I <code>_____</code> about your suggestion yesterday.",
       "options": [
-        { "text": "thought", "correct": true, "feedback": "Isso! 'Think' segue think → thought → thought. O Simple Past é 'thought'." },
-        { "text": "thinked", "correct": false, "feedback": "'Think' é irregular e não recebe '-ed'. Sua forma passada é 'thought'." },
-        { "text": "thaught", "correct": false, "feedback": "'Thaught' é uma grafia incorreta. Apesar da pronúncia, a forma escrita correta é 'thought'." },
-        { "text": "think", "correct": false, "feedback": "'Think' é a forma base. O marcador 'yesterday' exige o Simple Past 'thought'." }
+        {
+          "text": "thought",
+          "correct": true,
+          "feedback": "Isso! 'Think' segue think → thought → thought. O Simple Past é 'thought'."
+        },
+        {
+          "text": "thinked",
+          "correct": false,
+          "feedback": "'Think' é irregular e não recebe '-ed'. Sua forma passada é 'thought'."
+        },
+        {
+          "text": "thaught",
+          "correct": false,
+          "feedback": "'Thaught' é uma grafia incorreta. Apesar da pronúncia, a forma escrita correta é 'thought'."
+        },
+        {
+          "text": "think",
+          "correct": false,
+          "feedback": "'Think' é a forma base. O marcador 'yesterday' exige o Simple Past 'thought'."
+        }
       ]
     },
     {
-      "tag": "Write — Wrote — Written",
+      "tag": "Write",
       "text": "She has <code>_____</code> three emails this morning.",
       "options": [
-        { "text": "written", "correct": true, "feedback": "Perfeito! 'Write' segue write → wrote → written. Depois de 'has', usamos o Past Participle 'written'." },
-        { "text": "wrote", "correct": false, "feedback": "'Wrote' é o Simple Past. O Present Perfect exige 'written' depois de 'has'." },
-        { "text": "writed", "correct": false, "feedback": "'Write' é irregular e não recebe '-ed'. A conjugação correta é write → wrote → written." },
-        { "text": "writen", "correct": false, "feedback": "'Writen' está com apenas um 't'. O particípio correto mantém o 't' duplo: 'written'." }
+        {
+          "text": "written",
+          "correct": true,
+          "feedback": "Perfeito! 'Write' segue write → wrote → written. Depois de 'has', usamos o Past Participle 'written'."
+        },
+        {
+          "text": "wrote",
+          "correct": false,
+          "feedback": "'Wrote' é o Simple Past. O Present Perfect exige 'written' depois de 'has'."
+        },
+        {
+          "text": "writed",
+          "correct": false,
+          "feedback": "'Write' é irregular e não recebe '-ed'. A conjugação correta é write → wrote → written."
+        },
+        {
+          "text": "writen",
+          "correct": false,
+          "feedback": "'Writen' está com apenas um 't'. O particípio correto mantém o 't' duplo: 'written'."
+        }
       ]
     },
     {
-      "tag": "Broadcast — Três Formas Iguais",
+      "tag": "Broadcast",
       "text": "The ceremony was <code>_____</code> live to millions of viewers yesterday.",
       "options": [
-        { "text": "broadcast", "correct": true, "feedback": "Exato! 'Broadcast' mantém a mesma forma nas três principais formas: broadcast → broadcast → broadcast. Na voz passiva, 'was' pede o particípio passado." },
-        { "text": "broadcasted", "correct": false, "feedback": "'Broadcasted' aparece em alguns usos, mas a forma tradicional e mais comum de 'broadcast' mantém a mesma forma no passado e no particípio." },
-        { "text": "broadcasting", "correct": false, "feedback": "'Broadcasting' é a forma -ing e não funciona como particípio passado nessa voz passiva. Depois de 'was', precisamos de 'broadcast'." },
-        { "text": "broadcasten", "correct": false, "feedback": "'Broadcasten' não pertence à conjugação moderna de 'broadcast'. O verbo não recebe '-en' para formar o particípio." }
+        {
+          "text": "broadcast",
+          "correct": true,
+          "feedback": "Exato! 'Broadcast' mantém a mesma forma nas três principais formas: broadcast → broadcast → broadcast. Na voz passiva, 'was' pede o particípio passado."
+        },
+        {
+          "text": "broadcasted",
+          "correct": false,
+          "feedback": "'Broadcasted' aparece em alguns usos, mas a forma tradicional e mais comum de 'broadcast' mantém a mesma forma no passado e no particípio."
+        },
+        {
+          "text": "broadcasting",
+          "correct": false,
+          "feedback": "'Broadcasting' é a forma -ing e não funciona como particípio passado nessa voz passiva. Depois de 'was', precisamos de 'broadcast'."
+        },
+        {
+          "text": "broadcasten",
+          "correct": false,
+          "feedback": "'Broadcasten' não pertence à conjugação moderna de 'broadcast'. O verbo não recebe '-en' para formar o particípio."
+        }
       ]
     },
     {
-      "tag": "Lie — Lay — Lain",
+      "tag": "Lie",
       "text": "He has <code>_____</code> in bed all morning feeling sick.",
       "options": [
-        { "text": "lain", "correct": true, "feedback": "Perfeito! Quando 'lie' significa 'deitar-se', suas formas são lie → lay → lain. Como temos 'has', precisamos do particípio 'lain'." },
-        { "text": "laid", "correct": false, "feedback": "'Laid' é o passado e particípio de 'lay', que significa colocar algo. Para 'deitar-se' sem objeto, usamos 'lie → lay → lain'." },
-        { "text": "lied", "correct": false, "feedback": "'Lied' pertence ao outro significado de 'lie': mentir. Nesse caso, o verbo é regular: lie → lied → lied." },
-        { "text": "lay", "correct": false, "feedback": "'Lay' é o Simple Past de 'lie'. Depois do auxiliar 'has', porém, precisamos do Past Participle 'lain'." }
+        {
+          "text": "lain",
+          "correct": true,
+          "feedback": "Perfeito! Quando 'lie' significa 'deitar-se', suas formas são lie → lay → lain. Como temos 'has', precisamos do particípio 'lain'."
+        },
+        {
+          "text": "laid",
+          "correct": false,
+          "feedback": "'Laid' é o passado e particípio de 'lay', que significa colocar algo. Para 'deitar-se' sem objeto, usamos 'lie → lay → lain'."
+        },
+        {
+          "text": "lied",
+          "correct": false,
+          "feedback": "'Lied' pertence ao outro significado de 'lie': mentir. Nesse caso, o verbo é regular: lie → lied → lied."
+        },
+        {
+          "text": "lay",
+          "correct": false,
+          "feedback": "'Lay' é o Simple Past de 'lie'. Depois do auxiliar 'has', porém, precisamos do Past Participle 'lain'."
+        }
       ]
     },
     {
-      "tag": "Strive — Strove — Striven",
+      "tag": "Strive",
       "text": "She has <code>_____</code> to maintain high ethical standards throughout her career.",
       "options": [
-        { "text": "striven", "correct": true, "feedback": "Isso! 'Strive' segue strive → strove → striven. O auxiliar 'has' exige o particípio passado 'striven'." },
-        { "text": "strove", "correct": false, "feedback": "'Strove' é o Simple Past de 'strive'. Como a frase utiliza 'has', é necessário o particípio 'striven'." },
-        { "text": "strived", "correct": false, "feedback": "'Strived' aparece em alguns usos, mas 'striven' é a forma irregular tradicional e preferida em inglês formal." },
-        { "text": "strive", "correct": false, "feedback": "'Strive' é a forma base. Depois de 'has', o Present Perfect exige o particípio 'striven'." }
+        {
+          "text": "striven",
+          "correct": true,
+          "feedback": "Isso! 'Strive' segue strive → strove → striven. O auxiliar 'has' exige o particípio passado 'striven'."
+        },
+        {
+          "text": "strove",
+          "correct": false,
+          "feedback": "'Strove' é o Simple Past de 'strive'. Como a frase utiliza 'has', é necessário o particípio 'striven'."
+        },
+        {
+          "text": "strived",
+          "correct": false,
+          "feedback": "'Strived' aparece em alguns usos, mas 'striven' é a forma irregular tradicional e preferida em inglês formal."
+        },
+        {
+          "text": "strive",
+          "correct": false,
+          "feedback": "'Strive' é a forma base. Depois de 'has', o Present Perfect exige o particípio 'striven'."
+        }
       ]
     },
     {
-      "tag": "Tread — Trod — Trodden",
+      "tag": "Tread",
       "text": "No human has <code>_____</code> on this ancient path for centuries.",
       "options": [
-        { "text": "trodden", "correct": true, "feedback": "Correto! 'Tread' segue tread → trod → trodden. Após 'has', usamos o particípio passado 'trodden'." },
-        { "text": "trod", "correct": false, "feedback": "'Trod' é o Simple Past. Como a estrutura é Present Perfect, o particípio necessário é 'trodden'." },
-        { "text": "treaded", "correct": false, "feedback": "'Tread' possui conjugação irregular e não deve ser regularizado com '-ed' neste contexto. A forma esperada é 'trodden'." },
-        { "text": "treaden", "correct": false, "feedback": "'Treaden' parece uma formação possível por analogia com outros verbos, mas não é a forma padrão. A conjugação é tread → trod → trodden." }
+        {
+          "text": "trodden",
+          "correct": true,
+          "feedback": "Correto! 'Tread' segue tread → trod → trodden. Após 'has', usamos o particípio passado 'trodden'."
+        },
+        {
+          "text": "trod",
+          "correct": false,
+          "feedback": "'Trod' é o Simple Past. Como a estrutura é Present Perfect, o particípio necessário é 'trodden'."
+        },
+        {
+          "text": "treaded",
+          "correct": false,
+          "feedback": "'Tread' possui conjugação irregular e não deve ser regularizado com '-ed' neste contexto. A forma esperada é 'trodden'."
+        },
+        {
+          "text": "treaden",
+          "correct": false,
+          "feedback": "'Treaden' parece uma formação possível por analogia com outros verbos, mas não é a forma padrão. A conjugação é tread → trod → trodden."
+        }
       ]
     },
     {
-      "tag": "Shrink — Shrank — Shrunk",
+      "tag": "Shrink",
       "text": "My favorite sweater <code>_____</code> when I washed it in hot water.",
       "options": [
-        { "text": "shrank", "correct": true, "feedback": "Perfeito! 'Shrink' segue shrink → shrank → shrunk. Como a frase usa Simple Past sem auxiliar, a forma correta é 'shrank'." },
-        { "text": "shrunk", "correct": false, "feedback": "'Shrunk' é o Past Participle de 'shrink'. Sem auxiliar e com uma ação passada concluída, usamos o Simple Past 'shrank'." },
-        { "text": "shrinked", "correct": false, "feedback": "'Shrink' é irregular e não forma o passado adicionando '-ed'. A alteração vocálica produz 'shrank'." },
-        { "text": "shronk", "correct": false, "feedback": "'Shronk' não é uma forma válida. A alternância correta é shrink → shrank → shrunk." }
+        {
+          "text": "shrank",
+          "correct": true,
+          "feedback": "Perfeito! 'Shrink' segue shrink → shrank → shrunk. Como a frase usa Simple Past sem auxiliar, a forma correta é 'shrank'."
+        },
+        {
+          "text": "shrunk",
+          "correct": false,
+          "feedback": "'Shrunk' é o Past Participle de 'shrink'. Sem auxiliar e com uma ação passada concluída, usamos o Simple Past 'shrank'."
+        },
+        {
+          "text": "shrinked",
+          "correct": false,
+          "feedback": "'Shrink' é irregular e não forma o passado adicionando '-ed'. A alteração vocálica produz 'shrank'."
+        },
+        {
+          "text": "shronk",
+          "correct": false,
+          "feedback": "'Shronk' não é uma forma válida. A alternância correta é shrink → shrank → shrunk."
+        }
       ]
     }
   ]
