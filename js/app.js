@@ -190,7 +190,11 @@ function startQuiz(key, sourceQuestions){
 }
 
 /* =========================================================
-   RENDERIZAR PERGUNTA
+   RENDERIZAR PERGUNTA — despacha por q.type
+   Tipos suportados:
+     - "multiple-choice" (padrão, usado quando q.type está ausente)
+     - "drag-fill"   → arrastar/tocar uma palavra do banco até a lacuna
+     - "word-order"  → tocar nas palavras na ordem certa para montar a frase
    ========================================================= */
 function renderQuestion(){
   state.answered = false;
@@ -198,14 +202,26 @@ function renderQuestion(){
   const total = state.quiz.questions.length;
 
   els.qTag.textContent = `${q.tag || state.quiz.title} · Pergunta ${state.index + 1} de ${total}`;
-  els.qText.innerHTML = q.text;
   els.quizScore.textContent = `${state.score}/${total}`;
   els.progressFill.style.width = `${(state.index / total) * 100}%`;
   els.correctionSlot.innerHTML = '';
   els.nextBtn.classList.remove('show');
   els.nextBtn.textContent = (state.index + 1 < total) ? 'Próxima →' : 'Ver resultado →';
-
   els.options.innerHTML = '';
+
+  const type = q.type || 'multiple-choice';
+  if(type === 'drag-fill'){
+    renderDragFill(q);
+  } else if(type === 'word-order'){
+    renderWordOrder(q);
+  } else {
+    els.qText.innerHTML = q.text;
+    renderMultipleChoice(q);
+  }
+}
+
+/* ---------- Tipo: multiple-choice (original) ---------- */
+function renderMultipleChoice(q){
   const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
   // randomiza a ORDEM das alternativas a cada exibição da pergunta
@@ -218,6 +234,205 @@ function renderQuestion(){
     btn.addEventListener('click', () => selectOption(opt, btn, q));
     els.options.appendChild(btn);
   });
+}
+
+/* ---------- Tipo: drag-fill ----------
+   Schema esperado (igual ao multiple-choice, só muda a interação):
+   {
+     "type": "drag-fill",
+     "tag": "...",
+     "text": "She <code>______</code> to the store yesterday.",
+     "options": [ { "text": "went", "correct": true, "feedback": "..." }, ... ]
+   }
+   O aluno arrasta (ou toca) uma palavra do banco até a lacuna.
+   ---------------------------------------------------------- */
+function renderDragFill(q){
+  // separa o texto no marcador da lacuna e insere uma dropzone real no lugar
+  const parts = q.text.split('<code>______</code>');
+  els.qText.innerHTML = `${parts[0] || ''}<span class="dropzone" id="dropzone"><span class="dropzone-placeholder">?</span></span>${parts[1] || ''}`;
+  const dropzoneEl = document.getElementById('dropzone');
+
+  dropzoneEl.addEventListener('dragover', (e) => {
+    if(!state.answered) e.preventDefault();
+  });
+  dropzoneEl.addEventListener('drop', (e) => {
+    e.preventDefault();
+    if(state.answered) return;
+    const idx = Number(e.dataTransfer.getData('text/plain'));
+    const chip = bank.children[idx];
+    if(chip) resolveDragFill(shuffledOptions[idx], chip, dropzoneEl, q);
+  });
+
+  const bank = document.createElement('div');
+  bank.className = 'word-bank';
+
+  const shuffledOptions = shuffle(q.options);
+  shuffledOptions.forEach((opt, i) => {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'word-chip';
+    chip.draggable = true;
+    chip.textContent = opt.text;
+
+    chip.addEventListener('dragstart', (e) => {
+      if(state.answered){ e.preventDefault(); return; }
+      e.dataTransfer.setData('text/plain', String(i));
+      chip.classList.add('dragging');
+    });
+    chip.addEventListener('dragend', () => chip.classList.remove('dragging'));
+    // fallback por toque/clique — funciona em qualquer dispositivo, sem depender de drag nativo
+    chip.addEventListener('click', () => {
+      if(state.answered) return;
+      resolveDragFill(opt, chip, dropzoneEl, q);
+    });
+
+    bank.appendChild(chip);
+  });
+
+  els.options.appendChild(bank);
+  const hint = document.createElement('p');
+  hint.className = 'interaction-hint';
+  hint.textContent = 'Arraste a palavra certa até a lacuna (ou toque nela).';
+  els.options.appendChild(hint);
+}
+
+function resolveDragFill(opt, chip, dropzoneEl, q){
+  state.answered = true;
+
+  dropzoneEl.textContent = opt.text;
+  dropzoneEl.classList.add(opt.correct ? 'correct' : 'wrong');
+
+  Array.from(els.options.querySelectorAll('.word-chip')).forEach((c) => {
+    c.disabled = true;
+    c.draggable = false;
+    if(c === chip) c.classList.add(opt.correct ? 'correct' : 'wrong');
+    else c.classList.add('dim');
+  });
+
+  if(opt.correct) state.score++;
+  showCorrection(opt.feedback, opt.correct);
+
+  state.results.push({
+    questionRef: q,
+    questionText: q.text.replace(/<[^>]+>/g, ''),
+    chosen: opt.text,
+    correct: opt.correct
+  });
+
+  els.quizScore.textContent = `${state.score}/${state.quiz.questions.length}`;
+  els.nextBtn.classList.add('show');
+}
+
+/* ---------- Tipo: word-order ----------
+   Schema esperado:
+   {
+     "type": "word-order",
+     "tag": "...",
+     "text": "Monte a frase: 'ela mora aqui há anos'",
+     "words": ["She", "has", "lived", "here", "for", "years"],
+     "feedback_correct": "...",
+     "feedback_incorrect": "..."
+   }
+   "words" já vem na ORDEM CORRETA — o app embaralha a exibição.
+   O aluno toca nas palavras, na ordem que julgar certa, para
+   montá-las na faixa de resposta; pode tocar de novo para remover.
+   ---------------------------------------------------------- */
+function renderWordOrder(q){
+  els.qText.innerHTML = q.text;
+
+  const answerStrip = document.createElement('div');
+  answerStrip.className = 'order-answer-strip';
+
+  const wordBank = document.createElement('div');
+  wordBank.className = 'word-bank';
+
+  const shuffledWords = shuffle(q.words.map((w, i) => ({ text: w, id: i })));
+  const chosen = []; // ids na ordem escolhida pelo aluno
+
+  const checkBtn = document.createElement('button');
+  checkBtn.type = 'button';
+  checkBtn.className = 'next-btn show order-check-btn';
+  checkBtn.textContent = 'Verificar';
+  checkBtn.disabled = true;
+
+  function renderBank(){
+    wordBank.innerHTML = '';
+    shuffledWords.forEach((w) => {
+      if(chosen.includes(w.id)) return;
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'word-chip';
+      chip.textContent = w.text;
+      chip.addEventListener('click', () => {
+        if(state.answered) return;
+        chosen.push(w.id);
+        renderBank();
+        renderStrip();
+      });
+      wordBank.appendChild(chip);
+    });
+  }
+
+  function renderStrip(){
+    answerStrip.innerHTML = '';
+    if(chosen.length === 0){
+      const placeholder = document.createElement('span');
+      placeholder.className = 'strip-placeholder';
+      placeholder.textContent = 'Toque nas palavras abaixo, na ordem certa';
+      answerStrip.appendChild(placeholder);
+    }
+    chosen.forEach((id, pos) => {
+      const w = shuffledWords.find((sw) => sw.id === id);
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'word-chip placed';
+      chip.textContent = w.text;
+      chip.addEventListener('click', () => {
+        if(state.answered) return;
+        chosen.splice(pos, 1);
+        renderBank();
+        renderStrip();
+      });
+      answerStrip.appendChild(chip);
+    });
+    checkBtn.disabled = chosen.length !== q.words.length;
+  }
+
+  checkBtn.addEventListener('click', () => {
+    if(state.answered || chosen.length !== q.words.length) return;
+    state.answered = true;
+
+    const chosenWords = chosen.map((id) => shuffledWords.find((sw) => sw.id === id).text);
+    const isCorrect = chosenWords.join(' ') === q.words.join(' ');
+
+    Array.from(answerStrip.children).forEach((chip, i) => {
+      chip.disabled = true;
+      chip.classList.add(chosenWords[i] === q.words[i] ? 'correct' : 'wrong');
+    });
+    Array.from(wordBank.children).forEach((c) => (c.disabled = true));
+
+    if(isCorrect) state.score++;
+    const feedback = isCorrect
+      ? (q.feedback_correct || 'Isso! A ordem está correta.')
+      : (q.feedback_incorrect || `A ordem correta é: "${q.words.join(' ')}"`);
+    showCorrection(feedback, isCorrect);
+
+    state.results.push({
+      questionRef: q,
+      questionText: q.text.replace(/<[^>]+>/g, ''),
+      chosen: chosenWords.join(' '),
+      correct: isCorrect
+    });
+
+    els.quizScore.textContent = `${state.score}/${state.quiz.questions.length}`;
+    els.nextBtn.classList.add('show');
+  });
+
+  els.options.appendChild(answerStrip);
+  els.options.appendChild(wordBank);
+  els.options.appendChild(checkBtn);
+  renderBank();
+  renderStrip();
 }
 
 /* =========================================================
@@ -295,9 +510,13 @@ function bindStaticEvents(){
 
   document.addEventListener('keydown', (e) => {
     if(!els.quiz.classList.contains('active') || state.answered) return;
-    const n = parseInt(e.key, 10);
-    if(n >= 1 && n <= els.options.children.length){
-      els.options.children[n - 1].click();
+    const currentQ = state.quiz.questions[state.index];
+    const isMultipleChoice = !currentQ || !currentQ.type || currentQ.type === 'multiple-choice';
+    if(isMultipleChoice){
+      const n = parseInt(e.key, 10);
+      if(n >= 1 && n <= els.options.children.length){
+        els.options.children[n - 1].click();
+      }
     }
     if(e.key === 'Enter' && els.nextBtn.classList.contains('show')){
       els.nextBtn.click();

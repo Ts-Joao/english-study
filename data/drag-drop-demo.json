@@ -1,0 +1,62 @@
+{
+  "title": "Arrastar e soltar",
+  "eyebrow": "Interactive · Drag & Drop",
+  "description": "Arraste a palavra certa até a lacuna — mesma ideia do preencher lacuna, mas com interação de arrastar.",
+  "questions": [
+    {
+      "type": "drag-fill",
+      "tag": "Simple Past irregular",
+      "text": "She <code>______</code> to the store yesterday.",
+      "options": [
+        { "text": "went", "correct": true, "feedback": "Isso! 'Go' é irregular: go → went → gone. Como 'yesterday' pede Simple Past, usamos 'went'." },
+        { "text": "gone", "correct": false, "feedback": "'Gone' é o Past Participle, usado depois de 'has/have' (has gone), não sozinho no Simple Past." },
+        { "text": "goed", "correct": false, "feedback": "'Go' é irregular e não recebe '-ed'. A forma correta do passado é 'went'." },
+        { "text": "go", "correct": false, "feedback": "'Go' é a forma base. O marcador 'yesterday' exige o passado 'went'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Present Perfect",
+      "text": "They have <code>______</code> in this house since 2018.",
+      "options": [
+        { "text": "lived", "correct": true, "feedback": "Correto! 'Since 2018' é a marca clássica de Present Perfect — a ação começou no passado e continua até agora: have lived." },
+        { "text": "live", "correct": false, "feedback": "Depois de 'have', precisamos do particípio passado, não da forma base." },
+        { "text": "living", "correct": false, "feedback": "'Living' é a forma -ing e não completa a estrutura do Present Perfect (have + particípio)." },
+        { "text": "lives", "correct": false, "feedback": "'Lives' é Present Simple para he/she/it — não combina com o auxiliar 'have' aqui." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Dependent preposition",
+      "text": "I'm really interested <code>______</code> learning to play the guitar.",
+      "options": [
+        { "text": "in", "correct": true, "feedback": "Isso! 'Interested in' é uma combinação fixa (preposição dependente) que precisa ser memorizada." },
+        { "text": "on", "correct": false, "feedback": "'On' não combina com 'interested' — essa não é a preposição fixa dessa expressão." },
+        { "text": "for", "correct": false, "feedback": "'For' aparece em expressões como 'famous for', mas não com 'interested'." },
+        { "text": "with", "correct": false, "feedback": "'With' combina com verbos como 'agree with', não com o adjetivo 'interested'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "First Conditional",
+      "text": "If it rains tomorrow, we <code>______</code> the trip.",
+      "options": [
+        { "text": "will cancel", "correct": true, "feedback": "Correto! First Conditional: if + Present Simple (rains), will + verbo no resultado — uma condição futura real e possível." },
+        { "text": "cancel", "correct": false, "feedback": "Falta o 'will' — sem ele, a oração de resultado do First Conditional fica incompleta." },
+        { "text": "would cancel", "correct": false, "feedback": "'Would' pertence ao Second Conditional (hipóteses improváveis), não a uma condição futura real como esta." },
+        { "text": "canceled", "correct": false, "feedback": "O passado não se encaixa na oração de resultado de um First Conditional, que sempre usa 'will + infinitivo'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Phrasal verb",
+      "text": "Can you <code>______</code> my dog while I'm on vacation?",
+      "options": [
+        { "text": "look after", "correct": true, "feedback": "Isso! 'Look after' significa cuidar de alguém ou de algo." },
+        { "text": "look up", "correct": false, "feedback": "'Look up' significa pesquisar uma informação, não cuidar de um animal." },
+        { "text": "look for", "correct": false, "feedback": "'Look for' significa procurar algo, não tomar conta de um pet." },
+        { "text": "look into", "correct": false, "feedback": "'Look into' significa investigar um assunto, não cuidar de alguém." }
+      ]
+    }
+  ]
+}

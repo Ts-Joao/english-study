@@ -1,0 +1,55 @@
+{
+  "title": "Monte a frase",
+  "eyebrow": "Interactive · Word Order",
+  "description": "Toque nas palavras na ordem certa para montar a frase em inglês.",
+  "questions": [
+    {
+      "type": "word-order",
+      "tag": "Present Perfect Continuous",
+      "text": "Monte a frase: <em>\"Ela vem estudando inglês há dois anos.\"</em>",
+      "words": ["She", "has", "been", "studying", "English", "for", "two", "years"],
+      "feedback_correct": "Isso! Present Perfect Continuous: has been + verbo em -ing, com 'for' indicando a duração da atividade.",
+      "feedback_incorrect": "Repare na ordem: sujeito (She) + has been + verbo em -ing (studying) + complemento (English) + duração (for two years)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Question — Present Simple",
+      "text": "Monte a pergunta: <em>\"Onde você trabalha?\"</em>",
+      "words": ["Where", "do", "you", "work"],
+      "feedback_correct": "Correto! Perguntas no Present Simple com verbos comuns seguem: palavra interrogativa + do/does + sujeito + verbo base.",
+      "feedback_incorrect": "A ordem certa é: palavra interrogativa (Where) + auxiliar (do) + sujeito (you) + verbo na forma base (work)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Third Conditional",
+      "text": "Monte a frase: <em>\"Se ela tivesse estudado mais, teria passado no exame.\"</em>",
+      "words": ["If", "she", "had", "studied", "more", "she", "would", "have", "passed", "the", "exam"],
+      "feedback_correct": "Isso! Third Conditional: If + Past Perfect (had studied) na condição, would have + particípio (would have passed) no resultado.",
+      "feedback_incorrect": "Lembre-se da estrutura: If + sujeito + had + particípio (condição), sujeito + would have + particípio (resultado)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Passive voice",
+      "text": "Monte a frase na voz passiva: <em>\"O livro foi escrito por um autor famoso.\"</em>",
+      "words": ["The", "book", "was", "written", "by", "a", "famous", "author"],
+      "feedback_correct": "Correto! Voz passiva no passado: objeto original vira sujeito + was/were + particípio + 'by' + agente.",
+      "feedback_incorrect": "A estrutura da voz passiva é: sujeito (The book) + was + particípio (written) + by + agente (a famous author)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Phrasal verb + object",
+      "text": "Monte a frase: <em>\"Ele finalmente desistiu de fumar.\"</em>",
+      "words": ["He", "finally", "gave", "up", "smoking"],
+      "feedback_correct": "Isso! 'Give up' + gerúndio (smoking) é a estrutura comum para expressar que alguém parou de fazer algo.",
+      "feedback_incorrect": "A ordem certa é: sujeito (He) + advérbio (finally) + phrasal verb (gave up) + gerúndio (smoking)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Reported speech",
+      "text": "Monte a frase: <em>\"Ela disse que estava cansada.\"</em>",
+      "words": ["She", "said", "that", "she", "was", "tired"],
+      "feedback_correct": "Correto! No discurso indireto, 'is' no discurso direto vira 'was', mostrando o recuo de tempo verbal (backshift).",
+      "feedback_incorrect": "A estrutura é: sujeito + said + that + sujeito + verbo no passado (was), aplicando o recuo de tempo verbal do discurso indireto."
+    }
+  ]
+}

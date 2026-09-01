@@ -4,7 +4,9 @@
     { "key": "conditionals", "file": "data/conditionals.json" },
     { "key": "prepositions", "file": "data/prepositions.json" },
     { "key": "phrasal", "file": "data/phrasal.json" },
-    { "key": "regular_verbs", "file": "data/regular-verbs.json" },
-    { "key": "irregular_verbs", "file": "data/irregular-verbs.json" }
+    { "key": "irregular-verbs", "file": "data/irregular-verbs.json" },
+    { "key": "regular-verbs", "file": "data/regular-verbs.json" },
+    { "key": "drag-drop-demo", "file": "data/drag-drop-demo.json" },
+    { "key": "word-order-demo", "file": "data/word-order-demo.json" }
   ]
 }
