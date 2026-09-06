@@ -1,0 +1,272 @@
+{
+  "title": "Voz ativa e passiva",
+  "eyebrow": "Grammar · Active & Passive Voice",
+  "description": "Identifique, transforme e monte frases na voz ativa e passiva — com múltiple choice, arrastar e soltar, e montar frase.",
+  "questions": [
+    {
+      "tag": "Fill in the blank — Present Simple Passive",
+      "text": "This bridge <code>______</code> in 1932.",
+      "options": [
+        { "text": "built", "correct": false, "feedback": "Falta o verbo 'to be'. A voz passiva sempre precisa de be + particípio: was built, não apenas 'built' sozinho." },
+        { "text": "was built", "correct": true, "feedback": "Correto! Voz passiva no passado: was/were + particípio. A ponte não construiu a si mesma — ela recebeu a ação, por isso passiva: was built." },
+        { "text": "builds", "correct": false, "feedback": "Isso seria voz ativa no presente ('constrói'), mas a frase fala de algo que aconteceu em 1932, na voz passiva." },
+        { "text": "has built", "correct": false, "feedback": "'Has built' é voz ativa no Present Perfect. Para voz passiva com auxiliar 'has', seria 'has been built', não apenas 'has built'." }
+      ]
+    },
+    {
+      "tag": "Fill in the blank — Present Simple Passive",
+      "text": "English <code>______</code> in more than 50 countries.",
+      "options": [
+        { "text": "speaks", "correct": false, "feedback": "'Speaks' é voz ativa (alguém fala). Mas 'English' não fala sozinho — ele é falado por pessoas, o que pede voz passiva." },
+        { "text": "is spoken", "correct": true, "feedback": "Isso! Voz passiva no Present Simple: is/are + particípio. 'English' recebe a ação de ser falado: is spoken." },
+        { "text": "speak", "correct": false, "feedback": "'Speak' sozinho é voz ativa na forma base, sem o auxiliar 'be' necessário para a voz passiva." },
+        { "text": "spoken", "correct": false, "feedback": "Falta o auxiliar 'is'. Sem ele, 'spoken' sozinho não forma a voz passiva — precisa ser 'is spoken'." }
+      ]
+    },
+    {
+      "tag": "Fill in the blank — Past Simple Passive",
+      "text": "The letter <code>______</code> yesterday.",
+      "options": [
+        { "text": "was sent", "correct": true, "feedback": "Correto! Voz passiva no passado: was + particípio. A carta recebeu a ação de ser enviada — was sent." },
+        { "text": "sent", "correct": false, "feedback": "Sem o auxiliar 'was', 'sent' sozinho pareceria voz ativa (ela mandou), mas falta o sujeito que praticou a ação — a frase pede voz passiva." },
+        { "text": "sends", "correct": false, "feedback": "'Sends' está no presente e na voz ativa. A frase precisa do passado na voz passiva: was sent." },
+        { "text": "has sent", "correct": false, "feedback": "'Has sent' é voz ativa no Present Perfect. Para voz passiva seria 'has been sent', e mesmo assim não combinaria com 'yesterday'." }
+      ]
+    },
+    {
+      "tag": "Fill in the blank — Present Perfect Passive",
+      "text": "The report <code>______</code> already.",
+      "options": [
+        { "text": "has finished", "correct": false, "feedback": "'Has finished' é voz ativa (o relatório terminou algo, o que não faz sentido). Na voz passiva, precisamos de 'has been finished' — o relatório recebeu a ação." },
+        { "text": "has been finished", "correct": true, "feedback": "Isso! Present Perfect Passive: has/have been + particípio. O relatório foi finalizado por alguém — has been finished." },
+        { "text": "finished", "correct": false, "feedback": "Sem o auxiliar completo 'has been', a frase perde a estrutura do Present Perfect Passive." },
+        { "text": "is finished", "correct": false, "feedback": "'Is finished' é Present Simple Passive, mas 'already' costuma indicar Present Perfect — a forma completa é 'has been finished'." }
+      ]
+    },
+    {
+      "tag": "Fill in the blank — Future Passive (will)",
+      "text": "The results <code>______</code> next Monday.",
+      "options": [
+        { "text": "will announce", "correct": false, "feedback": "'Will announce' é voz ativa (alguém vai anunciar algo). Os resultados não anunciam a si mesmos — eles recebem a ação, o que pede voz passiva." },
+        { "text": "will be announced", "correct": true, "feedback": "Correto! Future Passive: will be + particípio. Os resultados recebem a ação de serem anunciados — will be announced." },
+        { "text": "announced", "correct": false, "feedback": "Sem 'will be', a frase perde a referência ao futuro e a estrutura da voz passiva." },
+        { "text": "are announced", "correct": false, "feedback": "'Are announced' é Present Simple Passive, mas 'next Monday' indica futuro — precisamos de 'will be announced'." }
+      ]
+    },
+    {
+      "tag": "Fill in the blank — Modal Passive",
+      "text": "This form <code>______</code> in black ink.",
+      "options": [
+        { "text": "must complete", "correct": false, "feedback": "'Must complete' é voz ativa (alguém deve completar algo). O formulário não completa a si mesmo — ele recebe a ação, o que pede voz passiva." },
+        { "text": "must be completed", "correct": true, "feedback": "Isso! Modal Passive: modal + be + particípio. O formulário recebe a ação de ser completado — must be completed." },
+        { "text": "completed", "correct": false, "feedback": "Sem 'must be', a frase perde tanto o sentido de obrigação quanto a estrutura passiva." },
+        { "text": "is completing", "correct": false, "feedback": "'Is completing' seria voz ativa no Present Continuous (o formulário estaria completando algo, o que não faz sentido)." }
+      ]
+    },
+
+    {
+      "type": "drag-fill",
+      "tag": "Passive with 'by' — agent",
+      "text": "The novel <code>______</code> by a famous Brazilian author.",
+      "options": [
+        { "text": "was written", "correct": true, "feedback": "Correto! Voz passiva com agente introduzido por 'by': was + particípio + by + quem praticou a ação." },
+        { "text": "wrote", "correct": false, "feedback": "'Wrote' é voz ativa (o autor escreveu). Como o sujeito da frase é 'the novel', que recebe a ação, precisamos da voz passiva: was written." },
+        { "text": "writes", "correct": false, "feedback": "'Writes' está no presente e na voz ativa — não combina nem com o tempo passado nem com a estrutura passiva pedida aqui." },
+        { "text": "has written", "correct": false, "feedback": "'Has written' é voz ativa no Present Perfect. Para a passiva seria 'has been written', mas o contexto pede o passado simples: was written." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Active vs Passive choice",
+      "text": "My car <code>______</code> while I was on vacation.",
+      "options": [
+        { "text": "was stolen", "correct": true, "feedback": "Isso! O carro não rouba a si mesmo — ele sofreu a ação de ser roubado. Voz passiva: was + particípio." },
+        { "text": "stole", "correct": false, "feedback": "'Stole' é voz ativa e exigiria um sujeito que pratica o roubo (ex: 'someone stole my car'). Como o sujeito é 'my car', a frase precisa de voz passiva." },
+        { "text": "steals", "correct": false, "feedback": "'Steals' está no presente e na voz ativa, incompatível com 'while I was on vacation' (passado) e com o carro sendo o sujeito passivo." },
+        { "text": "has stolen", "correct": false, "feedback": "'Has stolen' é voz ativa no Present Perfect. O carro é quem sofre a ação, então a voz correta é passiva: was stolen." }
+      ]
+    },
+
+    {
+      "tag": "Identify the voice",
+      "text": "\"The chef prepared a delicious meal.\"",
+      "options": [
+        { "text": "Active voice", "correct": true, "feedback": "Correto! O sujeito 'the chef' pratica a ação (prepared) — isso é voz ativa. Na passiva seria 'A delicious meal was prepared by the chef'." },
+        { "text": "Passive voice", "correct": false, "feedback": "Voz passiva exigiria 'be + particípio' (was/were prepared). Aqui temos 'prepared' sozinho com o sujeito praticando a ação — voz ativa." },
+        { "text": "Impossible to tell", "correct": false, "feedback": "É possível identificar: o sujeito 'the chef' realiza a ação diretamente, sem 'be + particípio' — isso caracteriza claramente a voz ativa." },
+        { "text": "Neither — this is imperative", "correct": false, "feedback": "Não é uma ordem/imperativo; há um sujeito claro ('the chef') praticando a ação no passado — voz ativa." }
+      ]
+    },
+    {
+      "tag": "Identify the voice",
+      "text": "\"A delicious meal was prepared by the chef.\"",
+      "options": [
+        { "text": "Passive voice", "correct": true, "feedback": "Isso! O sujeito 'a delicious meal' recebe a ação (was prepared), e quem praticou a ação vem depois de 'by' — a estrutura clássica da voz passiva." },
+        { "text": "Active voice", "correct": false, "feedback": "Voz ativa teria o sujeito praticando a ação diretamente (the chef prepared...), sem 'was + particípio' nem 'by' introduzindo o agente." },
+        { "text": "Present Perfect", "correct": false, "feedback": "Isso descreve o tempo verbal errado — a frase está no Past Simple Passive (was + particípio), não no Present Perfect." },
+        { "text": "Neither active nor passive — it's a question", "correct": false, "feedback": "A frase é afirmativa, não uma pergunta. E ela segue exatamente a estrutura da voz passiva: sujeito + was + particípio + by + agente." }
+      ]
+    },
+    {
+      "tag": "Identify the voice",
+      "text": "\"Someone broke into our house last night.\"",
+      "options": [
+        { "text": "Active voice", "correct": true, "feedback": "Correto! 'Someone' pratica a ação (broke into) diretamente — voz ativa. Na passiva, o foco mudaria para a casa: 'Our house was broken into last night'." },
+        { "text": "Passive voice", "correct": false, "feedback": "Não há 'be + particípio' aqui — 'broke' é Simple Past ativo, com 'someone' praticando a ação diretamente." },
+        { "text": "Modal passive", "correct": false, "feedback": "Não há nenhum modal (can, must, should) na frase, e o verbo está na voz ativa, não passiva." },
+        { "text": "Future passive", "correct": false, "feedback": "A frase está no passado ('last night'), não no futuro, e a estrutura é ativa, não passiva." }
+      ]
+    },
+    {
+      "tag": "Identify the voice",
+      "text": "\"The new policy will be announced by the CEO tomorrow.\"",
+      "options": [
+        { "text": "Future passive", "correct": true, "feedback": "Isso! 'Will be announced' segue a estrutura will be + particípio, com o agente introduzido por 'by' — Future Passive." },
+        { "text": "Future active", "correct": false, "feedback": "Voz ativa seria 'The CEO will announce the new policy tomorrow' — sujeito praticando a ação diretamente, sem 'be + particípio'." },
+        { "text": "Present passive", "correct": false, "feedback": "Não há 'is/are announced' — o auxiliar 'will' e o marcador 'tomorrow' indicam futuro, não presente." },
+        { "text": "Modal passive", "correct": false, "feedback": "'Will' aqui funciona como auxiliar de futuro, não como um modal de obrigação/possibilidade (must, should, can) — é Future Passive, não Modal Passive." }
+      ]
+    },
+
+    {
+      "tag": "Transform to passive",
+      "text": "Which is the correct passive form of: \"They clean the office every day.\"?",
+      "options": [
+        { "text": "The office is cleaned every day.", "correct": true, "feedback": "Correto! O objeto da frase ativa (the office) vira sujeito na passiva, e o verbo muda para is + particípio: is cleaned." },
+        { "text": "The office was cleaned every day.", "correct": false, "feedback": "O tempo verbal deve ser mantido: a frase original está no Present Simple, então a passiva também deve estar no presente — is cleaned, não was cleaned." },
+        { "text": "The office cleans every day.", "correct": false, "feedback": "Falta o auxiliar 'is' — sem 'be + particípio', a frase não está na voz passiva, apenas parece uma voz ativa estranha (o escritório não limpa a si mesmo)." },
+        { "text": "The office is clean every day.", "correct": false, "feedback": "'Clean' aqui como adjetivo ('limpo') muda o sentido da frase. A voz passiva do verbo 'to clean' precisa do particípio 'cleaned': is cleaned." }
+      ]
+    },
+    {
+      "tag": "Transform to passive",
+      "text": "Which is the correct passive form of: \"Someone stole my bike last night.\"?",
+      "options": [
+        { "text": "My bike was stolen last night.", "correct": true, "feedback": "Isso! Quando o agente é desconhecido ou irrelevante ('someone'), é comum omitir o 'by' na voz passiva: my bike was stolen last night." },
+        { "text": "My bike stole last night.", "correct": false, "feedback": "Falta o auxiliar 'was' — sem 'be + particípio', a frase fica sem sentido (a bicicleta não rouba a si mesma)." },
+        { "text": "My bike is stolen last night.", "correct": false, "feedback": "O tempo verbal precisa combinar com 'last night' (passado). 'Is stolen' está no presente — o correto é 'was stolen'." },
+        { "text": "My bike has been stolen last night.", "correct": false, "feedback": "Present Perfect Passive ('has been stolen') não combina com marcadores de tempo específico como 'last night' — o correto é o passado simples: was stolen." }
+      ]
+    },
+    {
+      "tag": "Transform to active",
+      "text": "Which is the correct active form of: \"The cake was eaten by the children.\"?",
+      "options": [
+        { "text": "The children ate the cake.", "correct": true, "feedback": "Correto! Na voz ativa, o agente (the children) vira sujeito, e o verbo volta para a forma ativa correspondente no mesmo tempo: ate." },
+        { "text": "The children eat the cake.", "correct": false, "feedback": "O tempo verbal deve ser mantido: a frase passiva original está no passado (was eaten), então a ativa também deve estar no passado: ate, não eat." },
+        { "text": "The children were eating the cake.", "correct": false, "feedback": "Isso mudaria o tempo verbal para Past Continuous. A frase original está no Simple Past Passive, então a ativa correspondente é Simple Past: ate." },
+        { "text": "The cake ate the children.", "correct": false, "feedback": "Essa transformação inverteu os papéis incorretamente — o bolo não pode praticar a ação de comer. O agente 'the children' deve virar o sujeito." }
+      ]
+    },
+
+    {
+      "tag": "Structure — Present Simple Passive",
+      "text": "What's the correct structure of the Present Simple Passive?",
+      "options": [
+        { "text": "Subject + am/is/are + past participle", "correct": true, "feedback": "Correto! Present Simple Passive: am/is/are + particípio passado — English is spoken, cars are made." },
+        { "text": "Subject + am/is/are + verb-ing", "correct": false, "feedback": "Essa é a estrutura do Present Continuous ativo, não da voz passiva." },
+        { "text": "Subject + was/were + past participle", "correct": false, "feedback": "Essa é a estrutura do Past Simple Passive, no passado, não no presente." },
+        { "text": "Subject + has/have + past participle", "correct": false, "feedback": "Essa estrutura, sem o verbo 'be', forma o Present Perfect ativo. A voz passiva com 'have/has' seria 'has/have been + particípio'." }
+      ]
+    },
+    {
+      "tag": "Structure — Past Simple Passive",
+      "text": "What's the correct structure of the Past Simple Passive?",
+      "options": [
+        { "text": "Subject + was/were + past participle", "correct": true, "feedback": "Isso! Past Simple Passive: was (I/he/she/it) ou were (you/we/they) + particípio passado — the door was closed." },
+        { "text": "Subject + am/is/are + past participle", "correct": false, "feedback": "Essa é a estrutura do Present Simple Passive, no presente, não no passado." },
+        { "text": "Subject + had + past participle", "correct": false, "feedback": "'Had + particípio' sozinho forma o Past Perfect ativo. A voz passiva do Past Perfect seria 'had been + particípio'." },
+        { "text": "Subject + did + past participle", "correct": false, "feedback": "'Did' é seguido pela forma base do verbo em frases ativas (did + verb), não pelo particípio — essa combinação não existe." }
+      ]
+    },
+    {
+      "tag": "Structure — Present Perfect Passive",
+      "text": "What's the correct structure of the Present Perfect Passive?",
+      "options": [
+        { "text": "Subject + has/have been + past participle", "correct": true, "feedback": "Correto! Present Perfect Passive: has/have been + particípio — the work has been finished." },
+        { "text": "Subject + has/have + past participle", "correct": false, "feedback": "Sem o 'been', essa é a estrutura do Present Perfect ativo, não passivo." },
+        { "text": "Subject + was/were been + past participle", "correct": false, "feedback": "Essa combinação não existe — 'was/were been' mistura incorretamente dois auxiliares que não se combinam dessa forma." },
+        { "text": "Subject + is/are being + past participle", "correct": false, "feedback": "Essa é a estrutura do Present Continuous Passive (ação passiva em andamento agora), não do Present Perfect Passive." }
+      ]
+    },
+    {
+      "tag": "Structure — Modal Passive",
+      "text": "What's the correct structure of the Modal Passive (can, must, should, etc.)?",
+      "options": [
+        { "text": "Subject + modal + be + past participle", "correct": true, "feedback": "Isso! Modal Passive: modal (can/must/should/etc.) + be + particípio — the form must be completed, this can be fixed." },
+        { "text": "Subject + modal + being + past participle", "correct": false, "feedback": "Depois de um modal, usamos 'be' na forma base, não 'being' — a forma correta é modal + be + particípio." },
+        { "text": "Subject + modal + past participle", "correct": false, "feedback": "Falta o 'be' — sem ele, a estrutura fica incompleta e não forma a voz passiva corretamente." },
+        { "text": "Subject + been + modal + past participle", "correct": false, "feedback": "A ordem está incorreta — o modal sempre vem primeiro, seguido de 'be' e depois o particípio: modal + be + particípio." }
+      ]
+    },
+    {
+      "tag": "Structure — general rule",
+      "text": "When transforming an active sentence to passive, what happens to the object of the active sentence?",
+      "options": [
+        { "text": "It becomes the subject of the passive sentence", "correct": true, "feedback": "Correto! Na transformação para a voz passiva, o objeto da frase ativa (quem recebe a ação) vira o sujeito da frase passiva — 'they built the house' → 'the house was built'." },
+        { "text": "It disappears completely from the sentence", "correct": false, "feedback": "O objeto não desaparece — ele se torna o elemento mais importante da frase passiva, passando a ser o sujeito." },
+        { "text": "It stays in the same position, right after the verb", "correct": false, "feedback": "Na verdade, o objeto se move para o início da frase, tornando-se o sujeito — não permanece na mesma posição." },
+        { "text": "It is introduced by 'by' at the beginning of the sentence", "correct": false, "feedback": "É o AGENTE (quem praticava a ação na voz ativa) que pode ser introduzido por 'by', normalmente no final da frase — não o objeto original." }
+      ]
+    },
+    {
+      "tag": "Structure — general rule",
+      "text": "When is it common to OMIT the agent ('by + someone') in a passive sentence?",
+      "options": [
+        { "text": "When the agent is unknown, obvious, or unimportant", "correct": true, "feedback": "Isso! Omitimos o agente quando não sabemos quem praticou a ação ('my car was stolen'), quando é óbvio ('he was arrested'), ou quando não importa quem fez, só o resultado." },
+        { "text": "Only when the sentence is in the present tense", "correct": false, "feedback": "A omissão do agente não depende do tempo verbal — pode acontecer em qualquer tempo (presente, passado, futuro) sempre que o agente for irrelevante ou desconhecido." },
+        { "text": "Never — the agent must always be stated with 'by'", "correct": false, "feedback": "Na prática, é muito comum omitir o agente na voz passiva, especialmente quando ele é óbvio, desconhecido ou sem importância para a mensagem." },
+        { "text": "Only in questions, never in statements", "correct": false, "feedback": "A omissão do agente acontece tanto em afirmações quanto em perguntas — não é uma regra exclusiva de perguntas." }
+      ]
+    },
+
+    {
+      "type": "word-order",
+      "tag": "Build the passive sentence — Present Simple",
+      "text": "Monte a frase na voz passiva: <em>\"O café é cultivado no Brasil.\"</em>",
+      "words": ["Coffee", "is", "grown", "in", "Brazil"],
+      "feedback_correct": "Isso! Present Simple Passive: sujeito (Coffee) + is + particípio (grown) + complemento (in Brazil).",
+      "feedback_incorrect": "A ordem certa é: sujeito (Coffee) + is + particípio (grown) + complemento de lugar (in Brazil)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the passive sentence — Past Simple",
+      "text": "Monte a frase na voz passiva: <em>\"A janela foi quebrada durante a tempestade.\"</em>",
+      "words": ["The", "window", "was", "broken", "during", "the", "storm"],
+      "feedback_correct": "Correto! Past Simple Passive: sujeito (The window) + was + particípio (broken) + complemento (during the storm).",
+      "feedback_incorrect": "Lembre-se: sujeito (The window) + was + particípio (broken) + o resto da frase (during the storm)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the passive sentence — with agent",
+      "text": "Monte a frase na voz passiva: <em>\"A Mona Lisa foi pintada por Leonardo da Vinci.\"</em>",
+      "words": ["The", "Mona", "Lisa", "was", "painted", "by", "Leonardo", "da", "Vinci"],
+      "feedback_correct": "Isso! Voz passiva com agente: sujeito + was + particípio + by + quem praticou a ação.",
+      "feedback_incorrect": "A ordem certa é: sujeito (The Mona Lisa) + was + particípio (painted) + by + agente (Leonardo da Vinci)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the active sentence from context",
+      "text": "Monte a frase na voz ativa: <em>\"O professor corrigiu as provas ontem à noite.\"</em>",
+      "words": ["The", "teacher", "corrected", "the", "tests", "last", "night"],
+      "feedback_correct": "Correto! Voz ativa: sujeito que pratica a ação (The teacher) + verbo no passado (corrected) + objeto (the tests) + tempo (last night).",
+      "feedback_incorrect": "A ordem certa é: sujeito (The teacher) + verbo (corrected) + objeto (the tests) + expressão de tempo (last night)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the passive sentence — Modal",
+      "text": "Monte a frase na voz passiva: <em>\"Esse problema deve ser resolvido imediatamente.\"</em>",
+      "words": ["This", "problem", "must", "be", "solved", "immediately"],
+      "feedback_correct": "Isso! Modal Passive: sujeito (This problem) + modal (must) + be + particípio (solved) + advérbio (immediately).",
+      "feedback_incorrect": "A estrutura é: sujeito + modal (must) + be + particípio (solved) + advérbio (immediately)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the passive sentence — Future",
+      "text": "Monte a frase na voz passiva: <em>\"A nova ponte será inaugurada no próximo ano.\"</em>",
+      "words": ["The", "new", "bridge", "will", "be", "opened", "next", "year"],
+      "feedback_correct": "Correto! Future Passive: sujeito + will be + particípio (opened) + expressão de tempo (next year).",
+      "feedback_incorrect": "Lembre-se da estrutura: sujeito (The new bridge) + will be + particípio (opened) + tempo (next year)."
+    }
+  ]
+}
