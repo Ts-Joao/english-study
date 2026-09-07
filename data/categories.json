@@ -7,6 +7,8 @@
     { "key": "irregular-verbs", "file": "data/irregular-verbs.json" },
     { "key": "regular-verbs", "file": "data/regular-verbs.json" },
     { "key": "drag-drop-demo", "file": "data/drag-drop-demo.json" },
-    { "key": "word-order-demo", "file": "data/word-order-demo.json" }
+    { "key": "word-order-demo", "file": "data/word-order-demo.json" },
+    { "key": "active-passive-voice", "file": "data/active-passive-voice.json" },
+    { "key": "word-formation", "file": "data/word-formation.json" }
   ]
 }

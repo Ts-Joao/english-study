@@ -1,0 +1,187 @@
+{
+  "title": "Formação de palavras — advérbios e outras transformações",
+  "eyebrow": "Vocabulary · Word Formation",
+  "description": "Transforme adjetivos em advérbios e pratique outras mudanças de classe gramatical (verbo, substantivo, adjetivo, advérbio).",
+  "questions": [
+    {
+      "tag": "Adjective → Adverb (-ly)",
+      "text": "She sings <code>______</code>.",
+      "options": [
+        { "text": "beautiful", "correct": false, "feedback": "'Beautiful' é adjetivo e descreveria um substantivo (a beautiful voice). Para modificar o verbo 'sings', precisamos do advérbio: beautifully." },
+        { "text": "beautifully", "correct": true, "feedback": "Correto! Acrescentamos '-ly' ao adjetivo para formar o advérbio: beautiful → beautifully. Advérbios modificam verbos." },
+        { "text": "beauty", "correct": false, "feedback": "'Beauty' é substantivo ('beleza'). Para modificar o verbo 'sings', precisamos de um advérbio, não de um substantivo." },
+        { "text": "beautify", "correct": false, "feedback": "'Beautify' é verbo ('embelezar'). A frase já tem o verbo principal 'sings' — falta um advérbio para descrevê-lo." }
+      ]
+    },
+    {
+      "tag": "Adjective → Adverb (consonant + y → ily)",
+      "text": "He completed the task <code>______</code>.",
+      "options": [
+        { "text": "easyly", "correct": false, "feedback": "Quando o adjetivo termina em consoante + 'y', o 'y' muda para 'i' antes de acrescentar '-ly'. Por isso 'easy' vira 'easily', não 'easyly'." },
+        { "text": "easily", "correct": true, "feedback": "Isso! Adjetivos terminados em consoante + y trocam o 'y' por 'i' e recebem '-ly': easy → easily." },
+        { "text": "easy", "correct": false, "feedback": "'Easy' é o adjetivo. Para modificar o verbo 'completed', precisamos do advérbio 'easily'." },
+        { "text": "ease", "correct": false, "feedback": "'Ease' é substantivo/verbo ('facilidade'/'facilitar'). A frase precisa de um advérbio para descrever como a tarefa foi completada." }
+      ]
+    },
+    {
+      "tag": "Adjective → Adverb (-le → -ly)",
+      "text": "The old man walked <code>______</code> down the street.",
+      "options": [
+        { "text": "gentlely", "correct": false, "feedback": "Adjetivos terminados em '-le' perdem o 'e' final antes de acrescentar '-ly'. Por isso 'gentle' vira 'gently', não 'gentlely'." },
+        { "text": "gently", "correct": true, "feedback": "Correto! Adjetivos terminados em consoante + 'le' formam o advérbio removendo o 'e' e acrescentando apenas '-y': gentle → gently." },
+        { "text": "gentle", "correct": false, "feedback": "'Gentle' é o adjetivo. Para descrever como o homem andava (o verbo 'walked'), precisamos do advérbio 'gently'." },
+        { "text": "gentleness", "correct": false, "feedback": "'Gentleness' é substantivo ('gentileza'). A frase precisa de um advérbio para modificar o verbo 'walked'." }
+      ]
+    },
+    {
+      "tag": "Adjective → Adverb (irregular: good → well)",
+      "text": "She speaks English very <code>______</code>.",
+      "options": [
+        { "text": "good", "correct": false, "feedback": "'Good' é adjetivo e não pode modificar um verbo diretamente. O advérbio irregular correspondente é 'well', não 'goodly'." },
+        { "text": "well", "correct": true, "feedback": "Isso! 'Good' tem uma forma irregular de advérbio: well. Não existe 'goodly' no inglês moderno com esse sentido." },
+        { "text": "goodly", "correct": false, "feedback": "'Goodly' não é a forma padrão moderna de advérbio para 'good'. A forma correta e irregular é 'well'." },
+        { "text": "best", "correct": false, "feedback": "'Best' é o superlativo de 'good/well' ('o melhor'), usado para comparar três ou mais coisas, não simplesmente como advérbio na frase." }
+      ]
+    },
+    {
+      "tag": "Adjective → Adverb (irregular: fast, hard, late)",
+      "text": "He works very <code>______</code> to support his family.",
+      "options": [
+        { "text": "hardly", "correct": false, "feedback": "Atenção: 'hardly' significa 'quase não' (I hardly know him), um falso cognato! Para dizer que ele trabalha 'duro', o advérbio é igual ao adjetivo: hard." },
+        { "text": "hard", "correct": true, "feedback": "Correto! 'Hard' é irregular — o advérbio tem a mesma forma do adjetivo: he works hard. 'Hardly' tem um significado completamente diferente ('quase não')." },
+        { "text": "harder", "correct": false, "feedback": "'Harder' é o comparativo ('mais duro/mais difícil'), usado para comparar duas coisas, não simplesmente para descrever como ele trabalha em geral." },
+        { "text": "hardness", "correct": false, "feedback": "'Hardness' é substantivo ('dureza'). A frase precisa de um advérbio para modificar o verbo 'works'." }
+      ]
+    },
+    {
+      "tag": "Adverb false friend: hardly",
+      "text": "I <code>______</code> know him — we only met once.",
+      "options": [
+        { "text": "hard", "correct": false, "feedback": "'Hard' significa 'muito/intensamente' (he works hard), não 'quase não'. Para essa ideia, o advérbio correto é 'hardly'." },
+        { "text": "hardly", "correct": true, "feedback": "Isso! 'Hardly' significa 'quase não' — um falso cognato clássico, já que não significa 'duramente' como se poderia imaginar pela forma." },
+        { "text": "hardy", "correct": false, "feedback": "'Hardy' é um adjetivo que significa 'resistente' (hardy plants). Não é o advérbio usado para expressar 'quase não'." },
+        { "text": "hardness", "correct": false, "feedback": "'Hardness' é substantivo ('dureza'). A frase precisa do advérbio 'hardly', que significa 'quase não'." }
+      ]
+    },
+
+    {
+      "type": "drag-fill",
+      "tag": "Adjective → Adverb",
+      "text": "The team played <code>______</code> in the final match.",
+      "options": [
+        { "text": "brilliantly", "correct": true, "feedback": "Correto! 'Brilliant' + '-ly' = brilliantly. O advérbio modifica o verbo 'played', descrevendo como o time jogou." },
+        { "text": "brilliant", "correct": false, "feedback": "'Brilliant' é adjetivo e descreveria um substantivo (a brilliant player). Para modificar o verbo 'played', precisamos do advérbio 'brilliantly'." },
+        { "text": "brilliance", "correct": false, "feedback": "'Brilliance' é substantivo ('brilhantismo'). A frase precisa de um advérbio para descrever a ação de jogar." },
+        { "text": "brilliantness", "correct": false, "feedback": "Essa palavra não é uma forma padrão do inglês — o substantivo correto é 'brilliance', e o advérbio é 'brilliantly'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Verb → Noun",
+      "text": "The company announced a major <code>______</code> in strategy.",
+      "options": [
+        { "text": "change", "correct": true, "feedback": "Correto! 'Change' funciona tanto como verbo quanto substantivo sem mudança de forma — aqui, precedido por 'a major', funciona como substantivo." },
+        { "text": "changed", "correct": false, "feedback": "'Changed' é a forma de passado/particípio do verbo. Depois de 'a major', precisamos de um substantivo, não de um verbo conjugado." },
+        { "text": "changing", "correct": false, "feedback": "'Changing' é gerúndio/particípio presente. Depois de 'a major', a estrutura pede um substantivo simples: change." },
+        { "text": "changes", "correct": false, "feedback": "'Changes' no plural não combina com o artigo singular 'a' antes dele. A forma correta no singular é 'change'." }
+      ]
+    },
+
+    {
+      "tag": "Identify the word class",
+      "text": "In the sentence \"She answered the question correctly\", what part of speech is 'correctly'?",
+      "options": [
+        { "text": "Adverb", "correct": true, "feedback": "Correto! 'Correctly' modifica o verbo 'answered', descrevendo COMO ela respondeu — essa é a função do advérbio." },
+        { "text": "Adjective", "correct": false, "feedback": "Um adjetivo modificaria um substantivo (a correct answer), mas 'correctly' aqui modifica o verbo 'answered' — função de advérbio." },
+        { "text": "Noun", "correct": false, "feedback": "'Correctly' não nomeia uma pessoa, lugar ou coisa — ele descreve a maneira como a ação (answered) foi realizada, função de advérbio." },
+        { "text": "Verb", "correct": false, "feedback": "O verbo da frase é 'answered'. 'Correctly' apenas descreve como essa ação aconteceu — é um advérbio, não um verbo." }
+      ]
+    },
+    {
+      "tag": "Identify the word class",
+      "text": "In the sentence \"He is a careful driver\", what part of speech is 'careful'?",
+      "options": [
+        { "text": "Adjective", "correct": true, "feedback": "Isso! 'Careful' descreve o substantivo 'driver' — essa é a função clássica do adjetivo." },
+        { "text": "Adverb", "correct": false, "feedback": "Um advérbio modificaria um verbo (he drives carefully), mas aqui 'careful' modifica o substantivo 'driver' — função de adjetivo." },
+        { "text": "Noun", "correct": false, "feedback": "O substantivo da frase é 'driver'. 'Careful' apenas o descreve, o que caracteriza um adjetivo." },
+        { "text": "Verb", "correct": false, "feedback": "Não há ação sendo descrita por 'careful' — ele qualifica o substantivo 'driver', função de adjetivo, não de verbo." }
+      ]
+    },
+    {
+      "tag": "Identify the word class",
+      "text": "In the sentence \"The rapid growth surprised everyone\", what part of speech is 'growth'?",
+      "options": [
+        { "text": "Noun", "correct": true, "feedback": "Correto! 'Growth' é a forma substantivada do verbo 'grow' — aqui funciona como sujeito da frase, recebendo o adjetivo 'rapid' antes dele." },
+        { "text": "Verb", "correct": false, "feedback": "O verbo da frase é 'surprised'. 'Growth' é a versão substantivo de 'grow', funcionando aqui como sujeito." },
+        { "text": "Adjective", "correct": false, "feedback": "'Growth' é modificado pelo adjetivo 'rapid', mas ele mesmo é o substantivo sendo descrito, não um adjetivo." },
+        { "text": "Adverb", "correct": false, "feedback": "'Growth' não modifica nenhum verbo ou adjetivo — ele é o sujeito da frase, uma função de substantivo." }
+      ]
+    },
+
+    {
+      "tag": "Word formation — noun suffixes",
+      "text": "Which suffix commonly transforms a verb into a noun meaning 'the act of doing something'? (ex: to develop → development)",
+      "options": [
+        { "text": "-ment", "correct": true, "feedback": "Correto! '-ment' é um sufixo comum para transformar verbos em substantivos: develop → development, improve → improvement, argue → argument." },
+        { "text": "-ful", "correct": false, "feedback": "'-ful' forma adjetivos a partir de substantivos, indicando 'cheio de' (care → careful, hope → hopeful), não substantivos a partir de verbos." },
+        { "text": "-ly", "correct": false, "feedback": "'-ly' é o sufixo clássico para transformar adjetivos em advérbios (quick → quickly), não verbos em substantivos." },
+        { "text": "-less", "correct": false, "feedback": "'-less' forma adjetivos indicando ausência de algo (care → careless, hope → hopeless), não substantivos a partir de verbos." }
+      ]
+    },
+    {
+      "tag": "Word formation — adjective suffixes",
+      "text": "Which suffix transforms a noun into an adjective meaning 'without something'? (ex: hope → hopeless)",
+      "options": [
+        { "text": "-less", "correct": true, "feedback": "Isso! '-less' indica ausência de algo: hope → hopeless (sem esperança), care → careless (sem cuidado), home → homeless (sem lar)." },
+        { "text": "-ful", "correct": false, "feedback": "'-ful' indica o oposto: 'cheio de algo' (hope → hopeful = cheio de esperança), não a ausência." },
+        { "text": "-ness", "correct": false, "feedback": "'-ness' transforma adjetivos em substantivos abstratos (happy → happiness), não substantivos em adjetivos de ausência." },
+        { "text": "-able", "correct": false, "feedback": "'-able' indica capacidade/possibilidade (afford → affordable = que se pode pagar), não ausência de algo." }
+      ]
+    },
+    {
+      "tag": "Word formation — noun suffixes (abstract)",
+      "text": "Which suffix commonly transforms an adjective into an abstract noun? (ex: happy → happiness)",
+      "options": [
+        { "text": "-ness", "correct": true, "feedback": "Correto! '-ness' transforma adjetivos em substantivos abstratos: happy → happiness, kind → kindness, dark → darkness." },
+        { "text": "-ment", "correct": false, "feedback": "'-ment' geralmente transforma verbos em substantivos (develop → development), não adjetivos em substantivos." },
+        { "text": "-ity", "correct": false, "feedback": "'-ity' também forma substantivos abstratos a partir de adjetivos, mas geralmente com adjetivos terminados em '-able/-ible/-al' (able → ability), não é o padrão geral como '-ness'." },
+        { "text": "-en", "correct": false, "feedback": "'-en' é usado para formar verbos a partir de adjetivos (short → shorten, wide → widen), não substantivos abstratos." }
+      ]
+    },
+    {
+      "tag": "Word formation — verb suffixes",
+      "text": "Which suffix commonly transforms an adjective into a verb meaning 'to make something ___'? (ex: short → shorten)",
+      "options": [
+        { "text": "-en", "correct": true, "feedback": "Isso! '-en' transforma adjetivos em verbos com o sentido de 'tornar': short → shorten (encurtar), wide → widen (alargar), dark → darken (escurecer)." },
+        { "text": "-ify", "correct": false, "feedback": "'-ify' também forma verbos, mas geralmente a partir de substantivos ou outra base (beauty → beautify), não é o padrão mais comum para adjetivos curtos como 'short'." },
+        { "text": "-ize", "correct": false, "feedback": "'-ize' forma verbos a partir de substantivos/adjetivos em muitos casos (modern → modernize), mas para 'short' a forma padrão usa '-en': shorten." },
+        { "text": "-ous", "correct": false, "feedback": "'-ous' forma adjetivos a partir de substantivos (danger → dangerous), não verbos a partir de adjetivos." }
+      ]
+    },
+
+    {
+      "type": "word-order",
+      "tag": "Build the sentence with an adverb",
+      "text": "Monte a frase: <em>\"Ela terminou o trabalho rapidamente.\"</em>",
+      "words": ["She", "finished", "the", "work", "quickly"],
+      "feedback_correct": "Isso! O advérbio de modo (quickly) geralmente vem depois do objeto do verbo: finished the work quickly.",
+      "feedback_incorrect": "A ordem comum em inglês é: sujeito + verbo + objeto + advérbio de modo no final: She finished the work quickly."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the sentence with an adjective vs adverb",
+      "text": "Monte a frase: <em>\"Ele é um motorista extremamente cuidadoso.\"</em>",
+      "words": ["He", "is", "an", "extremely", "careful", "driver"],
+      "feedback_correct": "Correto! 'Extremely' (advérbio) modifica o adjetivo 'careful', e juntos eles modificam o substantivo 'driver': an extremely careful driver.",
+      "feedback_incorrect": "Lembre-se: advérbio de intensidade (extremely) + adjetivo (careful) + substantivo (driver), precedidos pelo artigo (an)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the sentence — verb to noun",
+      "text": "Monte a frase: <em>\"O desenvolvimento da cidade surpreendeu os moradores.\"</em>",
+      "words": ["The", "development", "of", "the", "city", "surprised", "the", "residents"],
+      "feedback_correct": "Isso! 'Development' é o substantivo formado a partir do verbo 'develop' — aqui funciona como sujeito da frase.",
+      "feedback_incorrect": "A ordem é: sujeito (The development of the city) + verbo (surprised) + objeto (the residents)."
+    }
+  ]
+}
