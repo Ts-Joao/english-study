@@ -1,0 +1,226 @@
+{
+  "title": "Prepositions — Advanced Practice",
+  "eyebrow": "Grammar · Prepositions",
+  "description": "Preposições de tempo, lugar, movimento e combinações fixas — com múltipla escolha, arrastar e soltar, e montar frase.",
+  "questions": [
+    {
+      "tag": "Time — in/on/at",
+      "text": "My birthday is <code>______</code> March.",
+      "options": [
+        { "text": "on", "correct": false, "feedback": "'On' é usado com dias e datas (on March 5th), não com o mês sozinho." },
+        { "text": "in", "correct": true, "feedback": "Correto! Usamos 'in' com meses, anos e estações: in March, in 2024, in summer." },
+        { "text": "at", "correct": false, "feedback": "'At' é usado com horários exatos (at 9am) ou pontos específicos, não com meses inteiros." },
+        { "text": "by", "correct": false, "feedback": "'By' indica um prazo-limite, não a localização de um evento dentro de um mês." }
+      ]
+    },
+    {
+      "tag": "Time — in/on/at",
+      "text": "The store closes <code>______</code> midnight on weekends.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' é usado para períodos mais longos (in the morning, in June), não para um horário exato como 'midnight'." },
+        { "text": "on", "correct": false, "feedback": "'On' é usado com dias e datas, não com um horário específico como 'midnight'." },
+        { "text": "at", "correct": true, "feedback": "Isso! 'At' é usado com horários exatos e pontos específicos no tempo: at midnight, at noon, at 9pm." },
+        { "text": "since", "correct": false, "feedback": "'Since' marca o início de um período contínuo até agora, não simplesmente um horário específico." }
+      ]
+    },
+    {
+      "tag": "Time — since/for",
+      "text": "I haven't seen her <code>______</code> last year.",
+      "options": [
+        { "text": "for", "correct": false, "feedback": "'For' indica uma duração ('for two years'), enquanto 'since' indica o ponto de partida no tempo ('last year' é um marco específico, não uma duração)." },
+        { "text": "since", "correct": true, "feedback": "Correto! 'Since' é usado com um ponto específico no tempo (since last year, since 2020, since Monday), marcando o início de um período." },
+        { "text": "from", "correct": false, "feedback": "'From' normalmente aparece em 'from...to...' (from Monday to Friday) ou indicando origem, não sozinho para marcar duração até agora." },
+        { "text": "during", "correct": false, "feedback": "'During' indica que algo aconteceu dentro de um período (during the meeting), não desde um ponto específico até agora." }
+      ]
+    },
+    {
+      "tag": "Time — during/while",
+      "text": "She fell asleep <code>______</code> the movie.",
+      "options": [
+        { "text": "while", "correct": false, "feedback": "'While' é seguido por uma oração com sujeito e verbo (while she was watching), não diretamente por um substantivo como 'the movie'." },
+        { "text": "during", "correct": true, "feedback": "Isso! 'During' é seguido diretamente por um substantivo, indicando que algo aconteceu dentro daquele período: during the movie." },
+        { "text": "for", "correct": false, "feedback": "'For' indicaria duração (for two hours), não o momento dentro do qual algo aconteceu." },
+        { "text": "in", "correct": false, "feedback": "'In' não é a preposição usada para indicar que algo aconteceu no meio de um evento como um filme — o correto é 'during'." }
+      ]
+    },
+    {
+      "tag": "Place — in/on/at",
+      "text": "The keys are <code>______</code> my pocket.",
+      "options": [
+        { "text": "in", "correct": true, "feedback": "Correto! 'In' indica estar dentro de um espaço fechado ou delimitado, como um bolso: in my pocket." },
+        { "text": "on", "correct": false, "feedback": "'On' indicaria contato com uma superfície (on the table), não estar dentro de um espaço fechado como um bolso." },
+        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico de referência, não estar dentro de um espaço fechado." },
+        { "text": "into", "correct": false, "feedback": "'Into' indica o movimento de entrar em algo, não o estado de já estar dentro — isso é papel de 'in'." }
+      ]
+    },
+    {
+      "tag": "Place — in/on/at",
+      "text": "There's a spider <code>______</code> the ceiling.",
+      "options": [
+        { "text": "in", "correct": false, "feedback": "'In' indicaria estar dentro de um espaço fechado, mas a aranha está em contato com a superfície do teto." },
+        { "text": "on", "correct": true, "feedback": "Isso! 'On' indica contato com uma superfície, mesmo quando ela está acima de nós, como o teto: on the ceiling." },
+        { "text": "at", "correct": false, "feedback": "'At' indica um ponto específico de referência, não contato direto com uma superfície como o teto." },
+        { "text": "over", "correct": false, "feedback": "'Over' indicaria estar acima de algo sem tocar, mas a aranha está em contato direto com o teto — isso pede 'on'." }
+      ]
+    },
+    {
+      "tag": "Place — between/among",
+      "text": "The house is located <code>______</code> the two lakes.",
+      "options": [
+        { "text": "among", "correct": false, "feedback": "'Among' é usado com três ou mais elementos (among the trees), não com apenas dois — quando há dois elementos, usamos 'between'." },
+        { "text": "between", "correct": true, "feedback": "Correto! 'Between' é usado para posição entre exatamente duas coisas: between the two lakes." },
+        { "text": "beside", "correct": false, "feedback": "'Beside' significa 'ao lado de' apenas uma coisa, não 'entre' duas coisas ao mesmo tempo." },
+        { "text": "under", "correct": false, "feedback": "'Under' significa 'embaixo de', o que não corresponde à ideia de estar posicionado entre dois lagos." }
+      ]
+    },
+    {
+      "tag": "Movement — into/onto/through",
+      "text": "The ball rolled <code>______</code> the hole.",
+      "options": [
+        { "text": "into", "correct": true, "feedback": "Isso! 'Into' indica movimento de fora para dentro de um espaço — a bola entrou no buraco." },
+        { "text": "onto", "correct": false, "feedback": "'Onto' indica movimento para cima de uma superfície, não para dentro de um espaço como um buraco." },
+        { "text": "in", "correct": false, "feedback": "'In' indica posição estática (dentro de), não o movimento de entrar — para movimento, usamos 'into'." },
+        { "text": "through", "correct": false, "feedback": "'Through' indicaria atravessar algo de um lado ao outro, não simplesmente cair dentro de um buraco." }
+      ]
+    },
+    {
+      "tag": "Movement — onto",
+      "text": "The cat jumped <code>______</code> the table.",
+      "options": [
+        { "text": "onto", "correct": true, "feedback": "Correto! 'Onto' indica movimento para cima de uma superfície — o gato pulou para cima da mesa." },
+        { "text": "into", "correct": false, "feedback": "'Into' indicaria movimento para dentro de um espaço fechado, não para cima de uma superfície como uma mesa." },
+        { "text": "on", "correct": false, "feedback": "'On' indica posição estática sobre uma superfície, mas aqui há movimento de pular — isso pede 'onto'." },
+        { "text": "over", "correct": false, "feedback": "'Over' indicaria passar por cima de algo sem necessariamente pousar sobre a superfície, diferente de 'onto'." }
+      ]
+    },
+    {
+      "tag": "Movement — across/along",
+      "text": "They walked <code>______</code> the beach for hours, watching the sunset.",
+      "options": [
+        { "text": "across", "correct": false, "feedback": "'Across' indica ir de um lado a outro de algo (across the street), não percorrer ao longo de uma extensão como a praia." },
+        { "text": "along", "correct": true, "feedback": "Isso! 'Along' indica movimento paralelo a algo comprido: along the beach, along the river." },
+        { "text": "through", "correct": false, "feedback": "'Through' indicaria atravessar um espaço fechado por dentro, não caminhar ao longo de uma praia aberta." },
+        { "text": "over", "correct": false, "feedback": "'Over' indicaria passar por cima de algo, não percorrer ao longo de uma extensão como a praia." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions",
+      "text": "She's very proud <code>______</code> her achievements.",
+      "options": [
+        { "text": "of", "correct": true, "feedback": "Correto! 'Proud of' é uma combinação fixa (preposição dependente) usada para expressar orgulho de algo." },
+        { "text": "for", "correct": false, "feedback": "'For' não é a preposição fixa de 'proud' — a combinação correta é 'proud of'." },
+        { "text": "with", "correct": false, "feedback": "'With' não combina com 'proud' nessa estrutura — o correto é 'proud of'." },
+        { "text": "about", "correct": false, "feedback": "'About' não é a preposição dependente padrão de 'proud'. A combinação fixa é 'proud of'." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions",
+      "text": "He's responsible <code>______</code> the entire marketing team.",
+      "options": [
+        { "text": "of", "correct": false, "feedback": "'Of' não combina com 'responsible' — essa não é a preposição fixa dessa expressão." },
+        { "text": "for", "correct": true, "feedback": "Isso! 'Responsible for' é a combinação fixa usada para indicar responsabilidade sobre algo ou alguém." },
+        { "text": "with", "correct": false, "feedback": "'With' não é a preposição dependente de 'responsible' — a combinação correta é 'responsible for'." },
+        { "text": "to", "correct": false, "feedback": "'Responsible to' existe em outro sentido (prestar contas a alguém), mas para 'ser responsável por algo', a preposição correta é 'for'." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions",
+      "text": "I don't want to depend <code>______</code> anyone for money.",
+      "options": [
+        { "text": "of", "correct": false, "feedback": "'Of' não é a preposição fixa de 'depend'. A combinação correta é 'depend on'." },
+        { "text": "on", "correct": true, "feedback": "Correto! 'Depend on' é a combinação fixa padrão para expressar dependência de algo ou alguém." },
+        { "text": "with", "correct": false, "feedback": "'With' não combina com 'depend' nessa estrutura — o correto é 'depend on'." },
+        { "text": "for", "correct": false, "feedback": "'For' não é a preposição dependente de 'depend'. A forma correta é 'depend on'." }
+      ]
+    },
+    {
+      "tag": "Dependent prepositions",
+      "text": "This medicine consists <code>______</code> natural ingredients only.",
+      "options": [
+        { "text": "of", "correct": true, "feedback": "Isso! 'Consist of' é a combinação fixa usada para indicar do que algo é composto." },
+        { "text": "in", "correct": false, "feedback": "'In' não é a preposição fixa de 'consist' nesse sentido — a combinação correta é 'consist of'." },
+        { "text": "with", "correct": false, "feedback": "'With' não combina com 'consist' — o correto é 'consist of'." },
+        { "text": "from", "correct": false, "feedback": "'From' indicaria origem, mas a combinação fixa para 'ser composto de' é 'consist of'." }
+      ]
+    },
+
+    {
+      "type": "drag-fill",
+      "tag": "Time preposition",
+      "text": "The store is open <code>______</code> 9am to 6pm.",
+      "options": [
+        { "text": "from", "correct": true, "feedback": "Correto! 'From...to...' é a estrutura fixa para indicar um intervalo de tempo: from 9am to 6pm." },
+        { "text": "since", "correct": false, "feedback": "'Since' marca o início de um período contínuo até agora, não um intervalo fechado como 'from...to...'." },
+        { "text": "between", "correct": false, "feedback": "'Between' poderia funcionar em alguns contextos, mas a estrutura fixa e mais natural para horário de funcionamento é 'from...to...'." },
+        { "text": "during", "correct": false, "feedback": "'During' indica que algo acontece dentro de um período, não define o início e fim de um intervalo como 'from...to...'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Place preposition",
+      "text": "Turn left and the bank is <code>______</code> the corner.",
+      "options": [
+        { "text": "around", "correct": true, "feedback": "Isso! 'Around the corner' é uma expressão fixa que significa 'virando a esquina', muito comum para dar direções." },
+        { "text": "in", "correct": false, "feedback": "'In the corner' significaria 'no canto de um cômodo', não a ideia de algo estar logo depois de virar a esquina de uma rua." },
+        { "text": "on", "correct": false, "feedback": "'On the corner' indicaria que algo está bem na esquina, mas a expressão fixa para 'virando a esquina' é 'around the corner'." },
+        { "text": "at", "correct": false, "feedback": "'At the corner' também é possível para indicar posição, mas a expressão idiomática mais natural para direções é 'around the corner'." }
+      ]
+    },
+
+    {
+      "tag": "Identify the rule",
+      "text": "Which preposition is used before the name of a country or city?",
+      "options": [
+        { "text": "in", "correct": true, "feedback": "Correto! Usamos 'in' antes de países e cidades: in Brazil, in São Paulo, in Japan." },
+        { "text": "on", "correct": false, "feedback": "'On' é usado com o nome de ruas (on Elm Street) e dias/datas, não com países ou cidades." },
+        { "text": "at", "correct": false, "feedback": "'At' é usado com endereços completos ou pontos específicos, não diretamente com o nome de um país ou cidade." },
+        { "text": "to", "correct": false, "feedback": "'To' indica direção de movimento (going to Brazil), não a localização de estar dentro de um país ou cidade." }
+      ]
+    },
+    {
+      "tag": "Identify the rule",
+      "text": "Which preposition is used before a street name?",
+      "options": [
+        { "text": "on", "correct": true, "feedback": "Isso! Usamos 'on' com o nome de uma rua específica: on Elm Street, on Fifth Avenue." },
+        { "text": "in", "correct": false, "feedback": "'In' é usado para cidades e países (in New York), não para nomes específicos de rua." },
+        { "text": "at", "correct": false, "feedback": "'At' seria usado com um endereço completo, incluindo o número (at 24 Elm Street), não apenas com o nome da rua." },
+        { "text": "by", "correct": false, "feedback": "'By' indicaria proximidade geral, não a preposição fixa usada com o nome de uma rua específica." }
+      ]
+    },
+    {
+      "tag": "Identify the rule",
+      "text": "What's the difference between 'in front of' and 'behind'?",
+      "options": [
+        { "text": "'In front of' means positioned before something facing it; 'behind' means positioned at the back of something", "correct": true, "feedback": "Correto! São opostos: 'in front of the house' (na frente da casa) versus 'behind the house' (atrás da casa)." },
+        { "text": "They mean exactly the same thing and are always interchangeable", "correct": false, "feedback": "Eles têm significados opostos — 'in front of' indica a parte da frente, e 'behind' indica a parte de trás. Não são intercambiáveis." },
+        { "text": "'In front of' is used for time; 'behind' is used for place", "correct": false, "feedback": "Ambos são preposições de lugar, indicando posição relativa (frente/atrás), não uma divisão entre tempo e lugar." },
+        { "text": "'In front of' is for movement; 'behind' is for static position", "correct": false, "feedback": "Ambas podem indicar posição estática (parked in front of the house / hiding behind the tree) — a diferença real é frente versus atrás, não movimento versus posição." }
+      ]
+    },
+
+    {
+      "type": "word-order",
+      "tag": "Build the sentence with time prepositions",
+      "text": "Monte a frase: <em>\"A reunião é na segunda-feira, às 10 da manhã.\"</em>",
+      "words": ["The", "meeting", "is", "on", "Monday", "at", "10", "a.m."],
+      "feedback_correct": "Isso! 'On' para o dia da semana e 'at' para o horário exato — as duas preposições de tempo mais específicas combinadas na mesma frase.",
+      "feedback_incorrect": "Lembre-se: 'on' antes do dia da semana (on Monday) e 'at' antes do horário exato (at 10 a.m.)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the sentence with place prepositions",
+      "text": "Monte a frase: <em>\"O gato está escondido embaixo da cama.\"</em>",
+      "words": ["The", "cat", "is", "hiding", "under", "the", "bed"],
+      "feedback_correct": "Correto! 'Under' indica posição embaixo de algo — the cat is hiding under the bed.",
+      "feedback_incorrect": "A ordem certa é: sujeito (The cat) + verbo (is hiding) + preposição de lugar (under) + complemento (the bed)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Build the sentence with dependent preposition",
+      "text": "Monte a frase: <em>\"Ela está com medo de aranhas desde a infância.\"</em>",
+      "words": ["She", "has", "been", "afraid", "of", "spiders", "since", "childhood"],
+      "feedback_correct": "Isso! 'Afraid of' é a preposição dependente fixa, e 'since childhood' marca o ponto de partida no tempo — combinação clássica de Present Perfect com 'since'.",
+      "feedback_incorrect": "Lembre-se da combinação fixa 'afraid of' e do uso de 'since' com um ponto específico no tempo (since childhood)."
+    }
+  ]
+}
