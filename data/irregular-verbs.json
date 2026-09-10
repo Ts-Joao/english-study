@@ -27,7 +27,8 @@
           "correct": false,
           "feedback": "'Be' é completamente irregular e não forma o passado ou particípio adicionando '-ed'. A forma correta é 'been'."
         }
-      ]
+      ],
+      "type": "drag-fill"
     },
     {
       "tag": "Become",
@@ -53,7 +54,8 @@
           "correct": false,
           "feedback": "'Becomeing' aplica incorretamente a formação de -ing. O contexto exige particípio passado, não Present Participle."
         }
-      ]
+      ],
+      "type": "drag-fill"
     },
     {
       "tag": "Begin",
@@ -1068,6 +1070,37 @@
           "feedback": "'Shronk' não é uma forma válida. A alternância correta é shrink → shrank → shrunk."
         }
       ]
+    },
+    {
+      "type": "word-order",
+      "tag": "Irregular verb in Past Simple",
+      "text": "Monte a frase no passado simples com verbo irregular: <em>\"Ela comprou um carro novo semana passada.\"</em>",
+      "words": [
+        "She",
+        "bought",
+        "a",
+        "new",
+        "car",
+        "last",
+        "week"
+      ],
+      "feedback_correct": "Isso! 'Buy' é verbo irregular: buy → bought → bought.",
+      "feedback_incorrect": "A ordem é: Sujeito (She) + verbo no passado (bought) + objeto (a new car) + tempo (last week)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Irregular verb in Present Perfect",
+      "text": "Monte a frase no Present Perfect com verbo irregular: <em>\"Eles já escreveram três relatórios.\"</em>",
+      "words": [
+        "They",
+        "have",
+        "already",
+        "written",
+        "three",
+        "reports"
+      ],
+      "feedback_correct": "Correto! 'Write' é irregular: write → wrote → written. Present Perfect: have written.",
+      "feedback_incorrect": "A ordem é: Sujeito (They) + have + already + particípio (written) + complemento (three reports)."
     }
   ]
 }

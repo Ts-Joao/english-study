@@ -27,7 +27,8 @@
           "correct": false,
           "feedback": "'Give out' significa distribuir algo ou parar de funcionar (the engine gave out), não abandonar um hábito."
         }
-      ]
+      ],
+      "type": "drag-fill"
     },
     {
       "tag": "look up / look for / look after",
@@ -79,7 +80,8 @@
           "correct": false,
           "feedback": "'Run up' pode indicar acumular uma conta ou aumentar um valor (run up a bill), não esgotar o estoque de algo."
         }
-      ]
+      ],
+      "type": "drag-fill"
     },
     {
       "tag": "put off / put on / put away",
@@ -548,6 +550,55 @@
           "feedback": "'Turn down' significa rejeitar algo ou diminuir volume/intensidade. Não descreve mudar de direção para voltar."
         }
       ]
+    },
+    {
+      "type": "word-order",
+      "tag": "Phrasal verb sequence",
+      "text": "Monte a frase com phrasal verb: <em>\"Ele finalmente desistiu de fumar.\"</em>",
+      "words": [
+        "He",
+        "finally",
+        "gave",
+        "up",
+        "smoking"
+      ],
+      "feedback_correct": "Isso! 'Give up' + gerúndio (smoking) é a estrutura comum para expressar que alguém parou de fazer algo.",
+      "feedback_incorrect": "A ordem certa é: sujeito (He) + advérbio (finally) + phrasal verb (gave up) + gerúndio (smoking)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Phrasal verb with object",
+      "text": "Monte a frase com phrasal verb: <em>\"Você pode cuidar do meu cachorro enquanto eu estiver viajando?\"</em>",
+      "words": [
+        "Can",
+        "you",
+        "look",
+        "after",
+        "my",
+        "dog",
+        "while",
+        "I",
+        "am",
+        "away"
+      ],
+      "feedback_correct": "Correto! 'Look after' significa cuidar de alguém ou de um animal de estimação.",
+      "feedback_incorrect": "A ordem é: Can + sujeito (you) + phrasal verb (look after) + objeto (my dog) + tempo (while I am away)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Phrasal verb separable",
+      "text": "Monte a frase com phrasal verb separável: <em>\"Por favor, desligue as luzes antes de sair.\"</em>",
+      "words": [
+        "Please",
+        "turn",
+        "off",
+        "the",
+        "lights",
+        "before",
+        "leaving"
+      ],
+      "feedback_correct": "Isso! 'Turn off' significa desligar um aparelho ou luzes.",
+      "feedback_incorrect": "A ordem certa é: Please + verbo (turn) + partícula (off) + objeto (the lights) + complemento (before leaving)."
     }
   ]
 }
