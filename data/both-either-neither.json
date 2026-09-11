@@ -1,0 +1,183 @@
+{
+  "title": "Both, Either e Neither",
+  "eyebrow": "Grammar · Quantifiers & Correlatives",
+  "description": "Domine o uso de both, either e neither — conjunções correlativas (and/or/nor), pronomes, respostas de concordância e regras de concordância verbal.",
+  "questions": [
+    {
+      "tag": "Correlative — Both ... and",
+      "text": "<code>______</code> Sarah and her brother speak fluent French.",
+      "options": [
+        { "text": "Both", "correct": true, "feedback": "Correto! Usamos 'both... and' para conectar dois elementos afirmativos (ambos / tanto... quanto)." },
+        { "text": "Either", "correct": false, "feedback": "'Either' combina com 'or' (either... or), indicando uma escolha entre dois elementos." },
+        { "text": "Neither", "correct": false, "feedback": "'Neither' combina com 'nor' (neither... nor) para negar ambos os elementos." },
+        { "text": "All", "correct": false, "feedback": "'All' é usado para 3 ou mais pessoas/coisas. Para exatamente duas pessoas, usamos 'both'." }
+      ]
+    },
+    {
+      "tag": "Correlative — Either ... or",
+      "text": "You can have <code>______</code> tea or coffee, but not both.",
+      "options": [
+        { "text": "either", "correct": true, "feedback": "Isso! 'Either... or' indica uma opção entre duas alternativas (ou um, ou outro)." },
+        { "text": "both", "correct": false, "feedback": "'Both' faz par com 'and' (both... and), indicando os dois juntos." },
+        { "text": "neither", "correct": false, "feedback": "'Neither' faz par com 'nor' (neither... nor) para negar as duas opções." },
+        { "text": "nor", "correct": false, "feedback": "'Nor' é usado junto com 'neither', não sozinho no início de uma opção simples." }
+      ]
+    },
+    {
+      "tag": "Correlative — Neither ... nor",
+      "text": "<code>______</code> James nor his sister attended the party last night.",
+      "options": [
+        { "text": "Neither", "correct": true, "feedback": "Correto! 'Neither... nor' nega duas coisas ou pessoas simultaneamente (nem... nem)." },
+        { "text": "Either", "correct": false, "feedback": "'Either' faz par com 'or', não com 'nor'." },
+        { "text": "Both", "correct": false, "feedback": "'Both' combina com 'and' em frases afirmativas." },
+        { "text": "Not", "correct": false, "feedback": "'Not' não forma par correlativo com 'nor'. A estrutura correta é 'Neither... nor'." }
+      ]
+    },
+    {
+      "tag": "Pronoun — Both of",
+      "text": "I invited two friends, and <code>______</code> of them came.",
+      "options": [
+        { "text": "both", "correct": true, "feedback": "Isso! 'Both of them' significa que os dois convidados vieram (2 de 2)." },
+        { "text": "either", "correct": false, "feedback": "'Either of them' indicaria que apenas um dos dois veio (ou um ou outro)." },
+        { "text": "neither", "correct": false, "feedback": "'Neither of them' significaria que nenhum dos dois veio, contrariando o contexto positivo." },
+        { "text": "every", "correct": false, "feedback": "'Every' exige um substantivo no singular (every friend) e não aceita 'of them'." }
+      ]
+    },
+    {
+      "tag": "Pronoun — Neither of + singular/plural verb",
+      "text": "Neither of the cars <code>______</code> in good condition.",
+      "options": [
+        { "text": "is", "correct": true, "feedback": "Correto! Na gramática formal, 'neither of + substantivo no plural' exige verbo no singular (is)." },
+        { "text": "are not", "correct": false, "feedback": "'Neither' já tem sentido negativo — adicionar 'not' cria uma negação dupla incorreta." },
+        { "text": "is not", "correct": false, "feedback": "'Neither' já nega a frase, por isso o verbo fica na afirmativa (is)." },
+        { "text": "both", "correct": false, "feedback": "'Both' mudaria o sentido e exigiria verbo no plural (are)." }
+      ]
+    },
+    {
+      "tag": "Short agreement — Neither do I",
+      "text": "A: \"I don't like horror movies.\"\nB: \"<code>______</code> do I.\"",
+      "options": [
+        { "text": "Neither", "correct": true, "feedback": "Isso! Usamos 'Neither + auxiliar + sujeito' para concordar com uma frase negativa anterior." },
+        { "text": "Either", "correct": false, "feedback": "Para usar 'either' no final da concordância, a estrutura seria: 'I don't either'." },
+        { "text": "So", "correct": false, "feedback": "'So do I' é usado para concordar com frases afirmativas ('I like...'), não negativas." },
+        { "text": "Too", "correct": false, "feedback": "'Me too' concorda com frases afirmativas. Para frases negativas usa-se 'Me neither' ou 'Neither do I'." }
+      ]
+    },
+    {
+      "tag": "Short agreement — I don't either",
+      "text": "A: \"I haven't seen that film yet.\"\nB: \"I <code>______</code> either.\"",
+      "options": [
+        { "text": "haven't", "correct": true, "feedback": "Correto! Estrutura: Sujeito + verbo auxiliar negativo + 'either' (I haven't either = nem eu)." },
+        { "text": "have", "correct": false, "feedback": "Para usar 'either' no final, a frase do falante B deve conter um auxiliar negativo (haven't)." },
+        { "text": "neither", "correct": false, "feedback": "Não usamos 'neither' no final após um verbo. Diga 'Neither have I' ou 'I haven't either'." },
+        { "text": "don't", "correct": false, "feedback": "O tempo verbal deve coincidir com a fala anterior (Present Perfect: haven't seen → haven't)." }
+      ]
+    },
+    {
+      "tag": "Negative context — Not ... either",
+      "text": "I couldn't find my keys, and I couldn't find my wallet <code>______</code>.",
+      "options": [
+        { "text": "either", "correct": true, "feedback": "Isso! Ao final de uma frase negativa para adicionar outro item negativo, usa-se 'either' (também não)." },
+        { "text": "neither", "correct": false, "feedback": "'Neither' não vai no final de uma oração que já contém negação (couldn't)." },
+        { "text": "too", "correct": false, "feedback": "'Too' é usado no final de frases afirmativas (também), não em frases negativas." },
+        { "text": "also", "correct": false, "feedback": "'Also' é usado no meio de frases afirmativas, não no final de uma frase negativa." }
+      ]
+    },
+    {
+      "tag": "Verb agreement — Neither ... nor",
+      "text": "Neither the teacher nor the students <code>______</code> aware of the schedule change.",
+      "options": [
+        { "text": "were", "correct": true, "feedback": "Correto! Na estrutura 'neither... nor', o verbo concorda com o sujeito mais próximo ('the students' → plural: were)." },
+        { "text": "was", "correct": false, "feedback": "O verbo concorda com o sujeito mais próximo ('students', no plural), portanto exige 'were'." },
+        { "text": "is", "correct": false, "feedback": "'Students' está no plural e a frase está no passado (were)." },
+        { "text": "be", "correct": false, "feedback": "'Be' na forma base não conjuga a frase corretamente." }
+      ]
+    },
+    {
+      "tag": "Verb agreement — Either ... or",
+      "text": "Either John or his parents <code>______</code> going to pick you up at the airport.",
+      "options": [
+        { "text": "are", "correct": true, "feedback": "Isso! Com 'either... or', o verbo concorda com o sujeito mais próximo ('his parents' → plural: are)." },
+        { "text": "is", "correct": false, "feedback": "Embora 'John' seja singular, o sujeito mais próximo do verbo é 'his parents' (plural), exigindo 'are'." },
+        { "text": "was", "correct": false, "feedback": "O contexto refere-se a uma ação futura/em andamento e concorda com o plural 'his parents'." },
+        { "text": "be", "correct": false, "feedback": "A forma base 'be' precisa ser conjugada no presente contínuo (are going)." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Drag & Drop — Both / Either / Neither",
+      "text": "I tried on two pairs of shoes, but <code>______</code> of them fitted me.",
+      "options": [
+        { "text": "neither", "correct": true, "feedback": "Correto! 'Neither of them' indica que nenhum dos dois pares serviu (o 'but' indica resultado negativo)." },
+        { "text": "both", "correct": false, "feedback": "O 'but' contrapõe 'provou dois pares' com o fato de nenhum ter servido. 'Both' daria sentido positivo." },
+        { "text": "either", "correct": false, "feedback": "'Either of them' significaria que um ou outro serviu, o que não combina com a frustração sugerida por 'but'." },
+        { "text": "all", "correct": false, "feedback": "'All' é para 3 ou mais itens. Para 2 itens (two pairs), usa-se 'both', 'either' ou 'neither'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Drag & Drop — Either ... or",
+      "text": "We can <code>______</code> go to the beach or stay at home.",
+      "options": [
+        { "text": "either", "correct": true, "feedback": "Isso! 'Either... or' apresenta duas possibilidades exclusivas (ou praia ou ficar em casa)." },
+        { "text": "neither", "correct": false, "feedback": "'Neither' combinaria com 'nor' (neither... nor), não com 'or'." },
+        { "text": "both", "correct": false, "feedback": "'Both' combinaria com 'and' (both... and), mas o contexto dá duas opções distintas separadas por 'or'." },
+        { "text": "not", "correct": false, "feedback": "'Not' não forma a estrutura correlativa de escolha com 'or'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Drag & Drop — Neither ... nor",
+      "text": "The manager was <code>______</code> efficient nor polite during the meeting.",
+      "options": [
+        { "text": "neither", "correct": true, "feedback": "Correto! 'Neither' faz par com 'nor' para expressar duas características negativas." },
+        { "text": "either", "correct": false, "feedback": "'Either' faz par com 'or', não com 'nor'." },
+        { "text": "both", "correct": false, "feedback": "'Both' faz par com 'and' em contextos afirmativos." },
+        { "text": "not", "correct": false, "feedback": "'Not... nor' não é a estrutura padrão correlativa (usa-se 'neither... nor')." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Drag & Drop — Both of us",
+      "text": "<code>______</code> of us were surprised by the unexpected news.",
+      "options": [
+        { "text": "Both", "correct": true, "feedback": "Isso! 'Both of us' significa 'nós dois'. O verbo no plural 'were' confirma a concordância plural." },
+        { "text": "Neither", "correct": false, "feedback": "'Neither of us' em gramática padrão exigiria verbo no singular (was surprised)." },
+        { "text": "Either", "correct": false, "feedback": "'Either of us' significaria 'qualquer um de nós dois' e pediria verbo no singular." },
+        { "text": "Every", "correct": false, "feedback": "'Every' não se combina com 'of us' (usa-se 'everyone of us' ou 'all of us')." }
+      ]
+    },
+    {
+      "type": "word-order",
+      "tag": "Word Order — Both ... and",
+      "text": "Monte a frase: <em>\"Tanto o Mark quanto a Lucy falam espanhol.\"</em>",
+      "words": ["Both", "Mark", "and", "Lucy", "speak", "Spanish"],
+      "feedback_correct": "Excelente! A estrutura 'Both + X + and + Y + verbo no plural' é a ordem correta.",
+      "feedback_incorrect": "Lembre-se da ordem: Both + primeiro sujeito + and + segundo sujeito + verbo (plural) + complemento."
+    },
+    {
+      "type": "word-order",
+      "tag": "Word Order — Neither ... nor",
+      "text": "Monte a frase: <em>\"Nem a Mary nem o Peter estavam em casa.\"</em>",
+      "words": ["Neither", "Mary", "nor", "Peter", "was", "at", "home"],
+      "feedback_correct": "Perfeito! 'Neither + sujeito 1 + nor + sujeito 2 + verbo + complemento'.",
+      "feedback_incorrect": "A ordem correta é: Neither + Mary + nor + Peter + was + at + home."
+    },
+    {
+      "type": "word-order",
+      "tag": "Word Order — Short response (Neither do I)",
+      "text": "Monte a resposta curta: <em>\"Eu também não gosto dessa música.\"</em> (após frase negativa)",
+      "words": ["Neither", "do", "I", "like", "this", "song"],
+      "feedback_correct": "Muito bem! 'Neither + auxiliar + sujeito' para concordar com uma afirmação negativa.",
+      "feedback_incorrect": "A ordem de inversão para concordância negativa é: Neither + auxiliar (do) + sujeito (I) + verbo..."
+    },
+    {
+      "type": "word-order",
+      "tag": "Word Order — Either of them",
+      "text": "Monte a frase: <em>\"Qualquer um dos dois livros é bom.\"</em>",
+      "words": ["Either", "of", "the", "two", "books", "is", "good"],
+      "feedback_correct": "Correto! 'Either of + artigo + substantivo no plural + verbo no singular'.",
+      "feedback_incorrect": "Repare na estrutura: Either + of + the two books + is + good."
+    }
+  ]
+}
