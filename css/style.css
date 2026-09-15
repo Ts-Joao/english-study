@@ -544,6 +544,28 @@ footer.site-foot{
   background: var(--ink-soft);
 }
 
+.reading-passage-box{
+  background: #f7f3e8;
+  border: 1.5px solid var(--ink-soft);
+  border-left: 4px solid var(--pen-red);
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+.reading-passage-box .passage-title{
+  font-family: 'Fraunces', serif;
+  font-size: 1.05rem;
+  margin: 0 0 8px 0;
+  color: var(--ink);
+}
+.reading-passage-box .passage-text{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
 @media (prefers-reduced-motion: reduce){
   .correction, .category-card, .option{ animation:none !important; transition:none !important; }
 }

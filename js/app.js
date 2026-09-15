@@ -123,7 +123,7 @@ function renderHome(){
       <h3>${cat.title}</h3>
       <p>${cat.description}</p>
       <div class="meta">
-        <span>${cat.questions.length} perguntas</span>
+        <span>${cat.quizLimit || cat.questions.length} perguntas</span>
         <span class="${best ? 'best' : ''}">${best ? `melhor: ${best.score}/${best.total}` : 'ainda não feito'}</span>
       </div>
     `;
@@ -173,10 +173,17 @@ function startQuiz(key, sourceQuestions){
     baseQuiz = QUIZ_BANK[key];
   }
 
+  let questionsToUse = baseQuiz.questions;
+
+  // Se o quiz possuir limite configurado (ex: quizLimit: 4), seleciona aleatoriamente apenas essa quantidade
+  if(!sourceQuestions && baseQuiz.quizLimit && baseQuiz.questions.length > baseQuiz.quizLimit){
+    questionsToUse = shuffle(baseQuiz.questions).slice(0, baseQuiz.quizLimit);
+  }
+
   // randomiza a ORDEM das perguntas a cada tentativa (não altera o banco original)
   state.quiz = {
     ...baseQuiz,
-    questions: shuffle(baseQuiz.questions)
+    questions: shuffle(questionsToUse)
   };
   state.index = 0;
   state.score = 0;
@@ -210,6 +217,21 @@ function renderQuestion(){
   els.options.innerHTML = '';
 
   const type = q.type || 'multiple-choice';
+  
+  // Suporte a textos de leitura/interpretação (ex: MIT Reading)
+  if(q.passage || (state.quiz.passages && q.passageId)){
+    const passage = q.passage || state.quiz.passages.find(p => p.id === q.passageId);
+    if(passage){
+      const passageBox = document.createElement('div');
+      passageBox.className = 'reading-passage-box';
+      passageBox.innerHTML = `
+        <h4 class="passage-title">${passage.title}</h4>
+        <p class="passage-text">${passage.text}</p>
+      `;
+      els.options.appendChild(passageBox);
+    }
+  }
+
   if(type === 'drag-fill'){
     renderDragFill(q);
   } else if(type === 'word-order'){

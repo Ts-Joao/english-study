@@ -11,6 +11,7 @@
     { "key": "active-passive-voice", "file": "data/active-passive-voice.json" },
     { "key": "word-formation", "file": "data/word-formation.json" },
     { "key": "prepositions-advanced", "file": "data/prepositions-advanced.json" },
-    { "key": "both-either-neither", "file": "data/both-either-neither.json" }
+    { "key": "both-either-neither", "file": "data/both-either-neither.json" },
+    { "key": "mit-reading", "file": "data/mit-reading.json" }
   ]
 }

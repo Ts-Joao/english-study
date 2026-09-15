@@ -1,0 +1,188 @@
+{
+  "title": "MIT Reading & Interpretation",
+  "eyebrow": "Reading Comprehension · MIT Exam Style",
+  "description": "Questões de interpretação de texto baseadas em excertos de artigos científicos, ensaios e palestras no estilo das provas e leituras do MIT.",
+  "quizLimit": 4,
+  "passages": [
+    {
+      "id": "mit_passage_1",
+      "title": "Excerpt 1: Computing Machines and Intelligence (MIT AI & Philosophy)",
+      "text": "The phrase 'artificial intelligence' is often credited to John McCarthy in 1955, but the foundational questions go back much further. In 1950, Alan Turing published his landmark paper proposing what he called the 'Imitation Game'. Turing suggested that instead of asking whether machines can think—a term he considered too meaningless to define cleanly—we should ask whether a digital computer could successfully impersonate a human speaker in a natural language conversation. The test was not designed to evaluate a machine's consciousness, emotions, or inner subjective experience. Rather, it was an operational benchmark focused entirely on functional linguistic behavior: if an interrogator cannot reliably distinguish between human and machine based solely on text responses, the machine has passed."
+    },
+    {
+      "id": "mit_passage_2",
+      "title": "Excerpt 2: Thermodynamics and the Arrow of Time (MIT Physics)",
+      "text": "In macroscopic physics, the Second Law of Thermodynamics introduces an irreversible asymmetry known as the arrow of time. While fundamental microscopic equations of classical mechanics and quantum theory are time-symmetric—meaning they run equally well forwards or backwards—macroscopic systems inevitably evolve toward states of higher entropy. Entropy measures the number of microscopic configurations compatible with a system's macroscopic state. Because high-entropy states are statistically far more probable than low-entropy configurations, isolated systems naturally move from order to disorder. Thus, the observed direction of time is not a property of fundamental particles themselves, but an emergent statistical phenomenon arising from large assemblies of matter."
+    },
+    {
+      "id": "mit_passage_3",
+      "title": "Excerpt 3: Synthetic Biology & Genetic Engineering (MIT Bioengineering)",
+      "text": "Synthetic biology departs from traditional genetic engineering by applying rigorous engineering principles—standardization, modularity, and abstraction—to biological design. Instead of making single, isolated gene edits, synthetic biologists construct standardized biological parts, often termed 'bio-bricks', which can be assembled into complex genetic circuits. For instance, researchers can design biological logic gates within bacterial genomes that respond to environmental signals by producing targeted therapeutic proteins or neutralizing toxic pollutants. The goal is to transform biological design from a slow, empirical trial-and-error discipline into a predictable engineering framework akin to computer hardware synthesis."
+    }
+  ],
+  "questions": [
+    {
+      "passageId": "mit_passage_1",
+      "tag": "MIT Passage 1 — Turing Test Objective",
+      "text": "According to Excerpt 1, what was the primary purpose of Alan Turing's Imitation Game?",
+      "options": [
+        {
+          "text": "To evaluate whether a computer possesses subjective consciousness and genuine emotion.",
+          "correct": false,
+          "feedback": "Incorreto! O texto afirma explicitamente que o teste NÃO visava avaliar consciência, emoções ou experiência subjetiva, mas apenas o comportamento linguístico funcional."
+        },
+        {
+          "text": "To establish a functional, operational benchmark based on conversational behavior.",
+          "correct": true,
+          "feedback": "Correto! Turing propôs o teste como um benchmark operacional focado unicamente no desempenho conversacional em linguagem natural."
+        },
+        {
+          "text": "To prove that machines will eventually replace human speakers in all fields.",
+          "correct": false,
+          "feedback": "Incorreto! O texto não aborda substituição de humanos em campos de trabalho, apenas a capacidade de personificação conversacional."
+        },
+        {
+          "text": "To define the philosophical meaning of the word 'think' once and for all.",
+          "correct": false,
+          "feedback": "Incorreto! Turing considerava a pergunta 'se máquinas podem pensar' muito vaga e sem significado preciso para ser definida limpadamente."
+        }
+      ]
+    },
+    {
+      "passageId": "mit_passage_1",
+      "tag": "MIT Passage 1 — Vocabulary in Context",
+      "text": "In Excerpt 1, the phrase <code>operational benchmark</code> most nearly means:",
+      "options": [
+        {
+          "text": "A practical standard for measurement based on observed performance.",
+          "correct": true,
+          "feedback": "Exatamente! Um 'operational benchmark' é um critério prático de avaliação medido através da execução observável de uma tarefa."
+        },
+        {
+          "text": "A theoretical opinion about machine consciousness.",
+          "correct": false,
+          "feedback": "Incorreto! 'Operational' contrapõe-se à mera especulação teórica, focando no funcionamento observável."
+        },
+        {
+          "text": "A hardware component used in early 1950s digital computers.",
+          "correct": false,
+          "feedback": "Incorreto! O termo não se refere a um componente físico de hardware, mas a um padrão de avaliação."
+        },
+        {
+          "text": "A legal regulation governing artificial intelligence research.",
+          "correct": false,
+          "feedback": "Incorreto! O artigo de Turing propunha um teste científico/filosófico, e não uma regulamentação jurídica."
+        }
+      ]
+    },
+    {
+      "passageId": "mit_passage_2",
+      "tag": "MIT Passage 2 — Main Idea & Entropy",
+      "text": "According to Excerpt 2, why does the arrow of time emerge in macroscopic systems?",
+      "options": [
+        {
+          "text": "Because individual subatomic particles have inherent time-asymmetric properties.",
+          "correct": false,
+          "feedback": "Incorreto! O texto diz o oposto: as equações microscópicas fundamentais de partículas são 'time-symmetric' (simétricas no tempo)."
+        },
+        {
+          "text": "Because high-entropy configurations are statistically overwhelmingly more probable.",
+          "correct": true,
+          "feedback": "Perfeito! A direção do tempo surge como um fenômeno estatístico emergente devido à altíssima probabilidade dos estados de alta entropia."
+        },
+        {
+          "text": "Because quantum mechanics prevents particles from moving backwards in space.",
+          "correct": false,
+          "feedback": "Incorreto! O texto esclarece que tanto a mecânica clássica quanto a teoria quântica são simétricas no tempo no nível microscópico."
+        },
+        {
+          "text": "Because systems naturally move from chaotic states to highly ordered structures.",
+          "correct": false,
+          "feedback": "Incorreto! O texto afirma que os sistemas evoluem da ordem para a desordem (low entropy to high entropy), e não o contrário."
+        }
+      ]
+    },
+    {
+      "passageId": "mit_passage_2",
+      "tag": "MIT Passage 2 — Inference",
+      "text": "What can be inferred about <code>entropy</code> from Excerpt 2?",
+      "options": [
+        {
+          "text": "It decreases spontaneously over time in isolated natural systems.",
+          "correct": false,
+          "feedback": "Incorreto! A Segunda Lei da Termodinâmica indica que a entropia aumenta ou se mantém em sistemas isolados."
+        },
+        {
+          "text": "It quantifies the count of microscopic arrangements compatible with a macrostate.",
+          "correct": true,
+          "feedback": "Correto! O trecho define explicitamente: 'Entropy measures the number of microscopic configurations compatible with a system's macroscopic state'."
+        },
+        {
+          "text": "It was disproven by modern quantum mechanics experiments.",
+          "correct": false,
+          "feedback": "Incorreto! O texto menciona a física quântica como parte das teorias microscópicas que fundamentam essa visão da entropia."
+        },
+        {
+          "text": "It is an intrinsic charge carried by individual microscopic particles.",
+          "correct": false,
+          "feedback": "Incorreto! O texto afirma que a entropia é um 'emergent statistical phenomenon arising from large assemblies', não uma carga individual."
+        }
+      ]
+    },
+    {
+      "passageId": "mit_passage_3",
+      "tag": "MIT Passage 3 — Distinction in Bioengineering",
+      "text": "How does synthetic biology differ from traditional genetic engineering according to Excerpt 3?",
+      "options": [
+        {
+          "text": "It focuses on single isolated gene edits rather than complex systems.",
+          "correct": false,
+          "feedback": "Incorreto! Fazer edições isoladas de um único gene é a característica da engenharia genética tradicional descrita no texto."
+        },
+        {
+          "text": "It applies standardized engineering principles to build modular biological circuits.",
+          "correct": true,
+          "feedback": "Exatamente! A biologia sintética adota padronização, modularidade e abstração para construir circuitos genéticos previsíveis."
+        },
+        {
+          "text": "It relies exclusively on empirical trial-and-error experiments in nature.",
+          "correct": false,
+          "feedback": "Incorreto! O texto afirma que o objetivo é transformar a disciplina de um método empírico de tentativa e erro para uma estrutura previsível."
+        },
+        {
+          "text": "It avoids using bacterial genomes for medical applications.",
+          "correct": false,
+          "feedback": "Incorreto! O texto cita expressamente o uso de genomas bacterianos para produzir proteínas terapêuticas ou neutralizar poluentes."
+        }
+      ]
+    },
+    {
+      "passageId": "mit_passage_3",
+      "tag": "MIT Passage 3 — Drag & Drop Passage Term",
+      "text": "Synthetic biologists build standardized components called <code>______</code> to assemble genetic circuits.",
+      "type": "drag-fill",
+      "options": [
+        {
+          "text": "bio-bricks",
+          "correct": true,
+          "feedback": "Correto! 'Bio-bricks' é o termo mencionado para os blocos biológicos padronizados."
+        },
+        {
+          "text": "micro-chips",
+          "correct": false,
+          "feedback": "Incorreto! 'Micro-chips' pertencem à eletrônica/computação tradicional, não aos blocos genéticos padronizados citados."
+        },
+        {
+          "text": "single edits",
+          "correct": false,
+          "feedback": "Incorreto! 'Single edits' referem-se à abordagem da engenharia genética tradicional."
+        },
+        {
+          "text": "therapeutics",
+          "correct": false,
+          "feedback": "Incorreto! Proteínas terapêuticas são os produtos finais gerados pelos circuitos, não os componentes usados na construção."
+        }
+      ]
+    }
+  ]
+}
