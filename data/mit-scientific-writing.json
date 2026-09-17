@@ -1,0 +1,313 @@
+{
+  "title": "MIT Scientific & Technical Writing",
+  "eyebrow": "Scientific Syntax · MIT Graduate Writing Style",
+  "description": "Domine a sintaxe, precisão vocabular e estruturas críticas de escrita científica e raciocínio técnico exigidas em exames acadêmicos e publicações do MIT.",
+  "questions": [
+    {
+      "tag": "MIT Syntax — Dangling Modifiers in Research Methods",
+      "text": "Which sentence demonstrates the correct scientific syntax, completely avoiding a <code>dangling modifier</code>?",
+      "options": [
+        {
+          "text": "Having calibrated the spectrometer, the laser beam was fired at the crystal matrix.",
+          "correct": false,
+          "feedback": "Incorreto! Este é um 'dangling modifier' clássico: quem calibrou o espectrômetro não foi o feixe de laser (laser beam), mas os pesquisadores. A oração inicial em particípio fica solta sem sujeito semântico imediato."
+        },
+        {
+          "text": "Having calibrated the spectrometer, the research team fired the laser beam at the crystal matrix.",
+          "correct": true,
+          "feedback": "Correto! O sujeito 'the research team' vem logo após a vírgula, conectando-se diretamente ao particípio 'Having calibrated', indicando com clareza quem realizou a calibração."
+        },
+        {
+          "text": "Having calibrated the spectrometer, firing the laser beam was conducted with precision.",
+          "correct": false,
+          "feedback": "Incorreto! O gerúndio nominal 'firing' é uma ação e não uma entidade capaz de calibrar o espectrômetro, mantendo o erro sintático de modificador órfão."
+        },
+        {
+          "text": "Having calibrated the spectrometer, it was possible to fire the laser beam at the crystal matrix.",
+          "correct": false,
+          "feedback": "Incorreto! O pronome impessoal 'it' não tem capacidade de calibrar aparelhos laboratoriais, deixando a oração participial sem sujeito lógico."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Grammar — Subjunctive Mood in Research Protocols",
+      "text": "In formal academic English and research guidelines, directives require the subjunctive mood. Complete the protocol:<br><br><em>The biosafety committee mandated that the ventilation system <code>______</code> inspected prior to the activation of the biological reactor.</em>",
+      "options": [
+        {
+          "text": "be",
+          "correct": true,
+          "feedback": "Correto! Verbos de exigência, mandato ou recomendação (mandate, require, recommend, insist that...) exigem o subjuntivo mandatório em inglês acadêmico, que usa a forma base (bare infinitive) sem conjugação: 'that the system be inspected'."
+        },
+        {
+          "text": "is",
+          "correct": false,
+          "feedback": "Incorreto! 'Is' é o indicativo do presente. Em inglês formal acadêmico e técnico, orações subordinadas regidas por verbos como 'mandate that' exigem a forma base 'be'."
+        },
+        {
+          "text": "was",
+          "correct": false,
+          "feedback": "Incorreto! Embora 'mandated' esteja no passado, o subjuntivo mandatório em inglês não varia com o tempo verbal da oração principal; mantém-se 'be'."
+        },
+        {
+          "text": "would be",
+          "correct": false,
+          "feedback": "Incorreto! 'Would be' denota condicionalidade ou incerteza futura, inadequado para diretrizes laboratoriais de cumprimento mandatório."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Inversion — Conditional Inversion in STEM Literature",
+      "text": "Formal scientific papers often omit <code>if</code> via subject-auxiliary inversion. Complete the deduction:<br><br><em><code>______</code> the researchers synthesized the alloy under cryogenic conditions, the material would have exhibited high-temperature superconductivity.</em>",
+      "options": [
+        {
+          "text": "Had",
+          "correct": true,
+          "feedback": "Perfeito! A inversão da 3ª condicional omite o 'If' e antecipa o auxiliar: 'Had the researchers synthesized...' equivale a 'If the researchers had synthesized...' — estrutura muito comum e elegante na literatura acadêmica do MIT."
+        },
+        {
+          "text": "If had",
+          "correct": false,
+          "feedback": "Incorreto! 'If had' é uma redundância agramatical: quando ocorre a inversão do auxiliar 'Had', a conjunção 'If' deve ser obrigatoriamente eliminada."
+        },
+        {
+          "text": "Were",
+          "correct": false,
+          "feedback": "Incorreto! 'Were' é usado em inversões de 2ª condicional hipotética no presente/futuro ('Were the researchers to synthesize...'), incompatível com a consequência no passado hipotético 'would have exhibited'."
+        },
+        {
+          "text": "Should",
+          "correct": false,
+          "feedback": "Incorreto! 'Should' é utilizado para condições improváveis no futuro ('Should the researchers synthesize...'), e não para hipóteses contrafatuais do passado."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Precision Vocabulary — Empirical Confirmation",
+      "text": "The independent replication experiment conducted at Caltech failed to <code>______</code> the empirical findings published in the initial report.",
+      "options": [
+        {
+          "text": "corroborate",
+          "correct": true,
+          "feedback": "Exatamente! 'Corroborate' significa confirmar, ratificar ou validar hipóteses/achados por meio de evidências adicionais ou testes independentes."
+        },
+        {
+          "text": "collaborate",
+          "correct": false,
+          "feedback": "Incorreto! 'Collaborate' significa trabalhar em conjunto (colaborar entre pesquisadores); um experimento não 'colabora' achados, ele os corrobora (ou refuta)."
+        },
+        {
+          "text": "coincide",
+          "correct": false,
+          "feedback": "Incorreto! 'Coincide' significa coincidir no tempo ou espaço, ou alinhar-se por acaso, não expressando a validação científica rigorosa de uma hipótese."
+        },
+        {
+          "text": "collude",
+          "correct": false,
+          "feedback": "Incorreto! 'Collude' significa conspirar ilegal ou fraudulentamente, termo pejorativo e juridicamente adverso sem pertinência ao rigor experimental."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Discourse Markers — Formal Contrast & Concession",
+      "text": "Select the appropriate academic connector:<br><br><em><code>______</code> the unforeseen thermal losses observed during initial ignition, the plasma confinement system maintained sustained nuclear fusion for over twelve seconds.</em>",
+      "options": [
+        {
+          "text": "Notwithstanding",
+          "correct": true,
+          "feedback": "Correto! 'Notwithstanding' é uma preposição formal de alto nível muito frequente no registro acadêmico, equivalente a 'despite' ou 'in spite of' (a despeito de / não obstante), seguida de sintagma nominal."
+        },
+        {
+          "text": "Whereas",
+          "correct": false,
+          "feedback": "Incorreto! 'Whereas' é uma conjunção subordinativa adversativa que introduz uma oração completa com sujeito e verbo ('whereas X happened, Y did not'), e não um sintagma nominal isolado."
+        },
+        {
+          "text": "Albeit",
+          "correct": false,
+          "feedback": "Incorreto! 'Albeit' (embora) introduz adjetivos, advérbios ou orações reduzidas concessivas ('albeit at higher cost'), não funcionando como preposição no início de sentença regendo um objeto direto."
+        },
+        {
+          "text": "Consequently",
+          "correct": false,
+          "feedback": "Incorreto! 'Consequently' indica consequência direta ou efeito, contradizendo a relação de contraste entre as perdas térmicas e o sucesso da fusão."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Epistemic Stance — Academic Hedging in Discussion Sections",
+      "text": "Which statement demonstrates the appropriate scientific <code>hedging</code> (epistemic caution) expected in an MIT graduate research discussion?",
+      "options": [
+        {
+          "text": "These findings tentatively indicate that quantum entanglement could play a pivotal role in biological magnetoreception.",
+          "correct": true,
+          "feedback": "Excelente! O uso de marcadores de atenuação epistêmica ('tentatively indicate', 'could play') reflete a postura científica rigorosa de calibrar afirmações à amplitude dos dados experimentais sem cair em dogmatismo."
+        },
+        {
+          "text": "These findings definitively prove beyond any shadow of a doubt that biological magnetoreception operates solely via quantum entanglement.",
+          "correct": false,
+          "feedback": "Incorreto! Em artigos científicos e teses do MIT, afirmações hiperbólicas como 'definitively prove beyond any shadow of a doubt' são consideradas antiacadêmicas e metodologicamente frágeis."
+        },
+        {
+          "text": "It is an indisputable, unshakeable fact that quantum entanglement produces magnetoreception.",
+          "correct": false,
+          "feedback": "Incorreto! A ciência empírica opera com graus de certeza e hipóteses refutáveis; termos como 'indisputable, unshakeable fact' violam o padrão de cautela acadêmica."
+        },
+        {
+          "text": "Nobody in the scientific community can deny that quantum entanglement is the single truth behind magnetoreception.",
+          "correct": false,
+          "feedback": "Incorreto! Esta formulação é informal, emocionalmente carregada e litigiosa, desprovida da sobriedade objetiva exigida no meio científico."
+        }
+      ]
+    },
+    {
+      "tag": "MIT STEM Terminology — Discrete vs Discreet",
+      "text": "In quantum mechanics, digital signal processing, and algorithmic computation, the energy spectrum consists of <code>______</code> states rather than a continuous gradient.",
+      "options": [
+        {
+          "text": "discrete",
+          "correct": true,
+          "feedback": "Correto! 'Discrete' (com as letras 'e' separadas por 't') significa individual, descontínuo, composto por valores pontuais ou separados (como em 'discrete mathematics')."
+        },
+        {
+          "text": "discreet",
+          "correct": false,
+          "feedback": "Incorreto! 'Discreet' (com 'ee' juntos) significa discreto no sentido comportamental ou de sigilo (prudente, reservado, não chamativo)."
+        },
+        {
+          "text": "discretional",
+          "correct": false,
+          "feedback": "Incorreto! 'Discretional' refere-se ao poder discricionário ou facultativo de tomada de decisão, não à quantização de variáveis físicas."
+        },
+        {
+          "text": "discriminating",
+          "correct": false,
+          "feedback": "Incorreto! 'Discriminating' refere-se a quem tem bom gosto, juízo crítico aguçado ou atitude preconceituosa, não sendo termo técnico para estados descontínuos."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Academic Style — Syntactic Parallelism in Methodology",
+      "text": "Identify the grammatically correct completion that maintains strict <code>parallel structure</code>:<br><br><em>The autonomous rover was programmed for identifying surface anomalies, transmitting spectral telemetry, and <code>______</code> soil samples.</em>",
+      "options": [
+        {
+          "text": "extracting",
+          "correct": true,
+          "feedback": "Correto! O paralelismo sintático exige que todos os itens coordenados pela preposição 'for' compartilhem a mesma forma morfológica (-ing): 'identifying..., transmitting..., and extracting...'."
+        },
+        {
+          "text": "to extract",
+          "correct": false,
+          "feedback": "Incorreto! A mudança súbita para o infinitivo com 'to' rompe a simetria com 'identifying' e 'transmitting'."
+        },
+        {
+          "text": "extracted",
+          "correct": false,
+          "feedback": "Incorreto! O particípio passado 'extracted' quebra o paralelismo e altera indevidamente a função gramatical da oração."
+        },
+        {
+          "text": "extract",
+          "correct": false,
+          "feedback": "Incorreto! O infinitivo sem 'to' (extract) quebra o padrão de gerúndio exigido pela preposição 'for' na enumeração coordenada."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Quantitative Precision — Fewer vs Less in Data Analysis",
+      "text": "In scientific reporting, countable data units vs continuous quantities require precise determiners. Fill the blanks:<br><br><em>The optimized compiler architecture produced <code>______</code> pipeline stalls and consumed substantially <code>______</code> memory bandwidth.</em>",
+      "options": [
+        {
+          "text": "fewer / less",
+          "correct": true,
+          "feedback": "Exato! 'Stalls' é um substantivo contável no plural, exigindo 'fewer'; enquanto 'memory bandwidth' é uma grandeza contínua e incontável, exigindo 'less'."
+        },
+        {
+          "text": "less / fewer",
+          "correct": false,
+          "feedback": "Incorreto! Invertido: 'less' não deve qualificar substantivos contáveis no plural ('stalls'), e 'fewer' não pode qualificar grandezas contínuas ('bandwidth')."
+        },
+        {
+          "text": "fewer / fewer",
+          "correct": false,
+          "feedback": "Incorreto! 'Memory bandwidth' é incontável (taxa de vazão contínua de dados), tornando incorreto o uso de 'fewer'."
+        },
+        {
+          "text": "less / less",
+          "correct": false,
+          "feedback": "Incorreto! Embora ocorra na fala coloquial, no padrão acadêmico e em exames formais do MIT, substantivos contáveis plurais exigem rigorosamente 'fewer'."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Argumentation — Concessive Qualification with Albeit",
+      "text": "Complete the technical evaluation:<br><br><em>The proposed cryptographic hashing algorithm demonstrated remarkable resistance against quantum attacks, <code>______</code> at the expense of a moderately higher computational overhead.</em>",
+      "options": [
+        {
+          "text": "albeit",
+          "correct": true,
+          "feedback": "Correto! 'Albeit' (do inglês médio 'although it be') é uma conjunção concessiva extremamente comum na literatura acadêmica para introduzir uma ressalva ou qualificação de desvantagem ('albeit at the expense of...')."
+        },
+        {
+          "text": "despite",
+          "correct": false,
+          "feedback": "Incorreto! 'Despite' é preposição e não se une diretamente a outra locução preposicional ('despite at the expense of' é incorreto; seria necessário apenas 'despite a moderately higher overhead')."
+        },
+        {
+          "text": "even",
+          "correct": false,
+          "feedback": "Incorreto! 'Even' sozinho é advérbio enfático e não expressa valor concessivo sem a presença de 'though' ou 'if'."
+        },
+        {
+          "text": "inasmuch as",
+          "correct": false,
+          "feedback": "Incorreto! 'Inasmuch as' significa 'na medida em que' ou 'dado que', estabelecendo causalidade/justificativa e não uma ressalva ou concessão."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Technical Vocabulary — Interactive Drag-Fill",
+      "type": "drag-fill",
+      "text": "Aerospace engineers implemented an auxiliary cooling subsystem to <code>______</code> the severe thermal fatigue caused by continuous atmospheric re-entry.",
+      "options": [
+        {
+          "text": "mitigate",
+          "correct": true,
+          "feedback": "Perfeito! 'Mitigate' é o termo técnico padrão em engenharia e ciências para diminuir a gravidade, amenizar o impacto ou atenuar os efeitos adversos de um fenômeno."
+        },
+        {
+          "text": "exacerbate",
+          "correct": false,
+          "feedback": "Incorreto! 'Exacerbate' significa intensificar ou piorar o problema, o oposto do propósito de um subsistema de resfriamento."
+        },
+        {
+          "text": "fabricate",
+          "correct": false,
+          "feedback": "Incorreto! 'Fabricate' significa fabricar, produzir ou forjar; não faz sentido sintático dizer 'fabricate fatigue' como solução de engenharia."
+        },
+        {
+          "text": "procrastinate",
+          "correct": false,
+          "feedback": "Incorreto! 'Procrastinate' significa adiar ou postergar ações humanas, sem qualquer aplicabilidade ao controle térmico aeroespacial."
+        }
+      ]
+    },
+    {
+      "tag": "MIT Formal Syntax — Interactive Word-Order: Negative Inversion",
+      "type": "word-order",
+      "text": "Ordene as palavras para compor a conclusão formal com inversão enfática: <em>'Somente quando os dados foram normalizados o padrão emergiu.'</em>",
+      "words": [
+        "Only",
+        "when",
+        "the",
+        "data",
+        "were",
+        "normalized",
+        "did",
+        "the",
+        "pattern",
+        "emerge."
+      ],
+      "feedback_correct": "Brilhante! Em orações com a restrição adverbial 'Only when...' em posição inicial, a oração principal sofre obrigatoriamente a inversão do sujeito com o auxiliar: 'did the pattern emerge'.",
+      "feedback_incorrect": "Atenção à regra de inversão enfática após 'Only when [subordinada]': a oração principal deve ter o auxiliar antes do sujeito: 'did the pattern emerge'."
+    }
+  ]
+}
