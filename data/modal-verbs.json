@@ -1,0 +1,207 @@
+{
+  "title": "Verbos Modais e Modais Perfeitos",
+  "eyebrow": "Grammar · Modal Verbs & Modal Auxiliaries",
+  "description": "Domine o uso de can, could, may, might, must, should, have to e modais perfeitos (should have, must have, could have) para obrigação, permissão, deduções e arrependimentos.",
+  "questions": [
+    {
+      "tag": "Obligation — Prohibiton vs Lack of Obligation",
+      "text": "You <code>______</code> smoke inside the hospital building. It is strictly forbidden.",
+      "options": [
+        { "text": "mustn't", "correct": true, "feedback": "Correto! Usamos 'mustn't' para expressar proibição absoluta ou regras rígidas (é proibido)." },
+        { "text": "don't have to", "correct": false, "feedback": "'Don't have to' indica ausência de necessidade (você não precisa, mas pode se quiser), o que não se aplica a proibições de hospital." },
+        { "text": "shouldn't", "correct": false, "feedback": "'Shouldn't' expressa um conselho leve (não é uma boa ideia), mas no caso de regras legais/hospitalares a proibição é categórica (mustn't)." },
+        { "text": "might not", "correct": false, "feedback": "'Might not' indica uma possibilidade negativa no futuro/presente (pode ser que não), não uma regra de proibição." }
+      ]
+    },
+    {
+      "tag": "Obligation — Lack of Obligation",
+      "text": "Tomorrow is Sunday, so I <code>______</code> wake up early.",
+      "options": [
+        { "text": "don't have to", "correct": true, "feedback": "Isso! 'Don't have to' indica ausência de obrigação ou necessidade (não preciso/não sou obrigado a)." },
+        { "text": "mustn't", "correct": false, "feedback": "'Mustn't' significa que é estritamente proibido acordar cedo, o que não faz sentido no contexto de um dia de folga." },
+        { "text": "can't", "correct": false, "feedback": "'Can't' indicaria incapacidade física ou proibição de acordar cedo." },
+        { "text": "shouldn't", "correct": false, "feedback": "'Shouldn't' daria o sentido de um conselho moral de não acordar cedo, enquanto o ponto é apenas que não há necessidade." }
+      ]
+    },
+    {
+      "tag": "Deduction — Present Certainty (Affirmative)",
+      "text": "He has been working out at the gym for three hours. He <code>______</code> be exhausted.",
+      "options": [
+        { "text": "must", "correct": true, "feedback": "Correto! Usamos 'must' para deduções lógicas no presente quando temos quase certeza de algo (com base em evidências)." },
+        { "text": "can", "correct": false, "feedback": "'Can' expressa habilidade geral ou permissão. Para deduções de certeza no afirmativo, usa-se 'must'." },
+        { "text": "should", "correct": false, "feedback": "'Should' expressa expectativa ou conselho, mas não uma dedução forte baseada na situação atual." },
+        { "text": "might", "correct": false, "feedback": "'Might' indica apenas uma possibilidade fraca (talvez), mas 3 horas de treino geram uma certeza quase lógica (must)." }
+      ]
+    },
+    {
+      "tag": "Deduction — Present Certainty (Negative)",
+      "text": "That <code>______</code> be John at the front door — he is currently on a flight to Tokyo!",
+      "options": [
+        { "text": "can't", "correct": true, "feedback": "Exato! Usamos 'can't' (ou 'cannot') para deduções negativas de certeza (é impossível que seja)." },
+        { "text": "mustn't", "correct": false, "feedback": "'Mustn't' expressa proibição (não deve/não pode fazer algo), não uma dedução de impossibilidade lógica." },
+        { "text": "couldn't", "correct": false, "feedback": "Embora 'couldn't' possa ser usado em deduções do passado, para dedução de impossibilidade no presente a forma padrão e mais natural é 'can't'." },
+        { "text": "won't", "correct": false, "feedback": "'Won't' indica recusa ou futuro negativo, não uma dedução lógica sobre a identidade no presente." }
+      ]
+    },
+    {
+      "tag": "Advice — Strong Recommendation",
+      "text": "You look really sick and your fever is high. You <code>______</code> see a doctor right away.",
+      "options": [
+        { "text": "had better", "correct": true, "feedback": "Correto! 'Had better' (frequentemente abreviado para 'you'd better') é usado para conselhos fortes com um aviso implícito de consequências negativas." },
+        { "text": "would", "correct": false, "feedback": "'Would' cria frases condicionais ou hipotéticas, necessitando de uma condição implícita ou explícita (e.g. 'I would see a doctor if I were you')." },
+        { "text": "might", "correct": false, "feedback": "'Might' é muito fraco (apenas uma opção tímida), insuficiente para a gravidade de uma febre alta." },
+        { "text": "used to", "correct": false, "feedback": "'Used to' indica hábitos passados que não acontecem mais, o que não se encaixa em dar conselhos no presente." }
+      ]
+    },
+    {
+      "tag": "Ability — Specific Past Achievement",
+      "text": "Although the rain was heavy and traffic was jammed, we <code>______</code> reach the concert hall on time.",
+      "options": [
+        { "text": "were able to", "correct": true, "feedback": "Isso mesmo! Para uma realização específica e difícil no passado (uma vitória em uma ocasião concreta), usamos 'was/were able to' ou 'managed to', e não 'could'." },
+        { "text": "could", "correct": false, "feedback": "'Could' é usado para habilidades gerais no passado (e.g., 'I could swim when I was 5'). Para conquistas específicas pontuais em uma situação difícil, prefere-se 'was/were able to'." },
+        { "text": "can", "correct": false, "feedback": "'Can' está no presente e a frase descreve um evento concluído no passado." },
+        { "text": "might", "correct": false, "feedback": "'Might' expressa possibilidade incerta, mas a frase afirma o fato concluído de que conseguimos chegar a tempo." }
+      ]
+    },
+    {
+      "tag": "Permission — Formal Request",
+      "text": "<code>______</code> I ask a question regarding the final assignment, Professor?",
+      "options": [
+        { "text": "May", "correct": true, "feedback": "Correto! 'May' é o modal mais formal e educado para pedir permissão em contextos acadêmicos ou profissionais." },
+        { "text": "Must", "correct": false, "feedback": "'Must' expressa obrigação ou dedução. Usá-lo no lugar de permissão soaria como 'Eu sou obrigado a fazer uma pergunta?'." },
+        { "text": "Should", "correct": false, "feedback": "'Should' pede conselho/opinião ('Deveria eu fazer uma pergunta?'), não permissão ao professor." },
+        { "text": "Would", "correct": false, "feedback": "'Would' exigiria um verbo como 'mind' ('Would you mind if I asked...?') para pedir permissão de forma correta." }
+      ]
+    },
+    {
+      "tag": "Modal Perfect — Past Regret / Unfulfilled Duty",
+      "text": "You <code>______</code> told me you were coming to town! I would have picked you up at the station.",
+      "options": [
+        { "text": "should have", "correct": true, "feedback": "Perfeito! Usamos 'should have + past participle' para indicar um conselho retroativo ou crítica/arrependimento sobre algo que não aconteceu no passado." },
+        { "text": "must have", "correct": false, "feedback": "'Must have + past participle' é uma dedução sobre o passado ('você deve ter me avisado'), o que contradiz a frase seguinte." },
+        { "text": "could", "correct": false, "feedback": "'Could' precisa do 'have' para se referir ao passado perfeito ('could have told'), e 'should have' se ajusta melhor à ideia de cobrança/crítica." },
+        { "text": "should", "correct": false, "feedback": "'Should' sem 'have' refere-se ao presente ou futuro. Para o passado, exige-se 'should have + particípio'." }
+      ]
+    },
+    {
+      "tag": "Modal Perfect — Past Deduction (Certainty)",
+      "text": "The ground is soaking wet and there are puddles everywhere. It <code>______</code> heavily during the night.",
+      "options": [
+        { "text": "must have rained", "correct": true, "feedback": "Isso! 'Must have + past participle' expressa uma dedução lógica sobre uma ação passada baseada em evidências presentes." },
+        { "text": "should have rained", "correct": false, "feedback": "'Should have rained' significa que deveria ter chovido (mas não choveu), o que contraria as poças d'água no chão." },
+        { "text": "might rain", "correct": false, "feedback": "'Might rain' fala de uma possibilidade no presente/futuro, não de algo que causou o chão molhado agora." },
+        { "text": "could rain", "correct": false, "feedback": "'Could rain' refere-se ao presente/futuro ou possibilidade genérica, não a uma explicação de fatos passados." }
+      ]
+    },
+    {
+      "tag": "Modal Perfect — Impossibility in the Past",
+      "text": "She <code>______</code> stolen the documents because she was out of the country on that date.",
+      "options": [
+        { "text": "couldn't have", "correct": true, "feedback": "Correto! 'Couldn't have + past participle' (ou 'can't have') expressa que uma ação passada foi logicamente impossível." },
+        { "text": "mustn't have", "correct": false, "feedback": "Na gramática padrão em inglês, 'mustn't have' não é usado para dedução de impossibilidade passada; utiliza-se 'couldn't have' ou 'can't have'." },
+        { "text": "shouldn't have", "correct": false, "feedback": "'Shouldn't have' expressa um erro moral ou crítica no passado ('ela não deveria ter roubado'), enquanto o contexto prova que foi impossível." },
+        { "text": "wouldn't have", "correct": false, "feedback": "'Wouldn't have' faz parte do Third Conditional e precisaria de uma condição hipotética expressa." }
+      ]
+    },
+    {
+      "tag": "Modal Perfect — Past Possibility / Uncertainty",
+      "text": "I can't find my wallet anywhere. I <code>______</code> left it in the taxi.",
+      "options": [
+        { "text": "might have", "correct": true, "feedback": "Isso! 'Might have + past participle' (ou 'may have' / 'could have') indica uma possibilidade incerta sobre um fato do passado (talvez eu tenha deixado)." },
+        { "text": "must", "correct": false, "feedback": "'Must' sozinho fala do presente. Para dedução do passado, exige-se 'must have + particípio'." },
+        { "text": "should have", "correct": false, "feedback": "'Should have' indicaria que esquecer a carteira no táxi era o dever correto ou o esperado, o que não faz sentido." },
+        { "text": "can have", "correct": false, "feedback": "'Can have' não é usado para possibilidades hipotéticas afirmativas no passado em inglês (usa-se 'could have', 'may have' ou 'might have')." }
+      ]
+    },
+    {
+      "tag": "Modal Perfect — Unfulfilled Capability",
+      "text": "He <code>______</code> passed the test easily, but he chose not to study at all.",
+      "options": [
+        { "text": "could have", "correct": true, "feedback": "Correto! 'Could have + past participle' expressa uma capacidade ou oportunidade que existia no passado, mas que não se concretizou." },
+        { "text": "must have", "correct": false, "feedback": "'Must have passed' significaria que deduzimos que ele passou no teste, mas o texto diz que ele nem estudou e não passou." },
+        { "text": "should", "correct": false, "feedback": "'Should' sem o 'have' não indica uma oportunidade passada não aproveitada." },
+        { "text": "can", "correct": false, "feedback": "'Can' indica habilidade no presente e não se aplica a uma oportunidade não realizada no passado." }
+      ]
+    },
+    {
+      "tag": "Obligation — External Rules & Laws",
+      "text": "In the UK, all motorists <code>______</code> drive on the left side of the road.",
+      "options": [
+        { "text": "have to", "correct": true, "feedback": "Exato! Usamos 'have to' para obrigações externas impostas por leis, regras ou regulamentos." },
+        { "text": "must to", "correct": false, "feedback": "'Must' é um modal puro e nunca é seguido da partícula 'to' (diz-se apenas 'must drive')." },
+        { "text": "should", "correct": false, "feedback": "'Should' expressa uma sugestão ou recomendação, mas leis de trânsito são obrigatórias, não opcionais." },
+        { "text": "might", "correct": false, "feedback": "'Might' expressa apenas uma possibilidade incerta, o que é incorreto para leis de trânsito vigentes." }
+      ]
+    },
+    {
+      "tag": "Habitual Past — Used to vs Would",
+      "text": "When my grandfather was young, he <code>______</code> live in a small cottage near the sea.",
+      "options": [
+        { "text": "used to", "correct": true, "feedback": "Correto! Usamos 'used to' para estados passados (como morar em algum lugar, ser, ter) e também para hábitos passados." },
+        { "text": "would", "correct": false, "feedback": "'Would' pode descrever ações repetidas no passado (hábitos), mas NÃO pode ser usado com verbos de estado (stative verbs) como 'live', 'be', 'know' ou 'have'." },
+        { "text": "must", "correct": false, "feedback": "'Must' indica obrigação ou dedução no presente, não uma situação vivida no passado." },
+        { "text": "could", "correct": false, "feedback": "'Could' expressa capacidade ('ele era capaz de morar'), enquanto o contexto fala de um fato/estado duradouro no passado." }
+      ]
+    },
+    {
+      "tag": "Advice — Alternative Structure (Ought to)",
+      "text": "You <code>______</code> double-check the figures before sending the invoice to the client.",
+      "options": [
+        { "text": "ought to", "correct": true, "feedback": "Exato! 'Ought to' é um sinônimo mais formal de 'should' e significa 'deveria'." },
+        { "text": "ought", "correct": false, "feedback": "'Ought' exige obrigatoriamente a partícula 'to' antes do verbo principal (ought to double-check)." },
+        { "text": "must to", "correct": false, "feedback": "O verbo modal 'must' é seguido diretamente pelo verbo no infinitivo sem 'to'." },
+        { "text": "had better to", "correct": false, "feedback": "'Had better' é seguido pelo verbo na forma base sem 'to' (you had better double-check)." }
+      ]
+    },
+    {
+      "tag": "Possibility — Future or Present Uncertainty",
+      "text": "Don't forget your umbrella — the weather forecast said it <code>______</code> rain later.",
+      "options": [
+        { "text": "might", "correct": true, "feedback": "Correto! 'Might' (ou 'may') expressa possibilidade incerta no futuro/presente (pode ser que chova)." },
+        { "text": "must", "correct": false, "feedback": "'Must' expressa certeza/dedução forte, mas a previsão do tempo traz uma possibilidade." },
+        { "text": "would", "correct": false, "feedback": "'Would' é usado para situações condicionais ou hipotéticas ('choveria se...')." },
+        { "text": "can't", "correct": false, "feedback": "'Can't' significaria que é impossível chover, o que contradiz o aviso de levar o guarda-chuva." }
+      ]
+    },
+    {
+      "tag": "Modal Passive — Present / Future Structure",
+      "text": "All confidential financial records <code>______</code> before leaving the office.",
+      "options": [
+        { "text": "must be shredded", "correct": true, "feedback": "Isso! A voz passiva com modais segue a estrutura: Modal + be + Past Participle (must be shredded)." },
+        { "text": "must shred", "correct": false, "feedback": "'Must shred' está na voz ativa e faria os relatórios financeiros triturarem algo sozinhos." },
+        { "text": "must to be shredded", "correct": false, "feedback": "'Must' nunca aceita a partícula 'to' antes da forma base 'be'." },
+        { "text": "should shredded", "correct": false, "feedback": "Falta o verbo auxiliar 'be' para formar a voz passiva (o correto seria 'should be shredded')." }
+      ]
+    },
+    {
+      "tag": "Modal Passive — Past Structure (Modal Perfect Passive)",
+      "text": "The document was full of typos. It <code>______</code> by an editor before publication.",
+      "options": [
+        { "text": "should have been reviewed", "correct": true, "feedback": "Perfeito! A voz passiva no passado com modal perfeito é: Modal + have been + Past Participle (should have been reviewed)." },
+        { "text": "should review", "correct": false, "feedback": "'Should review' está na voz ativa e no presente/futuro, não no passado passivo." },
+        { "text": "must review", "correct": false, "feedback": "'Must review' está na voz ativa e indica uma ação direta que o documento realizaria no presente." },
+        { "text": "should be reviewed", "correct": false, "feedback": "'Should be reviewed' refere-se ao presente/futuro (deveria ser revisado agora/depois), mas o documento já foi publicado com erros no passado." }
+      ]
+    },
+    {
+      "tag": "Obligation — Past Obligation",
+      "text": "Since the bus broke down, we <code>______</code> walk five miles to reach the station.",
+      "options": [
+        { "text": "had to", "correct": true, "feedback": "Correto! O passado de 'must' e 'have to' para obrigações concluídas é sempre 'had to'." },
+        { "text": "musted", "correct": false, "feedback": "'Must' é um verbo defectivo e não possui forma no passado com '-ed'." },
+        { "text": "must", "correct": false, "feedback": "'Must' não é usado para descrever uma obrigação concluída no passado (usa-se 'had to')." },
+        { "text": "should", "correct": false, "feedback": "'Should' expressa um conselho presente/futuro, não o fato de termos sido obrigados a andar no passado." }
+      ]
+    },
+    {
+      "tag": "Semi-modal — Need / Needn't",
+      "text": "You <code>______</code> bring any snacks to the meeting; lunch will be provided for everyone.",
+      "options": [
+        { "text": "needn't", "correct": true, "feedback": "Excelente! 'Needn't' funciona como modal e é seguido diretamente da forma base do verbo (needn't bring = não precisa trazer)." },
+        { "text": "needn't to", "correct": false, "feedback": "Como modal, 'needn't' não admite a partícula 'to' antes do verbo principal." },
+        { "text": "don't need", "correct": false, "feedback": "Como verbo principal, exige-se o 'to' (don't need TO bring). Sem o 'to', a frase fica gramaticalmente incompleta." },
+        { "text": "mustn't to", "correct": false, "feedback": "'Mustn't' proíbe expressamente e não aceita 'to'. Além disso, o contexto é de ausência de necessidade, não de proibição." }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,7 @@
     { "key": "prepositions-advanced", "file": "data/preposition-advanced.json" },
     { "key": "both-either-neither", "file": "data/both-either-neither.json" },
     { "key": "mit-reading", "file": "data/mit-reading.json" },
-    { "key": "mit-scientific-writing", "file": "data/mit-scientific-writing.json" }
+    { "key": "mit-scientific-writing", "file": "data/mit-scientific-writing.json" },
+    { "key": "modal-verbs", "file": "data/modal-verbs.json" }
   ]
 }
