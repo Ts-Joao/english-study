@@ -5,7 +5,7 @@
   "questions": [
     {
       "tag": "Padrão -ed",
-      "text": "The manager <code>_____</code> the issue with the client yesterday.",
+      "text": "The manager <code>______</code> the issue with the client yesterday.",
       "options": [
         {
           "text": "address",
@@ -32,7 +32,7 @@
     },
     {
       "tag": "Verbos terminados em -e",
-      "text": "They <code>_____</code> the project two weeks ago.",
+      "text": "They <code>______</code> the project two weeks ago.",
       "options": [
         {
           "text": "complete",

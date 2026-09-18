@@ -39,13 +39,20 @@ async function loadAllCategories(){
 /* categoria "mista" é gerada dinamicamente juntando todas as outras */
 function buildMixedCategory(){
   const all = [];
-  Object.values(QUIZ_BANK).forEach(cat => {
-    cat.questions.forEach(q => all.push(q));
+  const passages = [];
+  Object.entries(QUIZ_BANK).forEach(([key, cat]) => {
+    cat.questions.forEach(q => {
+      all.push(q.passageId ? { ...q, passageId: key + '/' + q.passageId } : q);
+    });
+    if(cat.passages){
+      cat.passages.forEach(p => passages.push({ ...p, id: key + '/' + p.id }));
+    }
   });
   return {
     title: "Revisão geral",
     eyebrow: "Mixed review",
     description: "Uma mistura de todos os tópicos, em ordem aleatória.",
+    passages: passages,
     questions: shuffle(all)
   };
 }
@@ -160,11 +167,12 @@ function startQuiz(key, sourceQuestions){
   let baseQuiz;
   if(sourceQuestions){
     // mantém metadados da categoria original quando possível
-    const original = key === '__mixed__' ? { title: 'Revisão geral', eyebrow: 'Mixed review', description: '' } : QUIZ_BANK[key];
+    const original = key === '__mixed__' ? buildMixedCategory() : QUIZ_BANK[key];
     baseQuiz = {
       title: original.title + ' — refazendo erros',
       eyebrow: original.eyebrow,
       description: 'Só as perguntas que você errou da última vez.',
+      passages: original.passages,
       questions: sourceQuestions
     };
   } else if(key === '__mixed__'){
@@ -253,6 +261,7 @@ function renderMultipleChoice(q){
     const btn = document.createElement('button');
     btn.className = 'option';
     btn.innerHTML = `<span class="letter">${letters[i]}</span><span>${opt.text}</span>`;
+    btn.dataset.correct = opt.correct;
     btn.addEventListener('click', () => selectOption(opt, btn, q));
     els.options.appendChild(btn);
   });
@@ -270,7 +279,7 @@ function renderMultipleChoice(q){
    ---------------------------------------------------------- */
 function renderDragFill(q){
   // separa o texto no marcador da lacuna e insere uma dropzone real no lugar
-  const parts = q.text.split('<code>______</code>');
+  const parts = q.text.split(/<code>_{3,}<\/code>/);
   els.qText.innerHTML = `${parts[0] || ''}<span class="dropzone" id="dropzone"><span class="dropzone-placeholder">?</span></span>${parts[1] || ''}`;
   const dropzoneEl = document.getElementById('dropzone');
 
@@ -473,10 +482,9 @@ function selectOption(opt, btn, q){
     showCorrection(opt.feedback, true);
   } else {
     btn.classList.add('wrong');
-    const correctOpt = q.options.find(o => o.correct);
     allBtns.forEach(b => {
-      if(b.textContent.trim() === correctOpt.text) b.classList.add('correct');
-      if(b !== btn) b.classList.add('dim');
+      if(b.dataset.correct === 'true') b.classList.add('correct');
+      else if(b !== btn) b.classList.add('dim');
     });
     showCorrection(opt.feedback, false);
   }
@@ -535,9 +543,10 @@ function bindStaticEvents(){
     const currentQ = state.quiz.questions[state.index];
     const isMultipleChoice = !currentQ || !currentQ.type || currentQ.type === 'multiple-choice';
     if(isMultipleChoice){
+      const optionBtns = Array.from(els.options.querySelectorAll('.option'));
       const n = parseInt(e.key, 10);
-      if(n >= 1 && n <= els.options.children.length){
-        els.options.children[n - 1].click();
+      if(n >= 1 && n <= optionBtns.length){
+        optionBtns[n - 1].click();
       }
     }
     if(e.key === 'Enter' && els.nextBtn.classList.contains('show')){
