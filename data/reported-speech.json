@@ -1,0 +1,193 @@
+{
+  "title": "Reported Speech (Discurso Indireto)",
+  "eyebrow": "Grammar · Direct & Indirect Speech",
+  "description": "Domine a conversão do discurso direto para o indireto — recuo de tempos verbais (backshifting), mudanças de pronomes, advérbios de tempo/lugar, perguntas e comandos.",
+  "questions": [
+    {
+      "tag": "Backshifting — Present Simple to Past Simple",
+      "text": "Direct Speech: <em>\"I live in London,\"</em> Paul said.<br>Indirect Speech: Paul said that he <code>______</code> in London.",
+      "options": [
+        { "text": "lived", "correct": true, "feedback": "Correto! No discurso indireto, o Present Simple (live) recua para o Past Simple (lived) quando o verbo declarativo está no passado (said)." },
+        { "text": "lives", "correct": false, "feedback": "'Lives' mantém o tempo no presente. Como o verbo declarativo 'said' está no passado, aplica-se o recuo de tempo (backshifting)." },
+        { "text": "has lived", "correct": false, "feedback": "'Has lived' é Present Perfect. O recuo direto do Present Simple é o Past Simple (lived)." },
+        { "text": "had lived", "correct": false, "feedback": "'Had lived' é Past Perfect, que é o recuo para o Past Simple ou Present Perfect, não para o Present Simple." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Backshifting — Present Continuous to Past Continuous",
+      "text": "Direct Speech: <em>\"We are studying for the exam,\"</em> they said.<br>Indirect Speech: They said that they <code>______</code> for the exam.",
+      "options": [
+        { "text": "were studying", "correct": true, "feedback": "Isso! O Present Continuous (are studying) recua para o Past Continuous (were studying) no discurso indireto." },
+        { "text": "are studying", "correct": false, "feedback": "'Are studying' não aplica o recuo de tempo exigido pelo verbo principal no passado ('said')." },
+        { "text": "had studied", "correct": false, "feedback": "'Had studied' é Past Perfect e alteraria o aspecto contínuo da frase original." },
+        { "text": "was studying", "correct": false, "feedback": "O sujeito é 'they' (plural), portanto a concordância correta no passado é 'were studying', não 'was studying'." }
+      ]
+    },
+    {
+      "tag": "Backshifting — Present Perfect to Past Perfect",
+      "text": "Direct Speech: <em>\"I have finished my assignment,\"</em> Anna said.<br>Indirect Speech: Anna said that she <code>______</code> her assignment.",
+      "options": [
+        { "text": "had finished", "correct": true, "feedback": "Perfeito! O Present Perfect (have finished) recua para o Past Perfect (had finished) no discurso indireto." },
+        { "text": "has finished", "correct": false, "feedback": "'Has finished' mantém o tempo no Present Perfect sem realizar o recuo (backshift) para o passado." },
+        { "text": "finished", "correct": false, "feedback": "'Finished' é Past Simple. O Present Perfect recua especificamente para o Past Perfect (had + particípio)." },
+        { "text": "would finish", "correct": false, "feedback": "'Would finish' é o recuo para o futuro com 'will' (will finish), não para o Present Perfect." }
+      ]
+    },
+    {
+      "tag": "Backshifting — Future with Will to Would",
+      "text": "Direct Speech: <em>\"I will call you tomorrow,\"</em> Mark promised.<br>Indirect Speech: Mark promised that he <code>______</code> call me the next day.",
+      "options": [
+        { "text": "would", "correct": true, "feedback": "Correto! O modal de futuro 'will' recua para 'would' no discurso indireto." },
+        { "text": "will", "correct": false, "feedback": "'Will' precisa recuar para 'would' quando introduzido por um verbo no passado ('promised')." },
+        { "text": "could", "correct": false, "feedback": "'Could' é o recuo de 'can', expressando habilidade/permissão, não intenção futura ('will')." },
+        { "text": "should", "correct": false, "feedback": "'Should' expressa conselho ou dever, não o recuo natural da promessa no futuro com 'will'." }
+      ]
+    },
+    {
+      "tag": "Reporting Verbs — Say vs Tell",
+      "text": "He <code>______</code> me that he had already sent the email.",
+      "options": [
+        { "text": "told", "correct": true, "feedback": "Exato! Usamos 'tell + objeto indireto' (told me), enquanto 'say' não aceita objeto direto sem preposição (say to me)." },
+        { "text": "said", "correct": false, "feedback": "'Said' exige 'to' antes de uma pessoa (said to me). Sem 'to', a forma correta é 'told me'." },
+        { "text": "explained to me that", "correct": false, "feedback": "Embora 'explained to me' exista, aqui a opção pura 'said' sem preposição estaria errada; entre 'said' e 'told', usa-se 'told me'." },
+        { "text": "spoke", "correct": false, "feedback": "'Spoke' foca no ato de falar uma língua ou conversar com alguém ('spoke to me'), não em relatar uma mensagem com oração subordinada." }
+      ]
+    },
+    {
+      "tag": "Reported Questions — Yes/No Questions (If / Whether)",
+      "text": "Direct Speech: <em>\"Do you speak German?\"</em> she asked.<br>Indirect Speech: She asked <code>______</code> I spoke German.",
+      "options": [
+        { "text": "if", "correct": true, "feedback": "Isso! Perguntas do tipo Sim/Não (Yes/No questions) usam 'if' ou 'whether' para conectar o discurso indireto." },
+        { "text": "that", "correct": false, "feedback": "'That' é usado para afirmações (statements), não para transformar perguntas em discurso indireto." },
+        { "text": "did", "correct": false, "feedback": "No discurso indireto, a pergunta perde a estrutura interrogativa e o verbo auxiliar 'did' desaparece, voltando à ordem de afirmação." },
+        { "text": "what", "correct": false, "feedback": "'What' é usado para perguntas com pronomes interrogativos (Wh- questions), não para perguntas de Sim/Não." }
+      ]
+    },
+    {
+      "tag": "Reported Questions — Wh- Word Order",
+      "text": "Direct Speech: <em>\"Where are you going?\"</em> he asked me.<br>Indirect Speech: He asked me where <code>______</code>.",
+      "options": [
+        { "text": "I was going", "correct": true, "feedback": "Correto! Na pergunta indireta, a ordem das palavras muda para sujeito + verbo (I was going), eliminando a inversão interrogativa." },
+        { "text": "was I going", "correct": false, "feedback": "'Was I going' mantém a inversão de pergunta. Em perguntas indiretas, a ordem DEVE ser afirmativa (sujeito + verbo)." },
+        { "text": "am I going", "correct": false, "feedback": "'Am I going' mantém tanto a ordem de pergunta quanto o tempo presente sem o devido recuo (backshift)." },
+        { "text": "I am going", "correct": false, "feedback": "'I am going' corrigiu a ordem das palavras, mas esqueceu de aplicar o recuo de tempo de 'are' para 'was'." }
+      ]
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Reported Commands — Affirmative Imperative",
+      "text": "Direct Speech: <em>\"Close the door!\"</em> the teacher said.<br>Indirect Speech: The teacher told us <code>______</code> the door.",
+      "options": [
+        { "text": "to close", "correct": true, "feedback": "Perfeito! Ordens e pedidos em discurso indireto usam a estrutura: tell / ask + objeto + infinitivo com 'to'." },
+        { "text": "closing", "correct": false, "feedback": "O gerúndio (-ing) não é usado para relatar imperativos; usa-se o infinitivo com 'to'." },
+        { "text": "that we close", "correct": false, "feedback": "Para ordens diretas (imperativos), a forma padrão e natural em inglês é 'told us to close', não uma oração com 'that'." },
+        { "text": "close", "correct": false, "feedback": "Falta a partícula 'to'. A estrutura exige infinitivo completo: 'told us to close'." }
+      ]
+    },
+    {
+      "tag": "Reported Commands — Negative Imperative",
+      "text": "Direct Speech: <em>\"Don't touch the wire!\"</em> the officer warned.<br>Indirect Speech: The officer warned us <code>______</code> the wire.",
+      "options": [
+        { "text": "not to touch", "correct": true, "feedback": "Correto! Imperativos negativos no discurso indireto usam 'not to + verbo base'." },
+        { "text": "to not touch", "correct": false, "feedback": "Embora compreensível na linguagem falada informal, o padrão gramatical formal exige 'not to touch' em vez de split infinitive." },
+        { "text": "don't touch", "correct": false, "feedback": "O auxiliar imperativo 'don't' deve ser substituído por 'not to' ao passar para o discurso indireto." },
+        { "text": "not touch", "correct": false, "feedback": "Falta a partícula 'to' antes do verbo principal. O correto é 'not to touch'." }
+      ]
+    },
+    {
+      "tag": "Time Shift — Today & Tomorrow",
+      "text": "Direct Speech: <em>\"I am leaving today,\"</em> Lucas said on Monday.<br>Indirect Speech: Lucas said that he was leaving <code>______</code>.",
+      "options": [
+        { "text": "that day", "correct": true, "feedback": "Isso! Expressões de tempo mudam em relação ao momento do relato: 'today' vira 'that day'." },
+        { "text": "today", "correct": false, "feedback": "'Today' só permaneceria se o relato fosse feito no mesmo dia. Como referência geral de discurso indireto, muda para 'that day'." },
+        { "text": "the next day", "correct": false, "feedback": "'The next day' (ou 'the following day') é a conversão para 'tomorrow', não para 'today'." },
+        { "text": "yesterday", "correct": false, "feedback": "'Yesterday' refere-se ao dia anterior ao discurso original, não ao próprio dia 'today'." }
+      ]
+    },
+    {
+      "tag": "Time Shift — Yesterday",
+      "text": "Direct Speech: <em>\"I bought a car yesterday,\"</em> Sophie said.<br>Indirect Speech: Sophie said that she had bought a car <code>______</code>.",
+      "options": [
+        { "text": "the day before", "correct": true, "feedback": "Correto! 'Yesterday' converte-se em 'the day before' ou 'the previous day' no discurso indireto." },
+        { "text": "yesterday", "correct": false, "feedback": "'Yesterday' precisa mudar para 'the day before' / 'the previous day' para refletir a distância temporal." },
+        { "text": "that day", "correct": false, "feedback": "'That day' é a conversão de 'today'." },
+        { "text": "the following day", "correct": false, "feedback": "'The following day' refere-se a 'tomorrow' (o dia seguinte), e não a 'yesterday' (o dia anterior)." }
+      ]
+    },
+    {
+      "tag": "Modal Shift — Can to Could / May to Might",
+      "text": "Direct Speech: <em>\"I can solve this problem,\"</em> David claimed.<br>Indirect Speech: David claimed that he <code>______</code> solve that problem.",
+      "options": [
+        { "text": "could", "correct": true, "feedback": "Exato! O modal 'can' recua para 'could' no discurso indireto." },
+        { "text": "can", "correct": false, "feedback": "'Can' deve recuar para 'could' para concordar com o verbo declarativo no passado ('claimed')." },
+        { "text": "would", "correct": false, "feedback": "'Would' é o recuo de 'will', não de 'can'." },
+        { "text": "might", "correct": false, "feedback": "'Might' é o recuo de 'may', enquanto 'can' vira 'could'." }
+      ]
+    },
+    {
+      "tag": "Modal Shift — Must to Had to",
+      "text": "Direct Speech: <em>\"You must complete the report,\"</em> the manager said.<br>Indirect Speech: The manager said that I <code>______</code> complete the report.",
+      "options": [
+        { "text": "had to", "correct": true, "feedback": "Isso! Quando 'must' expressa obrigação no discurso direto, ele recua para 'had to' no discurso indireto." },
+        { "text": "must", "correct": false, "feedback": "Embora 'must' possa permanecer inalterado para obrigações permanentes, a conversão padrão no passado é 'had to'." },
+        { "text": "musted", "correct": false, "feedback": "'Must' é um verbo defectivo e não possui a forma regular com '-ed'." },
+        { "text": "would must", "correct": false, "feedback": "'Would must' é uma construção gramatical inexistente em inglês." }
+      ]
+    },
+    {
+      "tag": "No Backshift — Permanent Facts & Universal Truths",
+      "text": "Direct Speech: <em>\"The Earth revolves around the Sun,\"</i> the teacher explained.<br>Indirect Speech: The teacher explained that the Earth <code>______</code> around the Sun.",
+      "options": [
+        { "text": "revolves", "correct": true, "feedback": "Excelente! Verdades universais, fatos científicos ou leis imutáveis NÃO sofrem recuo de tempo verbal no discurso indireto." },
+        { "text": "revolved", "correct": false, "feedback": "Usar 'revolved' daria a entender que a Terra não gira mais ao redor do Sol. Verdades científicas eternas permanecem no presente." },
+        { "text": "had revolved", "correct": false, "feedback": "'Had revolved' colocaria um fato científico atemporal como algo que terminou no passado distante." },
+        { "text": "would revolve", "correct": false, "feedback": "'Would revolve' transformaria um fato em uma condição hipotética ou intenção futura." }
+      ]
+    },
+    {
+      "tag": "Unchanged Modals — Should / Could / Would / Might",
+      "text": "Direct Speech: <em>\"You should consult a doctor,\"</i> my friend said.<br>Indirect Speech: My friend said that I <code>______</code> consult a doctor.",
+      "options": [
+        { "text": "should", "correct": true, "feedback": "Correto! Os verbos modais 'should', 'could', 'would', 'might' e 'ought to' NÃO mudam no discurso indireto." },
+        { "text": "shall", "correct": false, "feedback": "'Shall' é a forma do presente; 'should' já é a forma que se mantém no passado." },
+        { "text": "had to", "correct": false, "feedback": "'Had to' é a conversão para 'must' ou 'have to', não para 'should'." },
+        { "text": "would have to", "correct": false, "feedback": "'Should' se mantém inalterado sem a necessidade de adicionar 'would have to'." }
+      ]
+    },
+    {
+      "tag": "Reporting Verbs — Suggesting & Recommending",
+      "text": "Direct Speech: <em>\"Let's take a break,\"</i> Maria said.<br>Indirect Speech: Maria suggested <code>______</code> a break.",
+      "options": [
+        { "text": "taking", "correct": true, "feedback": "Isso! O verbo 'suggest' pode ser seguido por gerúndio (-ing) ao relatar uma proposta: suggest + verb-ing." },
+        { "text": "to take", "correct": false, "feedback": "'Suggest' NUNCA é seguido diretamente por infinitivo com 'to' (não existe 'suggest to do')." },
+        { "text": "that we to take", "correct": false, "feedback": "Se usar 'that', o verbo fica na forma base sem 'to' (suggested that we take)." },
+        { "text": "us to take", "correct": false, "feedback": "'Suggest' não aceita objeto direto seguido de infinitivo ('suggest us to take' é incorreto; usa-se 'recommend/tell us to take')." }
+      ]
+    },
+    {
+      "type": "word-order",
+      "tag": "Word Order — Reported Question",
+      "text": "Monte a frase no discurso indireto: <em>\"Ele me perguntou a que horas o trem partia.\"</em>",
+      "words": ["He", "asked", "me", "what", "time", "the", "train", "left"],
+      "feedback_correct": "Correto! Ordem de pergunta indireta: sujeito (He) + verbo declarativo (asked) + objeto (me) + palavra interrogativa (what time) + sujeito (the train) + verbo no passado (left).",
+      "feedback_incorrect": "Lembre-se: no discurso indireto não há inversão de auxiliar. A ordem fica: asked me + what time + the train + left."
+    },
+    {
+      "type": "word-order",
+      "tag": "Word Order — Reported Request",
+      "text": "Monte a frase no discurso indireto:       <em>\"Ela me pediu para não fazer barulho.\"</em>",
+      "words": ["She", "asked", "me", "not", "to", "make", "noise"],
+      "feedback_correct": "Perfeito! Pedidos negativos em discurso indireto seguem: asked + pessoa + not + to + verbo principal.",
+      "feedback_incorrect": "Atente para a posição da negação: 'not' vem SEMPRE antes do 'to' (not to make noise)."
+    },
+    {
+      "type": "word-order",
+      "tag": "Word Order — Reported Statement with Backshift",
+      "text": "Monte a frase no discurso indireto: <em>\"Eles disseram que tinham terminado o projeto.\"</em>",
+      "words": ["They", "said", "that", "they", "had", "finished", "the", "project"],
+      "feedback_correct": "Isso! Estrutura de declaração relata: sujeito (They) + said + that + sujeito (they) + Past Perfect (had finished) + objeto.",
+      "feedback_incorrect": "A ordem correta é: They + said + that + they + had + finished + the project."
+    }
+  ]
+}
