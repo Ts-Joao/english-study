@@ -5,7 +5,7 @@
   "questions": [
     {
       "tag": "Be",
-      "text": "She has <code>_____</code> very busy lately.",
+      "text": "She has <code>______</code> very busy lately.",
       "options": [
         {
           "text": "been",
@@ -32,7 +32,7 @@
     },
     {
       "tag": "Become",
-      "text": "The company has <code>_____</code> much more successful this year.",
+      "text": "The company has <code>______</code> much more successful this year.",
       "options": [
         {
           "text": "become",
