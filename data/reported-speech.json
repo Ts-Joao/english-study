@@ -188,6 +188,17 @@
       "words": ["They", "said", "that", "they", "had", "finished", "the", "project"],
       "feedback_correct": "Isso! Estrutura de declaração relata: sujeito (They) + said + that + sujeito (they) + Past Perfect (had finished) + objeto.",
       "feedback_incorrect": "A ordem correta é: They + said + that + they + had + finished + the project."
+    },
+    {
+      "type": "drag-fill",
+      "tag": "Place & Demonstrative Shift — Here & This",
+      "text": "Direct Speech: <em>\"I placed the keys here on this table,\"</em> she said.<br>Indirect Speech: She said that she had placed the keys <code>______</code> on that table.",
+      "options": [
+        { "text": "there", "correct": true, "feedback": "Correto! No discurso indireto, advérbios de lugar e demonstrativos mudam para refletir o novo contexto espacial: 'here' vira 'there' e 'this' vira 'that'." },
+        { "text": "here", "correct": false, "feedback": "'Here' deve mudar para 'there' no discurso indireto quando relatado em outro local." },
+        { "text": "where", "correct": false, "feedback": "'Where' é usado em perguntas indiretas, não como advérbio de substituição para 'here'." },
+        { "text": "therein", "correct": false, "feedback": "'Therein' é um termo formal/jurídico não utilizado como substituição direta de 'here' na conversão de discurso." }
+      ]
     }
   ]
 }
